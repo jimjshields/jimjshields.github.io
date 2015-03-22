@@ -249,7 +249,7 @@ function drawHeatmap(data, fillType) {
         };
 
         if(d3.event.pageY < 200) {
-          var topOffset = d3.event.pageY + 100;
+          var topOffset = d3.event.pageY + 125;
         } else {
           var topOffset = d3.event.pageY - 20;
         };
@@ -257,7 +257,7 @@ function drawHeatmap(data, fillType) {
         var tooltip = d3.select("#tooltip");
         tooltip
           .style("left", leftOffset + "px")
-            .style("top", topOffset - 75 + "px")
+            .style("top", topOffset - 125 + "px")
             .style("opacity", 1)
             .select("#value")
             .html(d.year + ", Week " + d.week_num + "<br>" + d.top_movie + "<br>" + dollar(d.inflation_adj_total_gross));
@@ -341,7 +341,7 @@ function drawHeatmap(data, fillType) {
         };
 
         if(d3.event.pageY < 200) {
-          var topOffset = d3.event.pageY + 100;
+          var topOffset = d3.event.pageY + 125;
         } else {
           var topOffset = d3.event.pageY - 20;
         };
@@ -349,7 +349,7 @@ function drawHeatmap(data, fillType) {
         var tooltip = d3.select("#tooltip");
         tooltip
           .style("left", leftOffset + "px")
-            .style("top", topOffset - 75 + "px")
+            .style("top", topOffset - 125 + "px")
             .style("opacity", 1)
             .select("#value")
             .html(d.year + ", Week " + d.week_num + "<br>" + d.top_movie + "<br>" + dollar(d.inflation_adj_total_gross));
@@ -439,7 +439,7 @@ function drawHeatmap(data, fillType) {
         };
 
         if(d3.event.pageY < 200) {
-          var topOffset = d3.event.pageY + 100;
+          var topOffset = d3.event.pageY + 125;
         } else {
           var topOffset = d3.event.pageY - 20;
         };
@@ -447,7 +447,7 @@ function drawHeatmap(data, fillType) {
       var tooltip = d3.select("#tooltip");
         tooltip
           .style("left", leftOffset + "px")
-            .style("top", topOffset - 75 + "px")
+            .style("top", topOffset - 125 + "px")
             .style("opacity", 1)
             .select("#value")
             .html(d.year + ", Week " + d.week_num + "<br>" + d.top_movie + "<br>" + dollar(d.inflation_adj_total_gross));

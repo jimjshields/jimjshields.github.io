@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-28T11:55:58-05:00</updated><id>http://localhost:4000/</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Previously, On</title><link href="http://localhost:4000/programming,/recurse/center/2015/01/09/previously-on.html" rel="alternate" type="text/html" title="Previously, On" /><published>2015-01-09T00:00:00-05:00</published><updated>2015-01-09T00:00:00-05:00</updated><id>http://localhost:4000/programming,/recurse/center/2015/01/09/previously-on</id><content type="html" xml:base="http://localhost:4000/programming,/recurse/center/2015/01/09/previously-on.html">&lt;p&gt;(I’m not gonna finish that title, I like the beginning but “Previously, On My Life” sounded just the worst. This’ll do, pig.)&lt;/p&gt;
+
+&lt;p&gt;This is mostly just a catch-up for me, to remember what I’ve actually been doing for the last few weeks, months, years. If that’s something you want to read about, cool, thanks! If not, there are so many things to read in the world, go read those!!
+Sometime in the last eight years, I decided I didn’t love finance, my college major. Then I graduated with a degree in finance, and got a job at a financial technology startup, and still didn’t love finance. (This is not a sob story - a person not loving their job or career path is the like bottom 0.1% of important problems - but hopefully it’s mildly interesting at worst.) I worked there for 3 ½ years (from graduation until October 2014) - honestly, much longer than I ever would’ve expected. The time there was stressful, draining, and led to several periods of burnout, obvious to coworkers and friends and family - but it was genuinely valuable. Every person I worked with was more talented, driven, and intelligent than I was; every day I learned something new about how to (or not to) make decisions in a company, small or big; I gained a respect if not a love for finance and investing, and a much better understanding of those who choose to pursue it; most importantly/relevantly for my own life, I (very) gradually understood what was important to me, both in a career and in my life.&lt;/p&gt;
+
+&lt;p&gt;What’s important to me in my career is that I’m interested in and engaged by the problems I’m trying to solve, and that it’s not affecting my own life or personality in a negative way. I considered the idea - for a while, like periodically between grade school and year 3 of that job, so maybe 10 years - of being a part of the movie industry. What part? Who cares! It’s the movies! It’s all fun! At about the aforementioned year 3 I realized I do care, and it’s probably not all fun - I didn’t want to spend years in a non-creative role with the distant/impossible possibility that someday I’d be a director. I love movies, more than most things, but I knew I’d have to throw away most of those other things to pursue that dream. So somewhere in year 3, I moved on.
+And that’s about when I started doing a few Codecademy courses on a whim. My job required a lot of Excel - if you’re familiar, I’ll pour one out for you; if not, skip ahead, or you’ve already stopped reading - and only when I started these simple courses did I realize that I was (very) basically programming already. The same skills - logical thinking and problem solving, working with large datasets, understanding how to write formulas - translate pretty well to actual programming. So I kept doing Codecademy. And started reading textbooks. And gradually started writing small programs. Eventually I made my own website (and the companion blog, both a serious impetus for learning programming). Somewhere in the middle there, I knew I could be, and had to be, a programmer. I liked learning about it, I liked writing code, I liked that I could use it to do pretty much anything. (Important thing to take away from that sentence - I liked it. That’s all I needed.) The question went from What Do I Want to Do? to How Do I Do It?&lt;/p&gt;
+
+&lt;p&gt;So in October, I left the job. From then until mid-November, I studied on my own - and struggled through making that website. Then I started a Web Development course at General Assembly. I have nothing but great things to say about GA - the people working there were wonderful, my classmates were engaged and diverse and genuinely kind, and the program is perfect if you’re just getting started in programming. But I realized early on in the course that I wasn’t just getting started; I’d learned a lot on my own already, and it probably wasn’t the best use of my time to learn it all again, in a different language (I’d been learning Python, they focus on Ruby). At that point I decided to drop the course and pursue learning on my own (GA was extremely gracious at this and every other point too - they talked to me and helped me through that difficult decision, and completely understood my difficulty - again, just the best people).&lt;/p&gt;
+
+&lt;p&gt;Days later, I finished my application to Hacker School - something I probably should’ve just done in the first place, but I was glad I did. (A lot of this blog will probably focus on my experience here, but if you’re interested, it’s worth reading everything on their site. They’re very open about their goal - to provide a space for people to self-direct their learning about programming alongside each other and together, while enforcing minimal structure - it’s definitely an adjustment from class-style learning.) I (miraculously) got in on the first try, and just started this past Monday. And so far it’s been a challenging, but stimulating, environment for learning. Consistent with my past experiences, everyone here is just the nicest - there are a lot of nice people in this world! It’s one of those crazy surprises about being an adult! - and help to preserve an environment where people can learn what they want, without the regular external pressure (quizzes, tests, grades, jobs, money, etc.) that tend to drive learning. Per their site - “We value intrinsic motivation and self-direction, and believe people learn best when they’re free to explore their passion and interests.” It might sound high-minded, or touchy-feely, or unrealistic - those all might be true. But they seriously strive to make that happen, and in the first week, that’s what’s happened for me.&lt;/p&gt;
+
+&lt;p&gt;I’ll try to keep this regularly updated - ideally every day - to give an idea of my experience at Hacker School. I’ll also go into technical stuff - like the actual things I’m learning - so if you’re not interested, probably don’t read those, because if you’re reading things you’re clearly not interested in and then getting mad later, that’s kind of a silly thing to do. (Also a thing I’ve done - why would I read all the way through a Buzzfeed quiz just to be angry about it?? Life is short!) That’s more so I’m sure I can clearly express what I’m learning. So what I’m saying is, this blog is really just for me - but hope you enjoy it!&lt;/p&gt;</content><author><name></name></author><summary type="html">(I’m not gonna finish that title, I like the beginning but “Previously, On My Life” sounded just the worst. This’ll do, pig.)</summary></entry><entry><title type="html">Movie Tickets Aren’t As Expensive as You Think</title><link href="http://localhost:4000/movies/data/tickets/2014/10/24/movie-tickets-aren't-as-expensive-as-you-think.html" rel="alternate" type="text/html" title="Movie Tickets Aren't As Expensive as You Think" /><published>2014-10-24T00:00:00-04:00</published><updated>2014-10-24T00:00:00-04:00</updated><id>http://localhost:4000/movies/data/tickets/2014/10/24/movie-tickets-aren't-as-expensive-as-you-think</id><content type="html" xml:base="http://localhost:4000/movies/data/tickets/2014/10/24/movie-tickets-aren't-as-expensive-as-you-think.html">&lt;p&gt;(I’ve finally got the &lt;a href=&quot;http://onethirtyseven.herokuapp.com/&quot;&gt;companion
+website&lt;/a&gt; working. It has cool
+interactive charts! Some of which I use in this post. But you can also &lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_page/&quot;&gt;search
+for any movie&lt;/a&gt;
+and get its daily box office, or &lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/multiple_movie_page/&quot;&gt;compare two movies at the same
+time&lt;/a&gt;.
+I’m working on improving those and adding more stuff - would love
+suggestions.)&lt;/p&gt;
+
+&lt;p&gt;The Dissolve had an &lt;a href=&quot;http://thedissolve.com/news/3723
+-charts-graphs-average-movie-ticket-prices-in-the-u/&quot;&gt;interesting article&lt;/a&gt; this morning about
+average movie ticket prices over time. I wanted to give some more depth to
+that and visualize how the average movie ticket price has really changed over
+time, and how that compares to the number of tickets actually sold each year.&lt;/p&gt;
+
+&lt;p&gt;(I also covered this &lt;a href=&quot;http://137to1.blogspot.com/2014/02
+/nothing-will-ever-beat-et.html&quot;&gt;at the end of 2013&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;A few disclaimers for the data:&lt;br /&gt;
+1. To include 2014, I scaled the Tickets Sold number using the percentage of
+the year we’ve gone through so far (so if the exact trend were to continue
+through the rest of 2014). Imperfect, but it’s just for comparison’s sake.&lt;br /&gt;
+2. I didn’t include data before 1989. According to the NATO (National
+Association of Theater Owners) &lt;a href=&quot;http://natoonline.org/data/ticket-
+price/&quot;&gt;website&lt;/a&gt;, prior to 1989, they’re just using CPI.&lt;br /&gt;
+3. To inflation adjust ticket prices, I used the &lt;a href=&quot;http://www.usinflationcalculator.com/inflation/consumer-price-index-
+and-annual-percent-changes-from-1913-to-2008/&quot;&gt;CPI
+index&lt;/a&gt; and scaled to 2014 dollars.
+(Thanks to The Dissolve commenter who mentioned using inflation-adjusted
+numbers.)&lt;/p&gt;
+
+&lt;p&gt;Here’s what I found -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_graph&quot;&gt;Ticket prices have increased in most
+years.&lt;/a&gt;
+(Blue line on that graph.) Not a huge surprise - that’s the general consensus.
+Not only are regular tickets more expensive, so the thought goes, but now we
+have premium (3D, IMAX, RPX, similar scams) tickets too.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_graph&quot;&gt;But, adjusted for inflation, ticket prices have barely
+increased.&lt;/a&gt;
+(Same graph, red line.) Adjusted for inflation, the average ticket price in
+1989 was $7.59. In 2014, it’s $8.12. That’s a 7% increase - as in, not a huge
+change at all. The problem with this dataset is obviously the lack of
+granularity - New York City tickets are probably increasing more dramatically,
+likely due to rent increases well above inflation - but this gives you an idea
+for across the US.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_change_graph&quot;&gt;Year over year, the change in price is slowing
+down.&lt;/a&gt;
+Year-over-year change in prices peaked in 1999. The 2013-2014 change in price
+was the lowest since 1993 (adjusted for inflation, 2011 was lower - but both
+were negative). This could be a result of the shift toward streaming, VOD,
+etc. - but it’s still very slight.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_sold_graph&quot;&gt;But people are going to the movies
+less.&lt;/a&gt;
+Number of tickets sold peaked in
+&lt;a href=&quot;http://www.boxofficemojo.com/yearly/chart/?yr=2002&amp;amp;p=.htm&quot;&gt;2002&lt;/a&gt; ( &lt;em&gt;Spider-
+Man, Lord of The Rings, Star Wars, Harry Potter&lt;/em&gt; , and &lt;em&gt;My Big Fat Greek
+Wedding&lt;/em&gt; were the top five movies that year - all five of which, if adjusted
+for ticket price increase, would’ve been the top movie of 2014). The
+assumption that the end of 2014 will keep pace with the rest of the year isn’t
+fair - &lt;em&gt;The Hunger Games&lt;/em&gt; , &lt;em&gt;Interstellar&lt;/em&gt; , and &lt;em&gt;The Hobbit&lt;/em&gt; (among others)
+will likely be big enough hits. But the trend is pretty clear - steady
+increase from 1991 to 2002, steady decrease since then.&lt;/p&gt;
+
+&lt;p&gt;The picture isn’t as bad as I was led to believe - tickets aren’t really that
+much more expensive. But it’s not great, either - people are just going to the
+movies less. There’s more to say on this; would love to hear anyone’s
+thoughts.&lt;/p&gt;</content><author><name></name></author><summary type="html">(I’ve finally got the companion website working. It has cool interactive charts! Some of which I use in this post. But you can also search for any movie and get its daily box office, or compare two movies at the same time. I’m working on improving those and adding more stuff - would love suggestions.) The Dissolve had an interesting article this morning about average movie ticket prices over time. I wanted to give some more depth to that and visualize how the average movie ticket price has really changed over time, and how that compares to the number of tickets actually sold each year. (I also covered this at the end of 2013.) A few disclaimers for the data: 1. To include 2014, I scaled the Tickets Sold number using the percentage of the year we’ve gone through so far (so if the exact trend were to continue through the rest of 2014). Imperfect, but it’s just for comparison’s sake. 2. I didn’t include data before 1989. According to the NATO (National Association of Theater Owners) website, prior to 1989, they’re just using CPI. 3. To inflation adjust ticket prices, I used the CPI index and scaled to 2014 dollars. (Thanks to The Dissolve commenter who mentioned using inflation-adjusted numbers.) Here’s what I found - Ticket prices have increased in most years. (Blue line on that graph.) Not a huge surprise - that’s the general consensus. Not only are regular tickets more expensive, so the thought goes, but now we have premium (3D, IMAX, RPX, similar scams) tickets too. But, adjusted for inflation, ticket prices have barely increased. (Same graph, red line.) Adjusted for inflation, the average ticket price in 1989 was $7.59. In 2014, it’s $8.12. That’s a 7% increase - as in, not a huge change at all. The problem with this dataset is obviously the lack of granularity - New York City tickets are probably increasing more dramatically, likely due to rent increases well above inflation - but this gives you an idea for across the US. Year over year, the change in price is slowing down. Year-over-year change in prices peaked in 1999. The 2013-2014 change in price was the lowest since 1993 (adjusted for inflation, 2011 was lower - but both were negative). This could be a result of the shift toward streaming, VOD, etc. - but it’s still very slight. But people are going to the movies less. Number of tickets sold peaked in 2002 ( Spider- Man, Lord of The Rings, Star Wars, Harry Potter , and My Big Fat Greek Wedding were the top five movies that year - all five of which, if adjusted for ticket price increase, would’ve been the top movie of 2014). The assumption that the end of 2014 will keep pace with the rest of the year isn’t fair - The Hunger Games , Interstellar , and The Hobbit (among others) will likely be big enough hits. But the trend is pretty clear - steady increase from 1991 to 2002, steady decrease since then. The picture isn’t as bad as I was led to believe - tickets aren’t really that much more expensive. But it’s not great, either - people are just going to the movies less. There’s more to say on this; would love to hear anyone’s thoughts.</summary></entry><entry><title type="html">And Just Like That, Box Office Mojo Is Back</title><link href="http://localhost:4000/2014/10/12/and-just-like-that,-box-office-mojo-is-back.html" rel="alternate" type="text/html" title="And Just Like That, Box Office Mojo Is Back" /><published>2014-10-12T00:00:00-04:00</published><updated>2014-10-12T00:00:00-04:00</updated><id>http://localhost:4000/2014/10/12/and-just-like-that,-box-office-mojo-is-back</id><content type="html" xml:base="http://localhost:4000/2014/10/12/and-just-like-that,-box-office-mojo-is-back.html">&lt;p&gt;After a day of mostly confusion, &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office Mojo is back
+up&lt;/a&gt;. It has not, strangely, been updated in a
+few days - but the original site is there. (Other strange things - “Last
+Updated 12/31/1969,” “#1 Movie: ‘ ‘”, etc.) But even though it’s back, the
+amount of uproar/confusion (at least within the film reporting community) only
+serves to highlight the importance it plays in providing a huge amount of
+movie data (financial and otherwise) and how easy it would be for IMDb/Amazon
+to pull it away.&lt;/p&gt;
+
+&lt;p&gt;But the question is, how do you completely reproduce that level of data? Where
+do you get it (in a legitimate way)? The site doesn’t actually have all that
+much in the way of data - daily box office domestically and internationally
+per movie, movie-specific info (runtime, budget, etc.), cast and crew info,
+and some level of tagging. It’s the depth of the dataset (having daily box
+office for a movie) and the breadth of their coverage (effectively all movies
+released in the last 15 years) that would be difficult, but not impossible, to
+reassemble elsewhere. To be honest, though - as long as there is a legitimate,
+trusted, separate source for this data, it’s really not that hard to put
+together (it’s really, in the grand scheme of things, not that much data).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/keithcalder/status/520669790071820289&quot;&gt;This conversation&lt;/a&gt;
+among a few involved in the film industry - bloggers, producers, interested
+people - reinforces the idea that an independent source of this data is
+crucial. It also raises a few other interesting points - like the idea that
+IMDb has focused on unnecessary features rather than better data (or even
+better ways to access data). But it’s unclear how to create a viable
+alternative. In the meantime, we still have Mojo.&lt;/p&gt;
+
+&lt;p&gt;(I also missed a serious opportunity yesterday to make
+&lt;a href=&quot;https://www.youtube.com/watch?v=gEuw2mgLRuQ&quot;&gt;this&lt;/a&gt; the headline - honestly,
+film reporters, you all missed it. Everybody failed.)&lt;/p&gt;</content><author><name></name></author><summary type="html">After a day of mostly confusion, Box Office Mojo is back up. It has not, strangely, been updated in a few days - but the original site is there. (Other strange things - “Last Updated 12/31/1969,” “#1 Movie: ‘ ‘”, etc.) But even though it’s back, the amount of uproar/confusion (at least within the film reporting community) only serves to highlight the importance it plays in providing a huge amount of movie data (financial and otherwise) and how easy it would be for IMDb/Amazon to pull it away. But the question is, how do you completely reproduce that level of data? Where do you get it (in a legitimate way)? The site doesn’t actually have all that much in the way of data - daily box office domestically and internationally per movie, movie-specific info (runtime, budget, etc.), cast and crew info, and some level of tagging. It’s the depth of the dataset (having daily box office for a movie) and the breadth of their coverage (effectively all movies released in the last 15 years) that would be difficult, but not impossible, to reassemble elsewhere. To be honest, though - as long as there is a legitimate, trusted, separate source for this data, it’s really not that hard to put together (it’s really, in the grand scheme of things, not that much data). This conversation among a few involved in the film industry - bloggers, producers, interested people - reinforces the idea that an independent source of this data is crucial. It also raises a few other interesting points - like the idea that IMDb has focused on unnecessary features rather than better data (or even better ways to access data). But it’s unclear how to create a viable alternative. In the meantime, we still have Mojo. (I also missed a serious opportunity yesterday to make this the headline - honestly, film reporters, you all missed it. Everybody failed.)</summary></entry><entry><title type="html">And Just Like That, Box Office Mojo Is Gone</title><link href="http://localhost:4000/2014/10/11/and-just-like-that,-box-office-mojo-is-gone.html" rel="alternate" type="text/html" title="And Just Like That, Box Office Mojo Is Gone" /><published>2014-10-11T00:00:00-04:00</published><updated>2014-10-11T00:00:00-04:00</updated><id>http://localhost:4000/2014/10/11/and-just-like-that,-box-office-mojo-is-gone</id><content type="html" xml:base="http://localhost:4000/2014/10/11/and-just-like-that,-box-office-mojo-is-gone.html">&lt;p&gt;I haven’t written anything in the past few months - both for personal reasons
+(switching careers kinda takes a while) and because I’ve been working on
+building a real website to supplement this blog. It’s taken much longer than I
+wanted, but I should hopefully have something soon. But I’m now compelled to
+write at least a quick post.&lt;/p&gt;
+
+&lt;p&gt;At some point yesterday, &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office Mojo&lt;/a&gt;,
+undoubtedly the premier source for movie financial data, completely
+disappeared. Like, &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Leftovers_\(TV_series\)&quot;&gt;The
+Leftovers&lt;/a&gt;
+disappeared. (If you click on the link, you’re taken to the IMDb box office
+page.) This is a huge deal - admittedly personally, in that it is an unrivaled
+and incredibly rich data source for movies, and so was the perfect source for
+real movie data analysis - but also for the industry. There are a bunch of
+articles on the subject - &lt;a href=&quot;http://www.hypable.com/2014/10/10/box-
+office-mojo-shut-down/&quot;&gt;this one&lt;/a&gt; has some seriously distressed reactions about it, and
+rightly so. The film industry is incredibly secretive, or at least insular,
+when it comes to financial data - see &lt;a href=&quot;http://en.wikipedia.org/wiki/Hollywood_accounting&quot;&gt;this Wikipedia page on “Hollywood
+accounting”,&lt;/a&gt; an actual
+term someone made up to soften the idea that Hollywood studios routinely make
+up numbers to avoid paying those involved (for example, &lt;em&gt;My Big Fat Greek
+Wedding&lt;/em&gt; , a film that reportedly cost $5mm to make and grossed $600mm
+worldwide, lost $20mm according to the studio). So to lose an entire source of
+movie financial data - and not only a source, THE source - is, at the very
+least, a serious blow to those reporting on the numbers, and at most, a
+worrisome move toward further financial/data-related secrecy in the movie
+industry.&lt;/p&gt;
+
+&lt;p&gt;No one knows yet what will happen to it; IMDb did buy the site years ago, but
+left it intact. IMDb is owned by Amazon - which seems strange in that the two
+sites could not seem more unrelated, and doesn’t inspire confidence that they
+will be as open with the data as Box Office Mojo had been. This is well within
+their rights - they own the data and can do whatever they want with it - but
+it’s seriously concerning to anyone relying on the data. But who knows - maybe
+they’ll have a bigger, better, and more open site, with more advanced
+analysis, interactive charts, legitimate historical context, and an API. (They
+may completely replace what I’m trying to do here - but hey, then at least
+someone will be using the huge amount of data there in a sophisticated way.)
+Until then, I’d recommend using &lt;a href=&quot;http://www.the-numbers.com/&quot;&gt;The Numbers&lt;/a&gt;
+&lt;a href=&quot;https://www.blogger.com/&quot;&gt;&lt;/a&gt;- they track the same data, it’s unfortunately
+just not as rich (no international data, and historical data is a bit spotty).
+I’ve been using data from there, and it’s more than good enough unless you
+need extremely granular or historical data.&lt;/p&gt;
+
+&lt;p&gt;(Also, if you’re desperate for a real Box Office Mojo fix, &lt;a href=&quot;https://web.archive.org/web/20141008014809/http://boxofficemojo.com/&quot;&gt;The Way Back
+Machine&lt;/a&gt;
+preserved it in all its former glory.)&lt;/p&gt;</content><author><name></name></author><summary type="html">I haven’t written anything in the past few months - both for personal reasons (switching careers kinda takes a while) and because I’ve been working on building a real website to supplement this blog. It’s taken much longer than I wanted, but I should hopefully have something soon. But I’m now compelled to write at least a quick post. At some point yesterday, Box Office Mojo, undoubtedly the premier source for movie financial data, completely disappeared. Like, The Leftovers disappeared. (If you click on the link, you’re taken to the IMDb box office page.) This is a huge deal - admittedly personally, in that it is an unrivaled and incredibly rich data source for movies, and so was the perfect source for real movie data analysis - but also for the industry. There are a bunch of articles on the subject - this one has some seriously distressed reactions about it, and rightly so. The film industry is incredibly secretive, or at least insular, when it comes to financial data - see this Wikipedia page on “Hollywood accounting”, an actual term someone made up to soften the idea that Hollywood studios routinely make up numbers to avoid paying those involved (for example, My Big Fat Greek Wedding , a film that reportedly cost $5mm to make and grossed $600mm worldwide, lost $20mm according to the studio). So to lose an entire source of movie financial data - and not only a source, THE source - is, at the very least, a serious blow to those reporting on the numbers, and at most, a worrisome move toward further financial/data-related secrecy in the movie industry. No one knows yet what will happen to it; IMDb did buy the site years ago, but left it intact. IMDb is owned by Amazon - which seems strange in that the two sites could not seem more unrelated, and doesn’t inspire confidence that they will be as open with the data as Box Office Mojo had been. This is well within their rights - they own the data and can do whatever they want with it - but it’s seriously concerning to anyone relying on the data. But who knows - maybe they’ll have a bigger, better, and more open site, with more advanced analysis, interactive charts, legitimate historical context, and an API. (They may completely replace what I’m trying to do here - but hey, then at least someone will be using the huge amount of data there in a sophisticated way.) Until then, I’d recommend using The Numbers - they track the same data, it’s unfortunately just not as rich (no international data, and historical data is a bit spotty). I’ve been using data from there, and it’s more than good enough unless you need extremely granular or historical data. (Also, if you’re desperate for a real Box Office Mojo fix, The Way Back Machine preserved it in all its former glory.)</summary></entry><entry><title type="html">I&amp;#8217;ve Gone To The Movies 263 Times Since 2002</title><link href="http://localhost:4000/2014/05/02/i've-gone-to-the-movies-263-times-since-2002.html" rel="alternate" type="text/html" title="I've Gone To The Movies 263 Times Since 2002" /><published>2014-05-02T00:00:00-04:00</published><updated>2014-05-02T00:00:00-04:00</updated><id>http://localhost:4000/2014/05/02/i've-gone-to-the-movies-263-times-since-2002</id><content type="html" xml:base="http://localhost:4000/2014/05/02/i've-gone-to-the-movies-263-times-since-2002.html">&lt;p&gt;Since July 2002, I’ve tried to save the ticket from every movie I’ve seen in a
+theater. In the beginning, I was, admittedly, not prescient enough to have
+saved every single one, but I did so with pretty reliable consistency in the
+last 10 or so years. I’ve had a lot of ideas about what to do with them -
+frame them, put them under a sheet of glass at the bar in my hip new downtown
+movie theater/bar/&lt;a href=&quot;http://www.imdb.com/title/tt0443409/?ref_=fn_al_tt_4&quot;&gt;ultimate hang
+zone&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Blank_Check_\(film\)&quot;&gt;throwing them
+all in the air while jumping on my
+bed&lt;/a&gt; - but to start, I did
+the boring thing and entered all of them into a spreadsheet.&lt;/p&gt;
+
+&lt;p&gt;This was partially for my own - morbid - curiosity. But it’s also a dataset
+that’s easily analyzable, and, more importantly, mine. It’s personal, and
+hopefully tells a story about who I am. I don’t want to divorce this blog -
+which could be a potentially boring or impersonal collection of charts,
+numbers, and objective analyses - from the reason I started it - I genuinely,
+wholeheartedly love movies, and I want to say something about the art form and
+the industry that isn’t already being said. So in that spirit, I’m going to
+spend a few posts analyzing myself and my moviegoing habits - maybe it’ll be
+indicative of the way the rest of the world goes to the movies, maybe it’ll be
+an interesting look at my changing tastes and habits, or maybe it’ll just
+reveal that I’ve spent something like 3 weeks of my life (that I can account
+for) in a dark room, watching movies.&lt;/p&gt;
+
+&lt;p&gt;I’m working on visualizations of the data - that again, may or may not be
+interesting, but hey! they’re interesting to me - but that’ll come later.
+First, my initial thoughts on my own moviegoing.&lt;/p&gt;
+
+&lt;h4 id=&quot;first-conclusions&quot;&gt;First Conclusions&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I have 263 movie tickets that I’ve saved since July 1, 2002. That’s 12 years ago. The first movie: &lt;em&gt;Mr. Deeds&lt;/em&gt;. The last movie: &lt;em&gt;Under the Skin&lt;/em&gt;. Make of that what you will.&lt;/li&gt;
+  &lt;li&gt;In that time, I’ve spent at least $2,340 at the theater. There are invariably movies missing from this, so it’s likely on the order of $3,000. Mostly my money, I’d hope.&lt;/li&gt;
+  &lt;li&gt;Of the 263 movies, 47.7% were PG-13, 38.9% were R, 8.7% were PG, 2.3% were G, and 2.3% weren’t technically rated. 0.38% was an R rated movie I snuck into three days before my 17th birthday ( &lt;em&gt;Final Destination 3&lt;/em&gt;  - but I got a ticket for &lt;em&gt;When a Stranger Calls&lt;/em&gt;. a. What’s the statute of limitations on sneaking into R-rated movies? b. Studios, get it together - February doesn’t have to be as bad as you make it.)&lt;/li&gt;
+  &lt;li&gt;I saw the most movies - 34 apiece - in both 2007 and 2008. 2013 was the lowest count since 2004, with only 17.&lt;/li&gt;
+  &lt;li&gt;In July 2008, I went to the movies 7 times - the most in any month - and had arguably the greatest week of all time (GWOAT) when I saw &lt;em&gt;The Dark Knight, The Dark Knight (IMAX), The Big Lebowski,&lt;/em&gt; and &lt;em&gt;Step Brothers&lt;/em&gt; in a single week. All downhill.
+    1. I saw  &lt;em&gt;The Dark Knight&lt;/em&gt;  5 times in the theater. I’ve spent $88.82 for the Batman franchise.&lt;/li&gt;
+  &lt;li&gt;I spent, on average, $8.95 per ticket. In later years, I figured out that if you go early, it’s cheaper! (Also if you know someone - that means it’s $0.00.)&lt;/li&gt;
+  &lt;li&gt;My most popular day and time, by a lot - Friday between 7PM and 8PM. I’m why people don’t go to the movies.&lt;/li&gt;
+  &lt;li&gt;Now for the most distressing stuff. Far and away my most frequented theater - &lt;a href=&quot;http://www.yelp.com/biz/amc-marple-10-springfield&quot;&gt;AMC Marple 10&lt;/a&gt; (“This place suckz!” - Yelp reviewer). 99 movies. Over $700. Greats like &lt;em&gt;Agent Cody Banks&lt;/em&gt; and &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0377471/&quot;&gt;Be Cool&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;It’s hard to single out the best or worst movie of all of these. And yet, it’s easy to single out the two worst - &lt;em&gt;Date Movie&lt;/em&gt; and _&lt;a href=&quot;http://www.rottentomatoes.com/m/covenant/&quot;&gt;The Covenant&lt;/a&gt; _ (“Daft but nonetheless enjoyable supernatural thriller, featuring some hilariously bad dialogue, impressive special effects and some genuinely creepy scenes.” - one of two who gave it a positive review).&lt;/li&gt;
+  &lt;li&gt;Worst week (of my life?): March 2005, &lt;em&gt;The Ring Two&lt;/em&gt; / &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0372237/&quot;&gt;Guess Who&lt;/a&gt;&lt;/em&gt;.
+    1. See also: July 2005,  &lt;em&gt;The Island/Fantastic Four&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Maybe the most depressing stat: I’ve seen at least 18 movies twice in the theater. Among them: &lt;em&gt;Scary Movie 3&lt;/em&gt; , &lt;em&gt;Blades of Glory&lt;/em&gt; , &lt;em&gt;300&lt;/em&gt; , &lt;em&gt;Beerfest&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0373926/&quot;&gt;The Interpreter&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0443632/&quot;&gt;The Sentinel&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0443274/&quot;&gt;Vantage Point&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0450232/&quot;&gt;16 Blocks&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0409182/&quot;&gt;Poseidon&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0397101/&quot;&gt;The Skeleton Key&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0475394/&quot;&gt;Smokin’ Aces&lt;/a&gt;&lt;/em&gt;? Why did I see all of these things?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;More to come on this.&lt;/p&gt;</content><author><name></name></author><summary type="html">Since July 2002, I’ve tried to save the ticket from every movie I’ve seen in a theater. In the beginning, I was, admittedly, not prescient enough to have saved every single one, but I did so with pretty reliable consistency in the last 10 or so years. I’ve had a lot of ideas about what to do with them - frame them, put them under a sheet of glass at the bar in my hip new downtown movie theater/bar/ultimate hang zone, throwing them all in the air while jumping on my bed - but to start, I did the boring thing and entered all of them into a spreadsheet. This was partially for my own - morbid - curiosity. But it’s also a dataset that’s easily analyzable, and, more importantly, mine. It’s personal, and hopefully tells a story about who I am. I don’t want to divorce this blog - which could be a potentially boring or impersonal collection of charts, numbers, and objective analyses - from the reason I started it - I genuinely, wholeheartedly love movies, and I want to say something about the art form and the industry that isn’t already being said. So in that spirit, I’m going to spend a few posts analyzing myself and my moviegoing habits - maybe it’ll be indicative of the way the rest of the world goes to the movies, maybe it’ll be an interesting look at my changing tastes and habits, or maybe it’ll just reveal that I’ve spent something like 3 weeks of my life (that I can account for) in a dark room, watching movies. I’m working on visualizations of the data - that again, may or may not be interesting, but hey! they’re interesting to me - but that’ll come later. First, my initial thoughts on my own moviegoing.</summary></entry><entry><title type="html">If Movie Tickets Worked Like Airline Tickets</title><link href="http://localhost:4000/2014/04/13/if-movie-tickets-worked-like-airline-tickets.html" rel="alternate" type="text/html" title="If Movie Tickets Worked Like Airline Tickets" /><published>2014-04-13T00:00:00-04:00</published><updated>2014-04-13T00:00:00-04:00</updated><id>http://localhost:4000/2014/04/13/if-movie-tickets-worked-like-airline-tickets</id><content type="html" xml:base="http://localhost:4000/2014/04/13/if-movie-tickets-worked-like-airline-tickets.html">&lt;p&gt;One of the most frustrating parts of going to the movies is how expensive it
+is. Tickets cost, on average,
+&lt;a href=&quot;http://www.boxofficemojo.com/about/adjuster.htm&quot;&gt;$8.35&lt;/a&gt; - yes, it costs $14
+in New York, and $5 in some less densely-populated places (or at smaller
+theaters). But regardless of variation among location and theater, the average
+ticket price is climbing steadily, and faster than inflation. (&lt;a href=&quot;http://%28here%27s%20a%20much%20deeper%20dive%20into%20that%20topic.%29/&quot;&gt;Here’s a much
+deeper dive into that
+topic.&lt;/a&gt;)
+And now, in good ol’ two-oh-one-four, if I can stay home and watch a movie for
+$7 that’s playing in theaters for $14 (something I just did - you should check
+out &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt2382396/?ref_=fn_al_tt_1&quot;&gt;Joe&lt;/a&gt;&lt;/em&gt; ) - and I
+avoid having to get to the theater, sit with a bunch of potentially loud
+strangers, and be forced to think about the fact that sometimes &lt;a href=&quot;http://www.theonion.com/articles/fucking-loser-at-movie-
+all-by-himself,33302/&quot;&gt;seeing movies
+alone is kind of sad&lt;/a&gt;, why should I even bother?&lt;/p&gt;
+
+&lt;h3 id=&quot;yield-management&quot;&gt;Yield Management&lt;/h3&gt;
+
+&lt;p&gt;Ignore the business-school-esque vocab - &lt;a href=&quot;http://en.wikipedia.org/wiki/Yield_management&quot;&gt;yield
+management&lt;/a&gt; should be pretty
+familiar to you. Airlines, hotels, and
+&lt;a href=&quot;http://en.wikipedia.org/wiki/BoltBus&quot;&gt;BoltBus&lt;/a&gt; (among others) all use yield
+management to price their tickets. &lt;a href=&quot;https://www.hotelschool.cornell.edu/research/chr/pubs/reports/abstract-13622.html&quot;&gt;According to a source much more legitimate
+than
+Wikipedia&lt;/a&gt;,
+“the core concept of yield management is to provide the right service to the
+right customer at the right time for the right price.” Think buying a ticket
+for a flight - at certain times (mid-January), it’s much cheaper, and at
+certain times (Christmas Eve), it’s much more expensive. And some seats are
+more expensive than others. It’s effectively letting the market decide the
+price for a ticket - when tickets are more in-demand, they are more expensive.&lt;/p&gt;
+
+&lt;p&gt;But yield management, as a concept, can only be applied in particular
+situations. Again, according to Wikipedia (kids - find a book, this isn’t real
+citing), here are those conditions:&lt;/p&gt;
+
+&lt;p&gt;_&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;That there is a fixed amount of resources available for sale.&lt;/li&gt;
+  &lt;li&gt;That the resources sold are perishable (there is a time limit to selling the resources, after which they cease to be of value).&lt;/li&gt;
+  &lt;li&gt;That different customers are willing to pay a different price for using the same amount of resources.
+_&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ll get to how this relates to movie tickets in a second - but you can
+probably pick up on it.&lt;/p&gt;
+
+&lt;h3 id=&quot;movie-tickets-now&quot;&gt;&lt;strong&gt;Movie Tickets Now&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Movie tickets are, in my experience, priced much less intelligently. (If you
+know of any theaters that price more dynamically - I’d love to hear about it.)
+Usually, theaters have one of two pricing strategies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Every ticket costs the same - a Friday night ticket for a 25-year-old to see &lt;em&gt;The Dark Knight&lt;/em&gt;  costs $14, a Tuesday afternoon ticket for a 15-year-old to see _&lt;a href=&quot;http://en.wikipedia.org/wiki/The_Oogieloves_in_the_Big_Balloon_Adventure&quot;&gt;The Oogieloves in the Big Balloon Adventure&lt;/a&gt; _ costs $14.&lt;/li&gt;
+  &lt;li&gt;Tickets are priced according to three variations - age, time of day, and type of theater. $10 for seniors and kids, $14 for adults. $8 matinees (but only Monday through Thursday, before noon!), full-price otherwise. $18 for 3D, $20 for IMAX.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are other variations (buying tickets in bulk, &lt;a href=&quot;http://www.nitehawkcinema.com/movie/five-dollar-
+film-club/&quot;&gt;requiring discussion
+afterwards for cheap tickets&lt;/a&gt;1) but I’ll stick to the above two as those are the vast majority
+of what I’ve seen.&lt;/p&gt;
+
+&lt;p&gt;But it doesn’t have to be this way. I’ve never understood why movie theaters
+(especially large chains) don’t change this strategy - by and large, they sell
+out certain movies on Friday and Saturday nights, and the theater is empty for
+other movies, and for other times. They’ve already paid for the screening of
+the movie - you might as well fill the room.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-better-way&quot;&gt;A Better Way&lt;/h3&gt;
+
+&lt;p&gt;Movie tickets fit the above criteria for yield management - there’s a fixed
+amount (of movie screening times), they are perishable (movies only stay in
+theaters for so long), and, though I haven’t done the research, I’ll make the
+assumption that different customers are willing to pay a different price
+(maybe not a perfect assumption, admittedly).&lt;/p&gt;
+
+&lt;p&gt;So here’s a better way of selling tickets - to make them cheaper (better for
+us, the customers), and to sell more (better for the theaters, and ultimately,
+the studios):&lt;/p&gt;
+
+&lt;p&gt;Make the pricing dynamic. In my view, it’d be based on three things:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Time bought (i.e., buying early is better)&lt;/li&gt;
+  &lt;li&gt;Demand (i.e., how many tickets have already been sold)&lt;/li&gt;
+  &lt;li&gt;Seat location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can throw in any number of variables, but I wanted to keep it simple.&lt;/p&gt;
+
+&lt;p&gt;Here’s the way it’d work:&lt;/p&gt;
+
+&lt;p&gt;Every seat has a range of prices, and you have to buy reserved seats (like a
+flight, a concert, etc.). Let’s take the best seat in the house - center, to
+the middle (you can argue that forever - but let’s just assume it is). This
+seat always starts at $10, and can be as expensive as $15. Other seats have
+different ranges, based on what’s most popular. The price changes as two
+things change - days until the screening, and the number of tickets already
+bought. So the most expensive ticket you’ll ever buy is the $15 best seat in
+the house, as the last ticket, on the day of the screening. As tickets are
+bought elsewhere in the theater for that screening, the price of that seat
+goes up and up - the movie is clearly in demand. And as it gets closer to that
+screening, it also climbs in price - better to buy early.&lt;/p&gt;
+
+&lt;p&gt;This would have a few effects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Theaters would fill earlier.&lt;/strong&gt; If it’s cheaper to buy in advance, people will do that. This guarantees revenue ahead of time for the theater - this is good for the theater.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Movies that people don’t want to see would be cheaper.&lt;/strong&gt; If no one’s buying tickets for a movie, it’ll be cheaper for the customer who does want to see it. &lt;em&gt;The Dark Knight  _should cost more to see than the _Oogieloves&lt;/em&gt;  - it’s more in demand.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Times that are less convenient would be cheaper.&lt;/strong&gt; Tuesday afternoons will end up being cheaper than Friday nights - and again, they should be. They’re less in demand.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Crowds would spread across screenings and movies.&lt;/strong&gt; For the same reasons as above, if it’s cheaper to see certain movies at certain times, people might end up going to those screenings instead of the Friday night blockbuster.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Movies would be cheaper in the weeks after release.&lt;/strong&gt; If the opening weekend is the most popular time to see a film, it’ll also be the most expensive. It should be cheaper to go see something in its fifth weekend of release.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;More people would go to the movies.&lt;/strong&gt;  In theory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, I’m fully extrapolating here - I don’t know any of these things for
+certain. And this doesn’t account for the likeliest reason it hasn’t happened
+yet - theaters may not make more money. But this model has been successful
+across other industries, and, in my thinking, would possibly change the
+cultural perception of theaters as overly-expensive nights out. It’s worth
+thinking about in more detail (believe me - I intend to). I just don’t want to
+see a night out at the movie theater become a night out at the Broadway
+theater - a once-a-year treat for people who can afford that sort of thing.&lt;/p&gt;
+
+&lt;p&gt;( &lt;em&gt;Note:&lt;/em&gt; A few services for cheaper movie tickets do exist. Two of the ones
+I’ve found are &lt;a href=&quot;https://www.moviepass.com/&quot;&gt;MoviePass&lt;/a&gt; (monthly subscription,
+unlimited movies - think Netflix) and
+&lt;a href=&quot;https://www.dealflicks.com/&quot;&gt;Dealflicks&lt;/a&gt; (“Priceline for movie tickets”).
+Just by the description, Dealflicks seems to hit on some of what I’m saying -
+but the pricing has a lack of transparency/logic, so you can’t actually tell
+why something is cheaper. Ideally, the theaters themselves would use dynamic
+pricing - that’s the only way I see it spreading throughout the industry.)&lt;br /&gt;
+&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;_&lt;/p&gt;
+
+&lt;p&gt;1Disclaimer: I do this, and it’s pretty great.&lt;/p&gt;</content><author><name></name></author><summary type="html">One of the most frustrating parts of going to the movies is how expensive it is. Tickets cost, on average, $8.35 - yes, it costs $14 in New York, and $5 in some less densely-populated places (or at smaller theaters). But regardless of variation among location and theater, the average ticket price is climbing steadily, and faster than inflation. (Here’s a much deeper dive into that topic.) And now, in good ol’ two-oh-one-four, if I can stay home and watch a movie for $7 that’s playing in theaters for $14 (something I just did - you should check out Joe ) - and I avoid having to get to the theater, sit with a bunch of potentially loud strangers, and be forced to think about the fact that sometimes seeing movies alone is kind of sad, why should I even bother?</summary></entry><entry><title type="html">The Box Office: An Interactive Chart</title><link href="http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html" rel="alternate" type="text/html" title="The Box Office: An Interactive Chart" /><published>2014-03-16T00:00:00-04:00</published><updated>2014-03-16T00:00:00-04:00</updated><id>http://localhost:4000/2014/03/16/the-box-office:-an-interactive-chart</id><content type="html" xml:base="http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html">&lt;p&gt;In the spirit of never making anyone look at an ugly, boring Excel graph about
+movies again, I’ve learned the (very basic) basics of &lt;a href=&quot;http://d3js.org/&quot;&gt;D3&lt;/a&gt;1
+- effectively, I can make interactive graphics. The hope is that I can use
+this to make these posts more engaging, while also including significantly
+more information than I could otherwise.&lt;/p&gt;
+
+&lt;p&gt;Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which
+these use - so I am hosting all of this at my very own website -
+&lt;a href=&quot;http://interactive.137to1.com/&quot;&gt;1.37:1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After practicing a bit, the first thing I made was an area chart of the
+domestic box office over the last few months. It’s really a follow-up to my
+last post - it takes the gross of all movies on a given day as a percentage of
+the total gross in that day. But now you can actually see what makes up the
+chart - and see, for example, how &lt;em&gt;The Hobbit&lt;/em&gt;  made up about half of the
+money spent on its opening weekend, but faded fast, while &lt;em&gt;Frozen’s&lt;/em&gt; run has
+lasted for months.&lt;/p&gt;
+
+&lt;p&gt;The second thing I added was several ways to look at the data: by Movie (like
+above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can
+click any of those titles to change the chart to that classification. This
+data is all taken directly from Box Office Mojo - again, they do a great job
+with storing all of this data (though their genres need a little work).&lt;/p&gt;
+
+&lt;p&gt;For example - here I’m looking at how much of the domestic box office revenue
+was accounted for by PG-13 movies (after clicking MPAA Rating):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-TjsJRgmUF0c/UyYz9TZkWhI/AAAAAAAAAJ0/qMhim5YdqdQ/s1600/rating.png&quot;&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-TjsJRgmUF0c/UyYz9TZkWhI/AAAAAAAAAJ0/qMhim5YdqdQ/s1600/rating.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Month of Release is the one I wanted to highlight - it shows the gross
+accounted for by movies released in a particular month.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com
+/-pi-iLumrU6Y/UyY1_LsRw8I/AAAAAAAAAKA/I3YOUe6VmrY/s1600/releasemonth.png&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-pi-
+iLumrU6Y/UyY1_LsRw8I/AAAAAAAAAKA/I3YOUe6VmrY/s1600/releasemonth.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All of these would be much more interesting over a much longer period of time,
+but this one would be more than anything. It’s really showing two things: how
+well movies released in one month do in the subsequent months, and how poorly
+movies do in their month of release. In the chart above, the dark green is
+December movies, and the light green is January movies. Not a shock to anyone&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;movies released in January are generally expected to perform terribly (and
+are usually, with some exceptions, terribly received), and movies released in
+December are generally either pushed for the Oscars or expected to be
+blockbusters. But, it’s another thing to have the numbers verify that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Again, this is a short timeframe and has very little to say in the way of real
+trends across time. There are only around 50-100 movies regularly tracked in
+the domestic box office - a relatively small sample size - and the list only
+incrementally changes. Moreover, the makeup of the box office changes
+drastically from month to month and from season to season; January looks very
+different from March, and spring very different from summer. That makes it
+harder to intuit real changes - you’d need to look at multiple seasons and
+years for true trends to take hold. But that, in short, is one of the major
+points I’m attempting to investigate.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Data source: &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office Mojo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1Not &lt;a href=&quot;http://www.imdb.com/title/tt0116000/&quot;&gt;this&lt;/a&gt; D3.&lt;/p&gt;</content><author><name></name></author><summary type="html">In the spirit of never making anyone look at an ugly, boring Excel graph about movies again, I’ve learned the (very basic) basics of D31 - effectively, I can make interactive graphics. The hope is that I can use this to make these posts more engaging, while also including significantly more information than I could otherwise. Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which these use - so I am hosting all of this at my very own website - 1.37:1. After practicing a bit, the first thing I made was an area chart of the domestic box office over the last few months. It’s really a follow-up to my last post - it takes the gross of all movies on a given day as a percentage of the total gross in that day. But now you can actually see what makes up the chart - and see, for example, how The Hobbit made up about half of the money spent on its opening weekend, but faded fast, while Frozen’s run has lasted for months. The second thing I added was several ways to look at the data: by Movie (like above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can click any of those titles to change the chart to that classification. This data is all taken directly from Box Office Mojo - again, they do a great job with storing all of this data (though their genres need a little work). For example - here I’m looking at how much of the domestic box office revenue was accounted for by PG-13 movies (after clicking MPAA Rating):</summary></entry><entry><title type="html">A Different Way To Analyze The Box Office</title><link href="http://localhost:4000/2014/03/12/a-different-way-to-analyze-the-box-office.html" rel="alternate" type="text/html" title="A Different Way To Analyze The Box Office" /><published>2014-03-12T00:00:00-04:00</published><updated>2014-03-12T00:00:00-04:00</updated><id>http://localhost:4000/2014/03/12/a-different-way-to-analyze-the-box-office</id><content type="html" xml:base="http://localhost:4000/2014/03/12/a-different-way-to-analyze-the-box-office.html">&lt;p&gt;Normally, analysis of the domestic box office in order to discern any
+meaningful insight is difficult. New movies are released every week, each
+movie is released in a different number of theaters, and patterns of movie
+attendance vary from day to day, week to week, month to month, and season to
+season. If more people tend to go to the movies on Monday than on Tuesday, how
+can you possibly tell whether a particular movie is doing well on Tuesday
+versus Monday?&lt;/p&gt;
+
+&lt;p&gt;I’d like to isolate one of those issues - day-over-day comparison. Currently,
+sites like &lt;a href=&quot;http://www.boxofficemojo.com/daily/chart/&quot;&gt;Box Office Mojo&lt;/a&gt; tend
+to emphasize the change in dollars spent on a particular movie from one day to
+the next. As a quick example: the percentage under the dollar amount
+represents the change in dollars spent on each movie from one day to the next.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-G8VLe103VF8/UyDhhXmVBzI/AAAAAAAAAJM/kkTpVUWeU-c/s1600/DailyBoxOffice.JPG&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-G8VLe103VF8/UyDhhXmVBzI/AAAAAAAAAJM/kkTpVUWeU-c/s1600/DailyBoxOffice.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, that’s not particularly meaningful when you’re comparing Sunday to
+Monday - more people will always go to movies on the (Friday, Saturday,
+Sunday) weekend than on a weekday, hence the 70% drop for these movies.&lt;/p&gt;
+
+&lt;p&gt;Here’s another way to think about it - given that a certain amount of money is
+spent on movies in domestic theaters on any given day, what percentage does a
+particular movie represent, and how does that percentage change? Sure, &lt;em&gt;Non-
+Stop&lt;/em&gt; made $1.3 million on Monday and $1.7 million on Tuesday, but did it
+really do any better on Tuesday? Aren’t there just more people going to the
+movies on Tuesday?&lt;/p&gt;
+
+&lt;p&gt;Put it this way - what’s harder to analyze: the first chart or the second
+chart?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-matGg5h3nH4/UyDlbhxGTfI/AAAAAAAAAJY
+/-SIuu_-9mNA/s1600/DailyBoxOffice+-+2014+YTD.JPG&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-matGg5h3nH4/UyDlbhxGTfI/AAAAAAAAAJY/-SIuu_-
+9mNA/s1600/DailyBoxOffice+-+2014+YTD.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://4.bp.blogspot.com
+/-xx7yE-
+tzS3Y/UyDmKc07iFI/AAAAAAAAAJk/reJNXLFdeA0/s1600/DailyBoxOffice+-+2014+YTD+-+Out+of+100%25.JPG&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/-xx7yE-
+tzS3Y/UyDmKc07iFI/AAAAAAAAAJk/reJNXLFdeA0/s1600/DailyBoxOffice+-+2014+YTD+-+Out+of+100%25.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I didn’t include the movie names on purpose. Not only would it be extremely
+difficult to visually match each to a color, but also, what I’d like to get
+across with this post is that it is easier to view trends using the second
+chart. For example, the dark gray area represents &lt;em&gt;The Lego Movie&lt;/em&gt;. In the
+first chart, it’s very difficult to see how it performed over time. In the
+second, by removing the effect of the fluctuations of overall box office
+revenue, trends are much easier to spot. &lt;em&gt;The Lego Movie&lt;/em&gt; continued to hold a
+strong percentage of total box office receipts even as it was making fewer
+dollars.&lt;/p&gt;
+
+&lt;p&gt;This is a very contained time period, from which it is hard to draw any
+insightful conclusions - this is simply a different way to look at the box
+office. But I will continue to incorporate more data, and hopefully
+interactive visualizations, that make it easier to spot trends over time - not
+only on a movie by movie basis, but by genre, rating, gender of the lead
+character, length of the movie, time period in which a movie is set, and any
+other category that could be applied to films.&lt;/p&gt;
+
+&lt;p&gt;(All box office data is from &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office
+Mojo&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;(Sidenote: This may seem similar to a &lt;a href=&quot;http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html&quot;&gt;very cool visualization
+&lt;/a&gt;the
+New York Times put together a few years ago. I suggest you check it out - it’s
+fun to play around with - but it’s not quite what I have in mind for analyzing
+the data.)&lt;/p&gt;</content><author><name></name></author><summary type="html">Normally, analysis of the domestic box office in order to discern any meaningful insight is difficult. New movies are released every week, each movie is released in a different number of theaters, and patterns of movie attendance vary from day to day, week to week, month to month, and season to season. If more people tend to go to the movies on Monday than on Tuesday, how can you possibly tell whether a particular movie is doing well on Tuesday versus Monday? I’d like to isolate one of those issues - day-over-day comparison. Currently, sites like Box Office Mojo tend to emphasize the change in dollars spent on a particular movie from one day to the next. As a quick example: the percentage under the dollar amount represents the change in dollars spent on each movie from one day to the next.</summary></entry><entry><title type="html">Will Anyone Watch Tonight&amp;#8217;s Oscars?</title><link href="http://localhost:4000/2014/03/02/will-anyone-watch-tonight's-oscars.html" rel="alternate" type="text/html" title="Will Anyone Watch Tonight's Oscars?" /><published>2014-03-02T00:00:00-05:00</published><updated>2014-03-02T00:00:00-05:00</updated><id>http://localhost:4000/2014/03/02/will-anyone-watch-tonight's-oscars</id><content type="html" xml:base="http://localhost:4000/2014/03/02/will-anyone-watch-tonight's-oscars.html">&lt;p&gt;Claims are often made about why television viewership of the Academy Awards
+ceremony fluctuates from year to year - it’s the
+&lt;a href=&quot;http://www.eonline.com/news/391690/2013-oscars-ratings-seth-macfarlane-
+bumps-up-numbers-from-2012-how-does-he-rank-against-previous-hosts&quot;&gt;host&lt;/a&gt;, the
+&lt;a href=&quot;http://www.nytimes.com/2012/02/28/movies/awardsseason/oscars-flat-tv-
+ratings-worry-hollywood.html&quot;&gt;films up for Best
+Picture&lt;/a&gt;, the &lt;a href=&quot;http://www.cnn.com/2009/SHOWBIZ/Movies/06/24/oscars.expansion.nominees/&quot;&gt;number of films up for Best
+Picture&lt;/a&gt;,
+or various other reasons.&lt;/p&gt;
+
+&lt;p&gt;I chose to focus on one part of that - the films up for Best Picture - and
+analyze them based on their box office revenue prior to the ceremony each
+year. I stuck to the period from 1982 to today, due to the box office numbers
+being less consistent prior to that point, and to domestic box office and
+viewership numbers.&lt;/p&gt;
+
+&lt;p&gt;The first chart is just the TV viewership numbers for each year. There’s the
+household rating (the &lt;a href=&quot;http://en.wikipedia.org/wiki/Nielsen_ratings&quot;&gt;Nielsen
+rating&lt;/a&gt;), the household share,
+and the number of viewers. The distinction between rating and share is simple&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;rating measures the percentage of total television-equipped households tuned
+into a program, while share measures the percentage of TVs actually in use at
+the time tuned into the program.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-I9jwzX36e-4/UxNdvDKKX4I/AAAAAAAAAI8/McSTbo9OEEQ/s1600/Ratings.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/-I9jwzX36e-4/UxNdvDKKX4I/AAAAAAAAAI8/McSTbo9OEEQ/s1600/Ratings.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a clear trend down - most noticeably in household share. This
+indicates that while a somewhat smaller number of people are watching the
+Oscars (between 35-50 million, with recent years hovering around 40), a
+significantly smaller percentage of total TVs that are in use at the time are
+actually watching the Oscars (from about 60% in 1983 to 36% last year).&lt;/p&gt;
+
+&lt;p&gt;The second chart has more information - it shows the box office revenue, up
+until the ceremony, for each of the films nominated for Best Picture. It is
+also, importantly, adjusted for inflation. Each bar represents the
+distribution of grosses - the start of the bar being the gross of the smallest
+film ( &lt;em&gt;Nebraska&lt;/em&gt;  this year) and the color separation (from black to yellow)
+being each successive film. The red line is the average gross of all Best
+Picture nominees in each year.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-4MJ6JOEfByc/UxNdagybRrI/AAAAAAAAAI4/K0G5v5EETTE/s1600/BP+Gross.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/-4MJ6JOEfByc/UxNdagybRrI/AAAAAAAAAI4/K0G5v5EETTE/s1600/BP+Gross.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see some more variation - years like 1982, 1997, and 2009 stand out
+considerably because of huge hits - &lt;em&gt;E.T.&lt;/em&gt; , &lt;em&gt;Titanic&lt;/em&gt; , and &lt;em&gt;Avatar&lt;/em&gt;
+respectively. And years like 1984, 2004, and 2005 stand out in having no
+obvious outliers - and a considerably low average gross.&lt;/p&gt;
+
+&lt;p&gt;The final chart shows the year-over-year change of five numbers - rating,
+share, viewers, average gross, and highest gross.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com
+/-p96t-TBgN5E/UxNda20jLuI/AAAAAAAAAIw/r__PncFPghc/s1600/YoY+Change.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/-p96t-
+TBgN5E/UxNda20jLuI/AAAAAAAAAIw/r__PncFPghc/s1600/YoY+Change.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One important additional statistic for this chart is the correlation between
+the changes in average and highest gross, and the changes in viewership each
+year. The correlation is highest (64%) between the change in average gross and
+the change in viewership in millions of people. Put more simply, there is a
+fairly (though not hugely) significant relationship between the year-over-year
+change in average gross, and the year-over-year change in people watching.&lt;/p&gt;
+
+&lt;p&gt;Is it predictive? That’s harder to say - and maybe a topic for another time.
+But you can definitely see spikes in viewership in years (like 1982, 1997, and
+2009) where the average gross is significantly higher - where there are bigger
+hits up for the biggest award. But to get back to the question of whether
+anyone will watch tonight’s Oscars - according to these numbers, fewer people
+will, given that, on average, the films have grossed less. But the average
+gross is only one number - maybe Ellen will matter more than anything else.&lt;/p&gt;
+
+&lt;p&gt;( &lt;em&gt;Note:&lt;/em&gt; I am focusing on the numbers that I can gather. Changes in the type
+of viewership - online, On-Demand, etc. - are harder to account for. Which is
+not to say they aren’t meaningful - they are, in all likelihood, very
+meaningful and becoming moreso - but I can only analyze the consistent
+datasets that I can access.)&lt;/p&gt;</content><author><name></name></author><summary type="html">Claims are often made about why television viewership of the Academy Awards ceremony fluctuates from year to year - it’s the host, the films up for Best Picture, the number of films up for Best Picture, or various other reasons. I chose to focus on one part of that - the films up for Best Picture - and analyze them based on their box office revenue prior to the ceremony each year. I stuck to the period from 1982 to today, due to the box office numbers being less consistent prior to that point, and to domestic box office and viewership numbers. The first chart is just the TV viewership numbers for each year. There’s the household rating (the Nielsen rating), the household share, and the number of viewers. The distinction between rating and share is simple rating measures the percentage of total television-equipped households tuned into a program, while share measures the percentage of TVs actually in use at the time tuned into the program.</summary></entry><entry><title type="html">Film And Data</title><link href="http://localhost:4000/2014/02/25/film-and-data.html" rel="alternate" type="text/html" title="Film And Data" /><published>2014-02-25T00:00:00-05:00</published><updated>2014-02-25T00:00:00-05:00</updated><id>http://localhost:4000/2014/02/25/film-and-data</id><content type="html" xml:base="http://localhost:4000/2014/02/25/film-and-data.html">&lt;p&gt;Why am I writing this blog?&lt;/p&gt;
+
+&lt;p&gt;Two reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;There isn’t enough (obvious) data analysis being done, publicly, on the film industry.&lt;/li&gt;
+  &lt;li&gt;A number of factors are contributing to a potential move away from movie theaters - which, to me, is a warning sign. I want going to the movies to remain a fundamental piece of our shared cultural experience - not for it to become a luxury (like seeing a Broadway show). From what I can tell, there has to be a way to reverse this trend using intelligent analysis.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In 2013, films released domestically grossed $10.9 billion theatrically - not
+an insubstantial number, and that only represents the theatrical take - films
+obviously now travel a lot further than the movie theater. More and more money
+is being spent to produce films - not only &lt;a href=&quot;http://www.the-
+numbers.com/movie/budgets/&quot;&gt;individually&lt;/a&gt;, but also in
+&lt;a href=&quot;http://www.salon.com/2014/02/22/americas_next_wal_mart_the_indie_film_industry/&quot;&gt;aggregate&lt;/a&gt;
+(or, at the very least, more films are being made), while &lt;a href=&quot;http://www.the-numbers.com/market/&quot;&gt;less people are
+actually going to the theater&lt;/a&gt; to see a
+movie. This is a real problem for the industry as a whole - how are they going
+to sustainably make money from film production if there is a glut of films,
+and people are no longer going to the movie theater? - and for consumers - how
+do I pick what to watch, and should I really spend
+&lt;a href=&quot;http://boxofficemojo.com/about/adjuster.htm&quot;&gt;$8.35&lt;/a&gt; and drive to the theater
+to see it?&lt;/p&gt;
+
+&lt;p&gt;And while &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;http://www.the-
+numbers.com/&quot;&gt;sites&lt;/a&gt;, at the very least, track, rank, and categorize box office data,
+there’s not a ton of information gleaned from it (though they do have a wealth
+of data which is steadily maintained - and for that I thank them). One would
+think that an industry that likely reaches a significant portion of the
+population - both domestically and internationally - and has done so for at
+least 90 years (at least in America), would have some understanding, through
+the data they’ve gathered, what will be successful. And yet, year after year,
+studios make bad and poorly performing films, and the resulting data is
+analyzed briefly without historical or other context, and is quickly
+forgotten.&lt;/p&gt;
+
+&lt;p&gt;Given the right data, one can ask and potentially answer interesting, valuable
+questions that may make a difference in the future of the industry.&lt;/p&gt;
+
+&lt;p&gt;For example: In which cities, states, or regions are people more likely to see
+a movie in a theater? Which movies, genres, or actors are more likely to be
+watched on Netflix, iTunes, or elsewhere instead of in the theater? Are people
+still buying DVDs and BluRays, and if so, where and which ones? Are certain
+theater chains, or specific theaters, selling better than others? Is there
+anything about the best-selling theaters that makes them successful?&lt;/p&gt;
+
+&lt;p&gt;Or, most importantly, for the actual viewers of these films - what should I
+watch, and how do I watch it?&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I only have a few sets of data to analyze - namely, box office
+revenue and awards statistics. The goal of this blog will be to determine
+whether that data has any truly valuable conclusions about the industry or the
+state of film, or whether there are even more valuable data sets I have yet to
+find. At worst, it will make for some interesting charts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Why am I writing this blog? Two reasons:</summary></entry></feed>

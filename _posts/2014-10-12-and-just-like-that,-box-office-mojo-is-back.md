@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "And Just Like That, Box Office Mojo is Back"
+date:   2014-10-12
+categories: movies, data
+---
+
 After a day of mostly confusion, [Box Office Mojo is back
 up](http://www.boxofficemojo.com/). It has not, strangely, been updated in a
 few days - but the original site is there. (Other strange things - "Last

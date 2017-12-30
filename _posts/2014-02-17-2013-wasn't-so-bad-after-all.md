@@ -1,59 +1,25 @@
+---
+layout: post
+title:  "2013 Wasn't So Bad After All"
+date:   2014-02-17
+categories: movies, data, movie tickets
+---
+
 Following the earlier post from today, here's a quicker look at the box office
 from 1982 to 2013.  
   
 The first chart shows the percentage of total domestic box office, in each
 year, concentrated in the top 1, 5, 10, 25, 50, and 100 movies of that year.1  
-  
-  
 
 [![](http://3.bp.blogspot.com/-hlALczbDDig/UwKtcysqkII/AAAAAAAAAFA/7AOjk5kSsII/s1600/Concentration+of+Domestic+Gross.png)](http://3.bp.blogspot.com/-hlALczbDDig/UwKtcysqkII/AAAAAAAAAFA/7AOjk5kSsII/s1600/Concentration+of+Domestic+Gross.png)
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
 The first thing to note is that the top 100 movies represent a considerably
 higher proportion of total domestic box office - over 85% - than they did in
 earlier years. So while, as I noted in the previous post, there were far more
 movies released in 2013 than in 1982 - most of those extra movies actually
 represent a tiny portion of the box office take.  
-  
-  
 
 [![](http://4.bp.blogspot.com/-cXdXyz3B3ag/UwKtbR8pySI/AAAAAAAAAE8/ff3TsBERJyg/s1600/Change+in+Concentration+of+Domestic+Gross.png)](http://4.bp.blogspot.com/-cXdXyz3B3ag/UwKtbR8pySI/AAAAAAAAAE8/ff3TsBERJyg/s1600/Change+in+Concentration+of+Domestic+Gross.png)
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
 This is just the changes over time of the first chart, where 1982 is the
 baseline of 1 (100%). Most interesting is that the distribution of hits seems

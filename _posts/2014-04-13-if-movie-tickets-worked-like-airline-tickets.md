@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "If Movie Tickets Worked Like Airline Tickets"
+date:   2014-04-13
+categories: movies, data, movie tickets
+---
+
 One of the most frustrating parts of going to the movies is how expensive it
 is. Tickets cost, on average,
 [$8.35](http://www.boxofficemojo.com/about/adjuster.htm) \- yes, it costs $14

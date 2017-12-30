@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "And Just Like That, Box Office Mojo is Gone"
+date:   2014-10-11
+categories: movies, data
+---
+
 I haven't written anything in the past few months - both for personal reasons
 (switching careers kinda takes a while) and because I've been working on
 building a real website to supplement this blog. It's taken much longer than I

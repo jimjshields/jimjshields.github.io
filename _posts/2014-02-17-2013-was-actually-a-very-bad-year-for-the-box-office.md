@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "2013 Was Actually a Very Bad Year for the Box Office"
+date:   2014-02-17
+categories: movies, data, box office
+---
+
 By [many](http://www.cnn.com/2013/12/30/showbiz/movies/2013-box-office-
 movies/) [accounts](http://www.hitfix.com/awards-campaign/lessons-from-
 the-2013-box-office-top-20-movies-of-the-year), 2013 was, at the very least, a

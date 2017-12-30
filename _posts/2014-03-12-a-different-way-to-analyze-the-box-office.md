@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "A Different Way to Analyze the Box Office"
+date:   2014-03-12
+categories: movies, data, movie tickets
+---
+
 Normally, analysis of the domestic box office in order to discern any
 meaningful insight is difficult. New movies are released every week, each
 movie is released in a different number of theaters, and patterns of movie

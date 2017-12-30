@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Box Office: An Interactive Chart"
+date:   2014-03-16
+categories: movies, data, movie tickets
+---
+
 In the spirit of never making anyone look at an ugly, boring Excel graph about
 movies again, I've learned the (very basic) basics of [D3](http://d3js.org/)1
 \- effectively, I can make interactive graphics. The hope is that I can use

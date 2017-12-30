@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Why Aren't the Best Actresses in the Best Pictures?"
+date:   2014-02-18
+categories: movies, data, movie tickets
+---
+
 Given a suggestion from a commenter at [The Film
 Experience](http://thefilmexperience.net/blog/2014/2/17/when-all-acting-
 nominees-come-from-best-pictures.html) (the same one who helped to correct a

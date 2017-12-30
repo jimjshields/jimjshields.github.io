@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Film and Data"
+date:   2014-02-25
+categories: movies, data, movie tickets
+---
+
 Why am I writing this blog?  
   
 Two reasons:  

@@ -1,595 +1,291 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-28T11:55:58-05:00</updated><id>http://localhost:4000/</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Previously, On</title><link href="http://localhost:4000/programming,/recurse/center/2015/01/09/previously-on.html" rel="alternate" type="text/html" title="Previously, On" /><published>2015-01-09T00:00:00-05:00</published><updated>2015-01-09T00:00:00-05:00</updated><id>http://localhost:4000/programming,/recurse/center/2015/01/09/previously-on</id><content type="html" xml:base="http://localhost:4000/programming,/recurse/center/2015/01/09/previously-on.html">&lt;p&gt;(I’m not gonna finish that title, I like the beginning but “Previously, On My Life” sounded just the worst. This’ll do, pig.)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://jimjshields.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jimjshields.github.io/" rel="alternate" type="text/html" /><updated>2017-12-30T12:49:05-05:00</updated><id>http://jimjshields.github.io/</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">A (Really Brief) Intro to Natural Language Processing</title><link href="http://jimjshields.github.io/programming,/recurse/center,/nlp/2015/03/11/a-really-brief-intro-to-nlp.html" rel="alternate" type="text/html" title="A (Really Brief) Intro to Natural Language Processing" /><published>2015-03-11T00:00:00-04:00</published><updated>2015-03-11T00:00:00-04:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/nlp/2015/03/11/a-really-brief-intro-to-nlp</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/nlp/2015/03/11/a-really-brief-intro-to-nlp.html">&lt;p&gt;Hacker School: Week 10, Day 2&lt;/p&gt;
 
-&lt;p&gt;This is mostly just a catch-up for me, to remember what I’ve actually been doing for the last few weeks, months, years. If that’s something you want to read about, cool, thanks! If not, there are so many things to read in the world, go read those!!
-Sometime in the last eight years, I decided I didn’t love finance, my college major. Then I graduated with a degree in finance, and got a job at a financial technology startup, and still didn’t love finance. (This is not a sob story - a person not loving their job or career path is the like bottom 0.1% of important problems - but hopefully it’s mildly interesting at worst.) I worked there for 3 ½ years (from graduation until October 2014) - honestly, much longer than I ever would’ve expected. The time there was stressful, draining, and led to several periods of burnout, obvious to coworkers and friends and family - but it was genuinely valuable. Every person I worked with was more talented, driven, and intelligent than I was; every day I learned something new about how to (or not to) make decisions in a company, small or big; I gained a respect if not a love for finance and investing, and a much better understanding of those who choose to pursue it; most importantly/relevantly for my own life, I (very) gradually understood what was important to me, both in a career and in my life.&lt;/p&gt;
+&lt;p&gt;It’s been far too long since the last post. I promised my check-in group — our daily time for talking about what we’re doing here — every day last week that I would write a blog post. I didn’t. But here it is, in all its glory.&lt;/p&gt;
 
-&lt;p&gt;What’s important to me in my career is that I’m interested in and engaged by the problems I’m trying to solve, and that it’s not affecting my own life or personality in a negative way. I considered the idea - for a while, like periodically between grade school and year 3 of that job, so maybe 10 years - of being a part of the movie industry. What part? Who cares! It’s the movies! It’s all fun! At about the aforementioned year 3 I realized I do care, and it’s probably not all fun - I didn’t want to spend years in a non-creative role with the distant/impossible possibility that someday I’d be a director. I love movies, more than most things, but I knew I’d have to throw away most of those other things to pursue that dream. So somewhere in year 3, I moved on.
-And that’s about when I started doing a few Codecademy courses on a whim. My job required a lot of Excel - if you’re familiar, I’ll pour one out for you; if not, skip ahead, or you’ve already stopped reading - and only when I started these simple courses did I realize that I was (very) basically programming already. The same skills - logical thinking and problem solving, working with large datasets, understanding how to write formulas - translate pretty well to actual programming. So I kept doing Codecademy. And started reading textbooks. And gradually started writing small programs. Eventually I made my own website (and the companion blog, both a serious impetus for learning programming). Somewhere in the middle there, I knew I could be, and had to be, a programmer. I liked learning about it, I liked writing code, I liked that I could use it to do pretty much anything. (Important thing to take away from that sentence - I liked it. That’s all I needed.) The question went from What Do I Want to Do? to How Do I Do It?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is Natural Language Processing?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;So in October, I left the job. From then until mid-November, I studied on my own - and struggled through making that website. Then I started a Web Development course at General Assembly. I have nothing but great things to say about GA - the people working there were wonderful, my classmates were engaged and diverse and genuinely kind, and the program is perfect if you’re just getting started in programming. But I realized early on in the course that I wasn’t just getting started; I’d learned a lot on my own already, and it probably wasn’t the best use of my time to learn it all again, in a different language (I’d been learning Python, they focus on Ruby). At that point I decided to drop the course and pursue learning on my own (GA was extremely gracious at this and every other point too - they talked to me and helped me through that difficult decision, and completely understood my difficulty - again, just the best people).&lt;/p&gt;
+&lt;p&gt;My brief sojourn into working with words — specifically, the Academy Award speeches — sparked an interest in all of the possibilities of combining programming and language. Everything I read and heard about this idea led me back to natural language processing. So, as is my custom, I went straight to &lt;a href=&quot;http://en.wikipedia.org/wiki/Natural_language_processing&quot;&gt;good old Wikipedia&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Days later, I finished my application to Hacker School - something I probably should’ve just done in the first place, but I was glad I did. (A lot of this blog will probably focus on my experience here, but if you’re interested, it’s worth reading everything on their site. They’re very open about their goal - to provide a space for people to self-direct their learning about programming alongside each other and together, while enforcing minimal structure - it’s definitely an adjustment from class-style learning.) I (miraculously) got in on the first try, and just started this past Monday. And so far it’s been a challenging, but stimulating, environment for learning. Consistent with my past experiences, everyone here is just the nicest - there are a lot of nice people in this world! It’s one of those crazy surprises about being an adult! - and help to preserve an environment where people can learn what they want, without the regular external pressure (quizzes, tests, grades, jobs, money, etc.) that tend to drive learning. Per their site - “We value intrinsic motivation and self-direction, and believe people learn best when they’re free to explore their passion and interests.” It might sound high-minded, or touchy-feely, or unrealistic - those all might be true. But they seriously strive to make that happen, and in the first week, that’s what’s happened for me.&lt;/p&gt;
+&lt;p&gt;“&lt;strong&gt;Natural language processing&lt;/strong&gt; (&lt;strong&gt;NLP&lt;/strong&gt;) is a field of &lt;a href=&quot;http://en.wikipedia.org/wiki/Computer_science&quot; title=&quot;Computer science&quot;&gt;computer science&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Artificial_intelligence&quot; title=&quot;Artificial intelligence&quot;&gt;artificial intelligence&lt;/a&gt;, and &lt;a href=&quot;http://en.wikipedia.org/wiki/Linguistics&quot; title=&quot;Linguistics&quot;&gt;linguistics&lt;/a&gt; concerned with the interactions between &lt;a href=&quot;http://en.wikipedia.org/wiki/Computers&quot; title=&quot;Computers&quot;&gt;computers&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Natural_language&quot; title=&quot;Natural language&quot;&gt;human (natural) languages&lt;/a&gt;.”&lt;/p&gt;
 
-&lt;p&gt;I’ll try to keep this regularly updated - ideally every day - to give an idea of my experience at Hacker School. I’ll also go into technical stuff - like the actual things I’m learning - so if you’re not interested, probably don’t read those, because if you’re reading things you’re clearly not interested in and then getting mad later, that’s kind of a silly thing to do. (Also a thing I’ve done - why would I read all the way through a Buzzfeed quiz just to be angry about it?? Life is short!) That’s more so I’m sure I can clearly express what I’m learning. So what I’m saying is, this blog is really just for me - but hope you enjoy it!&lt;/p&gt;</content><author><name></name></author><summary type="html">(I’m not gonna finish that title, I like the beginning but “Previously, On My Life” sounded just the worst. This’ll do, pig.)</summary></entry><entry><title type="html">Movie Tickets Aren’t As Expensive as You Think</title><link href="http://localhost:4000/movies/data/tickets/2014/10/24/movie-tickets-aren't-as-expensive-as-you-think.html" rel="alternate" type="text/html" title="Movie Tickets Aren't As Expensive as You Think" /><published>2014-10-24T00:00:00-04:00</published><updated>2014-10-24T00:00:00-04:00</updated><id>http://localhost:4000/movies/data/tickets/2014/10/24/movie-tickets-aren't-as-expensive-as-you-think</id><content type="html" xml:base="http://localhost:4000/movies/data/tickets/2014/10/24/movie-tickets-aren't-as-expensive-as-you-think.html">&lt;p&gt;(I’ve finally got the &lt;a href=&quot;http://onethirtyseven.herokuapp.com/&quot;&gt;companion
-website&lt;/a&gt; working. It has cool
-interactive charts! Some of which I use in this post. But you can also &lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_page/&quot;&gt;search
-for any movie&lt;/a&gt;
-and get its daily box office, or &lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/multiple_movie_page/&quot;&gt;compare two movies at the same
-time&lt;/a&gt;.
-I’m working on improving those and adding more stuff - would love
-suggestions.)&lt;/p&gt;
+&lt;p&gt;So NLP combines a few things — CS, AI, linguistics — but ultimately concerns how computers work with natural languages (aka our human languages). Don’t worry, it doesn’t take a background in CS, AI, or linguistics to get the basics.&lt;/p&gt;
 
-&lt;p&gt;The Dissolve had an &lt;a href=&quot;http://thedissolve.com/news/3723
--charts-graphs-average-movie-ticket-prices-in-the-u/&quot;&gt;interesting article&lt;/a&gt; this morning about
-average movie ticket prices over time. I wanted to give some more depth to
-that and visualize how the average movie ticket price has really changed over
-time, and how that compares to the number of tickets actually sold each year.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why Do I Care?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;(I also covered this &lt;a href=&quot;http://137to1.blogspot.com/2014/02
-/nothing-will-ever-beat-et.html&quot;&gt;at the end of 2013&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;I care because NLP has a huge number of potential applications — many of which are challenging, fascinating, and (eventually) world-changing (if computers could actually understand anything — anything — we ask them). But more immediately, I care because NLP is actually tangible and accessible, even for beginners. Much of what I’ve learned in programming is conceptual, or mathematical, or involves a large number of moving pieces. NLP (at its most basic) is taking organized text — a thing I already understand and _can see — _and manipulating and analyzing it in a way that I could talk about with anyone who has read or written text.&lt;/p&gt;
 
-&lt;p&gt;A few disclaimers for the data:&lt;br /&gt;
-1. To include 2014, I scaled the Tickets Sold number using the percentage of
-the year we’ve gone through so far (so if the exact trend were to continue
-through the rest of 2014). Imperfect, but it’s just for comparison’s sake.&lt;br /&gt;
-2. I didn’t include data before 1989. According to the NATO (National
-Association of Theater Owners) &lt;a href=&quot;http://natoonline.org/data/ticket-
-price/&quot;&gt;website&lt;/a&gt;, prior to 1989, they’re just using CPI.&lt;br /&gt;
-3. To inflation adjust ticket prices, I used the &lt;a href=&quot;http://www.usinflationcalculator.com/inflation/consumer-price-index-
-and-annual-percent-changes-from-1913-to-2008/&quot;&gt;CPI
-index&lt;/a&gt; and scaled to 2014 dollars.
-(Thanks to The Dissolve commenter who mentioned using inflation-adjusted
-numbers.)&lt;/p&gt;
+&lt;p&gt;For this (again, really brief) intro, I’m going to use a Python library called &lt;a href=&quot;http://www.nltk.org/&quot;&gt;Natural Language Toolkit&lt;/a&gt; (NLTK). I’ll try to assume as little knowledge as possible, but a basic understanding of how to write Python and interact with the terminal will definitely be helpful. I’m essentially following along with the start of &lt;a href=&quot;http://www.nltk.org/book_1ed/&quot;&gt;this book&lt;/a&gt; (or &lt;a href=&quot;http://www.nltk.org/book/&quot;&gt;this version&lt;/a&gt; if you like Python 3). Just the first section of the &lt;a href=&quot;http://www.nltk.org/book_1ed/ch00.html&quot;&gt;Preface&lt;/a&gt; gave me a much better understanding of why NLP is important and uniquely challenging. It’s written by the creators of NLTK, and gives a much more thorough and understandable intro to using the NLTK library than I ever could. I’ll use two of their intro examples to show what you could do right away.&lt;/p&gt;
 
-&lt;p&gt;Here’s what I found -&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Getting Set Up&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_graph&quot;&gt;Ticket prices have increased in most
-years.&lt;/a&gt;
-(Blue line on that graph.) Not a huge surprise - that’s the general consensus.
-Not only are regular tickets more expensive, so the thought goes, but now we
-have premium (3D, IMAX, RPX, similar scams) tickets too.&lt;/p&gt;
+&lt;p&gt;I’ll assume you already have Python and some kind of interactive terminal (if you have a Mac, both should already be there). If you’re completely new to Python, but are interested in learning about NLP in Python (or in general), the &lt;a href=&quot;http://www.nltk.org/book_1ed/ch01.html&quot;&gt;book I referenced before&lt;/a&gt; does a much better job than I ever could easing a newcomer into both Python and NLP/NLTK.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_graph&quot;&gt;But, adjusted for inflation, ticket prices have barely
-increased.&lt;/a&gt;
-(Same graph, red line.) Adjusted for inflation, the average ticket price in
-1989 was $7.59. In 2014, it’s $8.12. That’s a 7% increase - as in, not a huge
-change at all. The problem with this dataset is obviously the lack of
-granularity - New York City tickets are probably increasing more dramatically,
-likely due to rent increases well above inflation - but this gives you an idea
-for across the US.&lt;/p&gt;
+&lt;p&gt;In fact, I’ll just point you to &lt;a href=&quot;http://www.nltk.org/book_1ed/ch01.html#getting-started-with-nltk&quot;&gt;this section&lt;/a&gt; for getting set up with NLTK (just those few paragraphs up to ‘Searching Text.’) If you have some experience with &lt;em&gt;pip&lt;/em&gt;** **and/or virtual environments, it can make installing NLTK easier (it’s what I used).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_change_graph&quot;&gt;Year over year, the change in price is slowing
-down.&lt;/a&gt;
-Year-over-year change in prices peaked in 1999. The 2013-2014 change in price
-was the lowest since 1993 (adjusted for inflation, 2011 was lower - but both
-were negative). This could be a result of the shift toward streaming, VOD,
-etc. - but it’s still very slight.&lt;/p&gt;
+&lt;p&gt;Once you have your terminal open, here’s what you’ll type:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://onethirtyseven.herokuapp.com/interactive/movie_tickets_page/#movie_tickets_sold_graph&quot;&gt;But people are going to the movies
-less.&lt;/a&gt;
-Number of tickets sold peaked in
-&lt;a href=&quot;http://www.boxofficemojo.com/yearly/chart/?yr=2002&amp;amp;p=.htm&quot;&gt;2002&lt;/a&gt; ( &lt;em&gt;Spider-
-Man, Lord of The Rings, Star Wars, Harry Potter&lt;/em&gt; , and &lt;em&gt;My Big Fat Greek
-Wedding&lt;/em&gt; were the top five movies that year - all five of which, if adjusted
-for ticket price increase, would’ve been the top movie of 2014). The
-assumption that the end of 2014 will keep pace with the rest of the year isn’t
-fair - &lt;em&gt;The Hunger Games&lt;/em&gt; , &lt;em&gt;Interstellar&lt;/em&gt; , and &lt;em&gt;The Hobbit&lt;/em&gt; (among others)
-will likely be big enough hits. But the trend is pretty clear - steady
-increase from 1991 to 2002, steady decrease since then.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;$ python&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The picture isn’t as bad as I was led to believe - tickets aren’t really that
-much more expensive. But it’s not great, either - people are just going to the
-movies less. There’s more to say on this; would love to hear anyone’s
-thoughts.&lt;/p&gt;</content><author><name></name></author><summary type="html">(I’ve finally got the companion website working. It has cool interactive charts! Some of which I use in this post. But you can also search for any movie and get its daily box office, or compare two movies at the same time. I’m working on improving those and adding more stuff - would love suggestions.) The Dissolve had an interesting article this morning about average movie ticket prices over time. I wanted to give some more depth to that and visualize how the average movie ticket price has really changed over time, and how that compares to the number of tickets actually sold each year. (I also covered this at the end of 2013.) A few disclaimers for the data: 1. To include 2014, I scaled the Tickets Sold number using the percentage of the year we’ve gone through so far (so if the exact trend were to continue through the rest of 2014). Imperfect, but it’s just for comparison’s sake. 2. I didn’t include data before 1989. According to the NATO (National Association of Theater Owners) website, prior to 1989, they’re just using CPI. 3. To inflation adjust ticket prices, I used the CPI index and scaled to 2014 dollars. (Thanks to The Dissolve commenter who mentioned using inflation-adjusted numbers.) Here’s what I found - Ticket prices have increased in most years. (Blue line on that graph.) Not a huge surprise - that’s the general consensus. Not only are regular tickets more expensive, so the thought goes, but now we have premium (3D, IMAX, RPX, similar scams) tickets too. But, adjusted for inflation, ticket prices have barely increased. (Same graph, red line.) Adjusted for inflation, the average ticket price in 1989 was $7.59. In 2014, it’s $8.12. That’s a 7% increase - as in, not a huge change at all. The problem with this dataset is obviously the lack of granularity - New York City tickets are probably increasing more dramatically, likely due to rent increases well above inflation - but this gives you an idea for across the US. Year over year, the change in price is slowing down. Year-over-year change in prices peaked in 1999. The 2013-2014 change in price was the lowest since 1993 (adjusted for inflation, 2011 was lower - but both were negative). This could be a result of the shift toward streaming, VOD, etc. - but it’s still very slight. But people are going to the movies less. Number of tickets sold peaked in 2002 ( Spider- Man, Lord of The Rings, Star Wars, Harry Potter , and My Big Fat Greek Wedding were the top five movies that year - all five of which, if adjusted for ticket price increase, would’ve been the top movie of 2014). The assumption that the end of 2014 will keep pace with the rest of the year isn’t fair - The Hunger Games , Interstellar , and The Hobbit (among others) will likely be big enough hits. But the trend is pretty clear - steady increase from 1991 to 2002, steady decrease since then. The picture isn’t as bad as I was led to believe - tickets aren’t really that much more expensive. But it’s not great, either - people are just going to the movies less. There’s more to say on this; would love to hear anyone’s thoughts.</summary></entry><entry><title type="html">And Just Like That, Box Office Mojo Is Back</title><link href="http://localhost:4000/2014/10/12/and-just-like-that,-box-office-mojo-is-back.html" rel="alternate" type="text/html" title="And Just Like That, Box Office Mojo Is Back" /><published>2014-10-12T00:00:00-04:00</published><updated>2014-10-12T00:00:00-04:00</updated><id>http://localhost:4000/2014/10/12/and-just-like-that,-box-office-mojo-is-back</id><content type="html" xml:base="http://localhost:4000/2014/10/12/and-just-like-that,-box-office-mojo-is-back.html">&lt;p&gt;After a day of mostly confusion, &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office Mojo is back
-up&lt;/a&gt;. It has not, strangely, been updated in a
-few days - but the original site is there. (Other strange things - “Last
-Updated 12/31/1969,” “#1 Movie: ‘ ‘”, etc.) But even though it’s back, the
-amount of uproar/confusion (at least within the film reporting community) only
-serves to highlight the importance it plays in providing a huge amount of
-movie data (financial and otherwise) and how easy it would be for IMDb/Amazon
-to pull it away.&lt;/p&gt;
+&lt;p&gt;This should open the Python interactive interpreter (or &lt;a href=&quot;http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop&quot;&gt;REPL&lt;/a&gt;). You can type in Python code and the results of the code will appear immediately. I find it’s a great way to try out my own code, or try using a new library, package, or API, to actually see the results of particular code. I also just love typing some code in and getting immediate feedback. If you have NLTK installed, try  (any text following “&amp;gt;&amp;gt;&amp;gt;” is Python code you can enter):&lt;/p&gt;
 
-&lt;p&gt;But the question is, how do you completely reproduce that level of data? Where
-do you get it (in a legitimate way)? The site doesn’t actually have all that
-much in the way of data - daily box office domestically and internationally
-per movie, movie-specific info (runtime, budget, etc.), cast and crew info,
-and some level of tagging. It’s the depth of the dataset (having daily box
-office for a movie) and the breadth of their coverage (effectively all movies
-released in the last 15 years) that would be difficult, but not impossible, to
-reassemble elsewhere. To be honest, though - as long as there is a legitimate,
-trusted, separate source for this data, it’s really not that hard to put
-together (it’s really, in the grand scheme of things, not that much data).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;gt;&amp;gt;&amp;gt; from nltk.book import *&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/keithcalder/status/520669790071820289&quot;&gt;This conversation&lt;/a&gt;
-among a few involved in the film industry - bloggers, producers, interested
-people - reinforces the idea that an independent source of this data is
-crucial. It also raises a few other interesting points - like the idea that
-IMDb has focused on unnecessary features rather than better data (or even
-better ways to access data). But it’s unclear how to create a viable
-alternative. In the meantime, we still have Mojo.&lt;/p&gt;
+&lt;p&gt;This’ll import a bunch of books! NLTK has a number of text sources — books, news stories, chat logs (anonymized, don’t worry) — to analyze/use in your code. You should see the name of each print as they load. Should look something like this:&lt;/p&gt;
 
-&lt;p&gt;(I also missed a serious opportunity yesterday to make
-&lt;a href=&quot;https://www.youtube.com/watch?v=gEuw2mgLRuQ&quot;&gt;this&lt;/a&gt; the headline - honestly,
-film reporters, you all missed it. Everybody failed.)&lt;/p&gt;</content><author><name></name></author><summary type="html">After a day of mostly confusion, Box Office Mojo is back up. It has not, strangely, been updated in a few days - but the original site is there. (Other strange things - “Last Updated 12/31/1969,” “#1 Movie: ‘ ‘”, etc.) But even though it’s back, the amount of uproar/confusion (at least within the film reporting community) only serves to highlight the importance it plays in providing a huge amount of movie data (financial and otherwise) and how easy it would be for IMDb/Amazon to pull it away. But the question is, how do you completely reproduce that level of data? Where do you get it (in a legitimate way)? The site doesn’t actually have all that much in the way of data - daily box office domestically and internationally per movie, movie-specific info (runtime, budget, etc.), cast and crew info, and some level of tagging. It’s the depth of the dataset (having daily box office for a movie) and the breadth of their coverage (effectively all movies released in the last 15 years) that would be difficult, but not impossible, to reassemble elsewhere. To be honest, though - as long as there is a legitimate, trusted, separate source for this data, it’s really not that hard to put together (it’s really, in the grand scheme of things, not that much data). This conversation among a few involved in the film industry - bloggers, producers, interested people - reinforces the idea that an independent source of this data is crucial. It also raises a few other interesting points - like the idea that IMDb has focused on unnecessary features rather than better data (or even better ways to access data). But it’s unclear how to create a viable alternative. In the meantime, we still have Mojo. (I also missed a serious opportunity yesterday to make this the headline - honestly, film reporters, you all missed it. Everybody failed.)</summary></entry><entry><title type="html">And Just Like That, Box Office Mojo Is Gone</title><link href="http://localhost:4000/2014/10/11/and-just-like-that,-box-office-mojo-is-gone.html" rel="alternate" type="text/html" title="And Just Like That, Box Office Mojo Is Gone" /><published>2014-10-11T00:00:00-04:00</published><updated>2014-10-11T00:00:00-04:00</updated><id>http://localhost:4000/2014/10/11/and-just-like-that,-box-office-mojo-is-gone</id><content type="html" xml:base="http://localhost:4000/2014/10/11/and-just-like-that,-box-office-mojo-is-gone.html">&lt;p&gt;I haven’t written anything in the past few months - both for personal reasons
-(switching careers kinda takes a while) and because I’ve been working on
-building a real website to supplement this blog. It’s taken much longer than I
-wanted, but I should hopefully have something soon. But I’m now compelled to
-write at least a quick post.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://78.media.tumblr.com/f9775e12be5531d3e0047e15b97ca968/tumblr_inline_nl1wxuyFjR1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;At some point yesterday, &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office Mojo&lt;/a&gt;,
-undoubtedly the premier source for movie financial data, completely
-disappeared. Like, &lt;a href=&quot;http://en.wikipedia.org/wiki/The_Leftovers_\(TV_series\)&quot;&gt;The
-Leftovers&lt;/a&gt;
-disappeared. (If you click on the link, you’re taken to the IMDb box office
-page.) This is a huge deal - admittedly personally, in that it is an unrivaled
-and incredibly rich data source for movies, and so was the perfect source for
-real movie data analysis - but also for the industry. There are a bunch of
-articles on the subject - &lt;a href=&quot;http://www.hypable.com/2014/10/10/box-
-office-mojo-shut-down/&quot;&gt;this one&lt;/a&gt; has some seriously distressed reactions about it, and
-rightly so. The film industry is incredibly secretive, or at least insular,
-when it comes to financial data - see &lt;a href=&quot;http://en.wikipedia.org/wiki/Hollywood_accounting&quot;&gt;this Wikipedia page on “Hollywood
-accounting”,&lt;/a&gt; an actual
-term someone made up to soften the idea that Hollywood studios routinely make
-up numbers to avoid paying those involved (for example, &lt;em&gt;My Big Fat Greek
-Wedding&lt;/em&gt; , a film that reportedly cost $5mm to make and grossed $600mm
-worldwide, lost $20mm according to the studio). So to lose an entire source of
-movie financial data - and not only a source, THE source - is, at the very
-least, a serious blow to those reporting on the numbers, and at most, a
-worrisome move toward further financial/data-related secrecy in the movie
-industry.&lt;/p&gt;
+&lt;p&gt;Now you can use them!&lt;/p&gt;
 
-&lt;p&gt;No one knows yet what will happen to it; IMDb did buy the site years ago, but
-left it intact. IMDb is owned by Amazon - which seems strange in that the two
-sites could not seem more unrelated, and doesn’t inspire confidence that they
-will be as open with the data as Box Office Mojo had been. This is well within
-their rights - they own the data and can do whatever they want with it - but
-it’s seriously concerning to anyone relying on the data. But who knows - maybe
-they’ll have a bigger, better, and more open site, with more advanced
-analysis, interactive charts, legitimate historical context, and an API. (They
-may completely replace what I’m trying to do here - but hey, then at least
-someone will be using the huge amount of data there in a sophisticated way.)
-Until then, I’d recommend using &lt;a href=&quot;http://www.the-numbers.com/&quot;&gt;The Numbers&lt;/a&gt;
-&lt;a href=&quot;https://www.blogger.com/&quot;&gt;&lt;/a&gt;- they track the same data, it’s unfortunately
-just not as rich (no international data, and historical data is a bit spotty).
-I’ve been using data from there, and it’s more than good enough unless you
-need extremely granular or historical data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What Can I Even Do?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;(Also, if you’re desperate for a real Box Office Mojo fix, &lt;a href=&quot;https://web.archive.org/web/20141008014809/http://boxofficemojo.com/&quot;&gt;The Way Back
-Machine&lt;/a&gt;
-preserved it in all its former glory.)&lt;/p&gt;</content><author><name></name></author><summary type="html">I haven’t written anything in the past few months - both for personal reasons (switching careers kinda takes a while) and because I’ve been working on building a real website to supplement this blog. It’s taken much longer than I wanted, but I should hopefully have something soon. But I’m now compelled to write at least a quick post. At some point yesterday, Box Office Mojo, undoubtedly the premier source for movie financial data, completely disappeared. Like, The Leftovers disappeared. (If you click on the link, you’re taken to the IMDb box office page.) This is a huge deal - admittedly personally, in that it is an unrivaled and incredibly rich data source for movies, and so was the perfect source for real movie data analysis - but also for the industry. There are a bunch of articles on the subject - this one has some seriously distressed reactions about it, and rightly so. The film industry is incredibly secretive, or at least insular, when it comes to financial data - see this Wikipedia page on “Hollywood accounting”, an actual term someone made up to soften the idea that Hollywood studios routinely make up numbers to avoid paying those involved (for example, My Big Fat Greek Wedding , a film that reportedly cost $5mm to make and grossed $600mm worldwide, lost $20mm according to the studio). So to lose an entire source of movie financial data - and not only a source, THE source - is, at the very least, a serious blow to those reporting on the numbers, and at most, a worrisome move toward further financial/data-related secrecy in the movie industry. No one knows yet what will happen to it; IMDb did buy the site years ago, but left it intact. IMDb is owned by Amazon - which seems strange in that the two sites could not seem more unrelated, and doesn’t inspire confidence that they will be as open with the data as Box Office Mojo had been. This is well within their rights - they own the data and can do whatever they want with it - but it’s seriously concerning to anyone relying on the data. But who knows - maybe they’ll have a bigger, better, and more open site, with more advanced analysis, interactive charts, legitimate historical context, and an API. (They may completely replace what I’m trying to do here - but hey, then at least someone will be using the huge amount of data there in a sophisticated way.) Until then, I’d recommend using The Numbers - they track the same data, it’s unfortunately just not as rich (no international data, and historical data is a bit spotty). I’ve been using data from there, and it’s more than good enough unless you need extremely granular or historical data. (Also, if you’re desperate for a real Box Office Mojo fix, The Way Back Machine preserved it in all its former glory.)</summary></entry><entry><title type="html">I&amp;#8217;ve Gone To The Movies 263 Times Since 2002</title><link href="http://localhost:4000/2014/05/02/i've-gone-to-the-movies-263-times-since-2002.html" rel="alternate" type="text/html" title="I've Gone To The Movies 263 Times Since 2002" /><published>2014-05-02T00:00:00-04:00</published><updated>2014-05-02T00:00:00-04:00</updated><id>http://localhost:4000/2014/05/02/i've-gone-to-the-movies-263-times-since-2002</id><content type="html" xml:base="http://localhost:4000/2014/05/02/i've-gone-to-the-movies-263-times-since-2002.html">&lt;p&gt;Since July 2002, I’ve tried to save the ticket from every movie I’ve seen in a
-theater. In the beginning, I was, admittedly, not prescient enough to have
-saved every single one, but I did so with pretty reliable consistency in the
-last 10 or so years. I’ve had a lot of ideas about what to do with them -
-frame them, put them under a sheet of glass at the bar in my hip new downtown
-movie theater/bar/&lt;a href=&quot;http://www.imdb.com/title/tt0443409/?ref_=fn_al_tt_4&quot;&gt;ultimate hang
-zone&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Blank_Check_\(film\)&quot;&gt;throwing them
-all in the air while jumping on my
-bed&lt;/a&gt; - but to start, I did
-the boring thing and entered all of them into a spreadsheet.&lt;/p&gt;
+&lt;p&gt;Try this:
+&lt;img src=&quot;https://78.media.tumblr.com/99432a0edfd859651589fe79287c0bfc/tumblr_inline_nl1wztqZXg1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This was partially for my own - morbid - curiosity. But it’s also a dataset
-that’s easily analyzable, and, more importantly, mine. It’s personal, and
-hopefully tells a story about who I am. I don’t want to divorce this blog -
-which could be a potentially boring or impersonal collection of charts,
-numbers, and objective analyses - from the reason I started it - I genuinely,
-wholeheartedly love movies, and I want to say something about the art form and
-the industry that isn’t already being said. So in that spirit, I’m going to
-spend a few posts analyzing myself and my moviegoing habits - maybe it’ll be
-indicative of the way the rest of the world goes to the movies, maybe it’ll be
-an interesting look at my changing tastes and habits, or maybe it’ll just
-reveal that I’ve spent something like 3 weeks of my life (that I can account
-for) in a dark room, watching movies.&lt;/p&gt;
+&lt;p&gt;_text1 — _the full text of _Moby Dick — _is what you just loaded from NLTK above, and is now accessible/usable by Python. More specifically, it is an object of type ‘Text’ — this is specific to NLTK and allows you to perform a bunch of cool operations on it. In fact, try this:&lt;/p&gt;
 
-&lt;p&gt;I’m working on visualizations of the data - that again, may or may not be
-interesting, but hey! they’re interesting to me - but that’ll come later.
-First, my initial thoughts on my own moviegoing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;gt;&amp;gt;&amp;gt; dir(text1)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;first-conclusions&quot;&gt;First Conclusions&lt;/h4&gt;
+&lt;p&gt;It should look like this:&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;I have 263 movie tickets that I’ve saved since July 1, 2002. That’s 12 years ago. The first movie: &lt;em&gt;Mr. Deeds&lt;/em&gt;. The last movie: &lt;em&gt;Under the Skin&lt;/em&gt;. Make of that what you will.&lt;/li&gt;
-  &lt;li&gt;In that time, I’ve spent at least $2,340 at the theater. There are invariably movies missing from this, so it’s likely on the order of $3,000. Mostly my money, I’d hope.&lt;/li&gt;
-  &lt;li&gt;Of the 263 movies, 47.7% were PG-13, 38.9% were R, 8.7% were PG, 2.3% were G, and 2.3% weren’t technically rated. 0.38% was an R rated movie I snuck into three days before my 17th birthday ( &lt;em&gt;Final Destination 3&lt;/em&gt;  - but I got a ticket for &lt;em&gt;When a Stranger Calls&lt;/em&gt;. a. What’s the statute of limitations on sneaking into R-rated movies? b. Studios, get it together - February doesn’t have to be as bad as you make it.)&lt;/li&gt;
-  &lt;li&gt;I saw the most movies - 34 apiece - in both 2007 and 2008. 2013 was the lowest count since 2004, with only 17.&lt;/li&gt;
-  &lt;li&gt;In July 2008, I went to the movies 7 times - the most in any month - and had arguably the greatest week of all time (GWOAT) when I saw &lt;em&gt;The Dark Knight, The Dark Knight (IMAX), The Big Lebowski,&lt;/em&gt; and &lt;em&gt;Step Brothers&lt;/em&gt; in a single week. All downhill.
-    1. I saw  &lt;em&gt;The Dark Knight&lt;/em&gt;  5 times in the theater. I’ve spent $88.82 for the Batman franchise.&lt;/li&gt;
-  &lt;li&gt;I spent, on average, $8.95 per ticket. In later years, I figured out that if you go early, it’s cheaper! (Also if you know someone - that means it’s $0.00.)&lt;/li&gt;
-  &lt;li&gt;My most popular day and time, by a lot - Friday between 7PM and 8PM. I’m why people don’t go to the movies.&lt;/li&gt;
-  &lt;li&gt;Now for the most distressing stuff. Far and away my most frequented theater - &lt;a href=&quot;http://www.yelp.com/biz/amc-marple-10-springfield&quot;&gt;AMC Marple 10&lt;/a&gt; (“This place suckz!” - Yelp reviewer). 99 movies. Over $700. Greats like &lt;em&gt;Agent Cody Banks&lt;/em&gt; and &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0377471/&quot;&gt;Be Cool&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;It’s hard to single out the best or worst movie of all of these. And yet, it’s easy to single out the two worst - &lt;em&gt;Date Movie&lt;/em&gt; and _&lt;a href=&quot;http://www.rottentomatoes.com/m/covenant/&quot;&gt;The Covenant&lt;/a&gt; _ (“Daft but nonetheless enjoyable supernatural thriller, featuring some hilariously bad dialogue, impressive special effects and some genuinely creepy scenes.” - one of two who gave it a positive review).&lt;/li&gt;
-  &lt;li&gt;Worst week (of my life?): March 2005, &lt;em&gt;The Ring Two&lt;/em&gt; / &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0372237/&quot;&gt;Guess Who&lt;/a&gt;&lt;/em&gt;.
-    1. See also: July 2005,  &lt;em&gt;The Island/Fantastic Four&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;Maybe the most depressing stat: I’ve seen at least 18 movies twice in the theater. Among them: &lt;em&gt;Scary Movie 3&lt;/em&gt; , &lt;em&gt;Blades of Glory&lt;/em&gt; , &lt;em&gt;300&lt;/em&gt; , &lt;em&gt;Beerfest&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0373926/&quot;&gt;The Interpreter&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0443632/&quot;&gt;The Sentinel&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0443274/&quot;&gt;Vantage Point&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0450232/&quot;&gt;16 Blocks&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0409182/&quot;&gt;Poseidon&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0397101/&quot;&gt;The Skeleton Key&lt;/a&gt;&lt;/em&gt;? What is &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt0475394/&quot;&gt;Smokin’ Aces&lt;/a&gt;&lt;/em&gt;? Why did I see all of these things?&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://78.media.tumblr.com/c3ebf04cb55151980a105519d99be3b1/tumblr_inline_nl1z6aN85R1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;More to come on this.&lt;/p&gt;</content><author><name></name></author><summary type="html">Since July 2002, I’ve tried to save the ticket from every movie I’ve seen in a theater. In the beginning, I was, admittedly, not prescient enough to have saved every single one, but I did so with pretty reliable consistency in the last 10 or so years. I’ve had a lot of ideas about what to do with them - frame them, put them under a sheet of glass at the bar in my hip new downtown movie theater/bar/ultimate hang zone, throwing them all in the air while jumping on my bed - but to start, I did the boring thing and entered all of them into a spreadsheet. This was partially for my own - morbid - curiosity. But it’s also a dataset that’s easily analyzable, and, more importantly, mine. It’s personal, and hopefully tells a story about who I am. I don’t want to divorce this blog - which could be a potentially boring or impersonal collection of charts, numbers, and objective analyses - from the reason I started it - I genuinely, wholeheartedly love movies, and I want to say something about the art form and the industry that isn’t already being said. So in that spirit, I’m going to spend a few posts analyzing myself and my moviegoing habits - maybe it’ll be indicative of the way the rest of the world goes to the movies, maybe it’ll be an interesting look at my changing tastes and habits, or maybe it’ll just reveal that I’ve spent something like 3 weeks of my life (that I can account for) in a dark room, watching movies. I’m working on visualizations of the data - that again, may or may not be interesting, but hey! they’re interesting to me - but that’ll come later. First, my initial thoughts on my own moviegoing.</summary></entry><entry><title type="html">If Movie Tickets Worked Like Airline Tickets</title><link href="http://localhost:4000/2014/04/13/if-movie-tickets-worked-like-airline-tickets.html" rel="alternate" type="text/html" title="If Movie Tickets Worked Like Airline Tickets" /><published>2014-04-13T00:00:00-04:00</published><updated>2014-04-13T00:00:00-04:00</updated><id>http://localhost:4000/2014/04/13/if-movie-tickets-worked-like-airline-tickets</id><content type="html" xml:base="http://localhost:4000/2014/04/13/if-movie-tickets-worked-like-airline-tickets.html">&lt;p&gt;One of the most frustrating parts of going to the movies is how expensive it
-is. Tickets cost, on average,
-&lt;a href=&quot;http://www.boxofficemojo.com/about/adjuster.htm&quot;&gt;$8.35&lt;/a&gt; - yes, it costs $14
-in New York, and $5 in some less densely-populated places (or at smaller
-theaters). But regardless of variation among location and theater, the average
-ticket price is climbing steadily, and faster than inflation. (&lt;a href=&quot;http://%28here%27s%20a%20much%20deeper%20dive%20into%20that%20topic.%29/&quot;&gt;Here’s a much
-deeper dive into that
-topic.&lt;/a&gt;)
-And now, in good ol’ two-oh-one-four, if I can stay home and watch a movie for
-$7 that’s playing in theaters for $14 (something I just did - you should check
-out &lt;em&gt;&lt;a href=&quot;http://www.imdb.com/title/tt2382396/?ref_=fn_al_tt_1&quot;&gt;Joe&lt;/a&gt;&lt;/em&gt; ) - and I
-avoid having to get to the theater, sit with a bunch of potentially loud
-strangers, and be forced to think about the fact that sometimes &lt;a href=&quot;http://www.theonion.com/articles/fucking-loser-at-movie-
-all-by-himself,33302/&quot;&gt;seeing movies
-alone is kind of sad&lt;/a&gt;, why should I even bother?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;dir()&lt;/em&gt; is a really helpful Python command — it effectively shows all of the attributes associated with the object you put in the parentheses (important to note that everything in Python is an object, so you can use _dir() _with everything — &lt;a href=&quot;http://i.kinja-img.com/gawker-media/image/upload/s--QAu_RHov--/18k2ozi2bcff3jpg.jpg&quot;&gt;even &lt;em&gt;dir()&lt;/em&gt; itself&lt;/a&gt;). Put more simply, it’s everything you can do or access for a given object. It might seem overwhelming, but for now I’ll ignore everything with trailing and/or leading underscores (these are for the most part standard Python operators) and focus on the other stuff, specific to Text objects in NLTK (like ‘collocations’, ‘plot’, and the one we’re about to use).&lt;/p&gt;
 
-&lt;h3 id=&quot;yield-management&quot;&gt;Yield Management&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Searching Text&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Ignore the business-school-esque vocab - &lt;a href=&quot;http://en.wikipedia.org/wiki/Yield_management&quot;&gt;yield
-management&lt;/a&gt; should be pretty
-familiar to you. Airlines, hotels, and
-&lt;a href=&quot;http://en.wikipedia.org/wiki/BoltBus&quot;&gt;BoltBus&lt;/a&gt; (among others) all use yield
-management to price their tickets. &lt;a href=&quot;https://www.hotelschool.cornell.edu/research/chr/pubs/reports/abstract-13622.html&quot;&gt;According to a source much more legitimate
-than
-Wikipedia&lt;/a&gt;,
-“the core concept of yield management is to provide the right service to the
-right customer at the right time for the right price.” Think buying a ticket
-for a flight - at certain times (mid-January), it’s much cheaper, and at
-certain times (Christmas Eve), it’s much more expensive. And some seats are
-more expensive than others. It’s effectively letting the market decide the
-price for a ticket - when tickets are more in-demand, they are more expensive.&lt;/p&gt;
+&lt;p&gt;Promised we would, so let’s search the text!&lt;/p&gt;
 
-&lt;p&gt;But yield management, as a concept, can only be applied in particular
-situations. Again, according to Wikipedia (kids - find a book, this isn’t real
-citing), here are those conditions:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;gt;&amp;gt;&amp;gt; text1.concordance(‘whale’)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;_&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://78.media.tumblr.com/b932d3035d2e0fe72d5beb697980f612/tumblr_inline_nl1xm3hQLI1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;That there is a fixed amount of resources available for sale.&lt;/li&gt;
-  &lt;li&gt;That the resources sold are perishable (there is a time limit to selling the resources, after which they cease to be of value).&lt;/li&gt;
-  &lt;li&gt;That different customers are willing to pay a different price for using the same amount of resources.
-_&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;concordance _is one of the actions (aka methods) of Text objects (it’s just to. So you have a text object — _text1 — _call a method on it — &lt;/em&gt;.concordance()&lt;em&gt; — and put some argument in the parentheses — &lt;/em&gt;‘whale’&lt;em&gt;. The argument is a string you want to search for in the text. The result of this method is what you see above — all of the places in the text with the word ‘whale’ along with its context (all of the words surrounding it). It’s limited to displaying the top 25 (of 1226 — unsurprisingly, lots of whale talk in _Moby Dick&lt;/em&gt;). This is kind of amazing! It’s probably one of the simplest features of NLTK, but I can imagine a ton of applications — not the least of which is it just looks cool: you could make a web app just to do this and show the context for any word in some text!&lt;/p&gt;
 
-&lt;p&gt;I’ll get to how this relates to movie tickets in a second - but you can
-probably pick up on it.&lt;/p&gt;
+&lt;p&gt;Sidenote: ‘Concordance’ comes from publishing, and refers to exactly what we did above (list words in a text with their contexts). &lt;a href=&quot;http://en.wikipedia.org/wiki/Concordance_%28publishing%29&quot;&gt;Its Wikipedia entry&lt;/a&gt; highlights what makes NLTK, and computing in general, so amazing: ‘Because of the time, difficulty, and expense involved in creating a concordance in the pre-computer era, only works of special importance, such as the Vedas, Bible, Qur’an or the works of Shakespeare or classical Latin and Greek authors, had concordances prepared for them.’ Now we can do it with one command! That’s just the best.&lt;/p&gt;
 
-&lt;h3 id=&quot;movie-tickets-now&quot;&gt;&lt;strong&gt;Movie Tickets Now&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Finding Similar Words&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Movie tickets are, in my experience, priced much less intelligently. (If you
-know of any theaters that price more dynamically - I’d love to hear about it.)
-Usually, theaters have one of two pricing strategies:&lt;/p&gt;
+&lt;p&gt;Let’s try another cool method — &lt;em&gt;similar&lt;/em&gt;:&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Every ticket costs the same - a Friday night ticket for a 25-year-old to see &lt;em&gt;The Dark Knight&lt;/em&gt;  costs $14, a Tuesday afternoon ticket for a 15-year-old to see _&lt;a href=&quot;http://en.wikipedia.org/wiki/The_Oogieloves_in_the_Big_Balloon_Adventure&quot;&gt;The Oogieloves in the Big Balloon Adventure&lt;/a&gt; _ costs $14.&lt;/li&gt;
-  &lt;li&gt;Tickets are priced according to three variations - age, time of day, and type of theater. $10 for seniors and kids, $14 for adults. $8 matinees (but only Monday through Thursday, before noon!), full-price otherwise. $18 for 3D, $20 for IMAX.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&amp;gt;&amp;gt;&amp;gt; text1.similar(‘whale’)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;There are other variations (buying tickets in bulk, &lt;a href=&quot;http://www.nitehawkcinema.com/movie/five-dollar-
-film-club/&quot;&gt;requiring discussion
-afterwards for cheap tickets&lt;/a&gt;1) but I’ll stick to the above two as those are the vast majority
-of what I’ve seen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://78.media.tumblr.com/313e0eaf48226eb015a6f44a62d53545/tumblr_inline_nl1zecmrNa1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;But it doesn’t have to be this way. I’ve never understood why movie theaters
-(especially large chains) don’t change this strategy - by and large, they sell
-out certain movies on Friday and Saturday nights, and the theater is empty for
-other movies, and for other times. They’ve already paid for the screening of
-the movie - you might as well fill the room.&lt;/p&gt;
+&lt;p&gt;According to the NLTK book, &lt;em&gt;similar _finds ‘other words [that] appear in a similar range of contexts’ as the given word. So ‘ship’ is found in more contexts with ‘whale’ than any other word — because of this I can reasonably conclude that the two words are similar in _Moby Dick&lt;/em&gt;. Already I can see how I’d apply this elsewhere — e.g., I could find words similar to a particular topic, which could form the basis for more complex &lt;a href=&quot;http://en.wikipedia.org/wiki/Sentiment_analysis&quot;&gt;sentiment analysis&lt;/a&gt;. Or, again, I could just make a fun web app that allows you to type in a word and get similar words in a body of text. &lt;/p&gt;
 
-&lt;h3 id=&quot;a-better-way&quot;&gt;A Better Way&lt;/h3&gt;
-
-&lt;p&gt;Movie tickets fit the above criteria for yield management - there’s a fixed
-amount (of movie screening times), they are perishable (movies only stay in
-theaters for so long), and, though I haven’t done the research, I’ll make the
-assumption that different customers are willing to pay a different price
-(maybe not a perfect assumption, admittedly).&lt;/p&gt;
-
-&lt;p&gt;So here’s a better way of selling tickets - to make them cheaper (better for
-us, the customers), and to sell more (better for the theaters, and ultimately,
-the studios):&lt;/p&gt;
-
-&lt;p&gt;Make the pricing dynamic. In my view, it’d be based on three things:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Time bought (i.e., buying early is better)&lt;/li&gt;
-  &lt;li&gt;Demand (i.e., how many tickets have already been sold)&lt;/li&gt;
-  &lt;li&gt;Seat location&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can throw in any number of variables, but I wanted to keep it simple.&lt;/p&gt;
-
-&lt;p&gt;Here’s the way it’d work:&lt;/p&gt;
-
-&lt;p&gt;Every seat has a range of prices, and you have to buy reserved seats (like a
-flight, a concert, etc.). Let’s take the best seat in the house - center, to
-the middle (you can argue that forever - but let’s just assume it is). This
-seat always starts at $10, and can be as expensive as $15. Other seats have
-different ranges, based on what’s most popular. The price changes as two
-things change - days until the screening, and the number of tickets already
-bought. So the most expensive ticket you’ll ever buy is the $15 best seat in
-the house, as the last ticket, on the day of the screening. As tickets are
-bought elsewhere in the theater for that screening, the price of that seat
-goes up and up - the movie is clearly in demand. And as it gets closer to that
-screening, it also climbs in price - better to buy early.&lt;/p&gt;
-
-&lt;p&gt;This would have a few effects:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Theaters would fill earlier.&lt;/strong&gt; If it’s cheaper to buy in advance, people will do that. This guarantees revenue ahead of time for the theater - this is good for the theater.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Movies that people don’t want to see would be cheaper.&lt;/strong&gt; If no one’s buying tickets for a movie, it’ll be cheaper for the customer who does want to see it. &lt;em&gt;The Dark Knight  _should cost more to see than the _Oogieloves&lt;/em&gt;  - it’s more in demand.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Times that are less convenient would be cheaper.&lt;/strong&gt; Tuesday afternoons will end up being cheaper than Friday nights - and again, they should be. They’re less in demand.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Crowds would spread across screenings and movies.&lt;/strong&gt; For the same reasons as above, if it’s cheaper to see certain movies at certain times, people might end up going to those screenings instead of the Friday night blockbuster.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Movies would be cheaper in the weeks after release.&lt;/strong&gt; If the opening weekend is the most popular time to see a film, it’ll also be the most expensive. It should be cheaper to go see something in its fifth weekend of release.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;More people would go to the movies.&lt;/strong&gt;  In theory.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Of course, I’m fully extrapolating here - I don’t know any of these things for
-certain. And this doesn’t account for the likeliest reason it hasn’t happened
-yet - theaters may not make more money. But this model has been successful
-across other industries, and, in my thinking, would possibly change the
-cultural perception of theaters as overly-expensive nights out. It’s worth
-thinking about in more detail (believe me - I intend to). I just don’t want to
-see a night out at the movie theater become a night out at the Broadway
-theater - a once-a-year treat for people who can afford that sort of thing.&lt;/p&gt;
-
-&lt;p&gt;( &lt;em&gt;Note:&lt;/em&gt; A few services for cheaper movie tickets do exist. Two of the ones
-I’ve found are &lt;a href=&quot;https://www.moviepass.com/&quot;&gt;MoviePass&lt;/a&gt; (monthly subscription,
-unlimited movies - think Netflix) and
-&lt;a href=&quot;https://www.dealflicks.com/&quot;&gt;Dealflicks&lt;/a&gt; (“Priceline for movie tickets”).
-Just by the description, Dealflicks seems to hit on some of what I’m saying -
-but the pricing has a lack of transparency/logic, so you can’t actually tell
-why something is cheaper. Ideally, the theaters themselves would use dynamic
-pricing - that’s the only way I see it spreading throughout the industry.)&lt;br /&gt;
-&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;_&lt;/p&gt;
-
-&lt;p&gt;1Disclaimer: I do this, and it’s pretty great.&lt;/p&gt;</content><author><name></name></author><summary type="html">One of the most frustrating parts of going to the movies is how expensive it is. Tickets cost, on average, $8.35 - yes, it costs $14 in New York, and $5 in some less densely-populated places (or at smaller theaters). But regardless of variation among location and theater, the average ticket price is climbing steadily, and faster than inflation. (Here’s a much deeper dive into that topic.) And now, in good ol’ two-oh-one-four, if I can stay home and watch a movie for $7 that’s playing in theaters for $14 (something I just did - you should check out Joe ) - and I avoid having to get to the theater, sit with a bunch of potentially loud strangers, and be forced to think about the fact that sometimes seeing movies alone is kind of sad, why should I even bother?</summary></entry><entry><title type="html">The Box Office: An Interactive Chart</title><link href="http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html" rel="alternate" type="text/html" title="The Box Office: An Interactive Chart" /><published>2014-03-16T00:00:00-04:00</published><updated>2014-03-16T00:00:00-04:00</updated><id>http://localhost:4000/2014/03/16/the-box-office:-an-interactive-chart</id><content type="html" xml:base="http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html">&lt;p&gt;In the spirit of never making anyone look at an ugly, boring Excel graph about
-movies again, I’ve learned the (very basic) basics of &lt;a href=&quot;http://d3js.org/&quot;&gt;D3&lt;/a&gt;1
-- effectively, I can make interactive graphics. The hope is that I can use
-this to make these posts more engaging, while also including significantly
-more information than I could otherwise.&lt;/p&gt;
-
-&lt;p&gt;Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which
-these use - so I am hosting all of this at my very own website -
-&lt;a href=&quot;http://interactive.137to1.com/&quot;&gt;1.37:1&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After practicing a bit, the first thing I made was an area chart of the
-domestic box office over the last few months. It’s really a follow-up to my
-last post - it takes the gross of all movies on a given day as a percentage of
-the total gross in that day. But now you can actually see what makes up the
-chart - and see, for example, how &lt;em&gt;The Hobbit&lt;/em&gt;  made up about half of the
-money spent on its opening weekend, but faded fast, while &lt;em&gt;Frozen’s&lt;/em&gt; run has
-lasted for months.&lt;/p&gt;
-
-&lt;p&gt;The second thing I added was several ways to look at the data: by Movie (like
-above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can
-click any of those titles to change the chart to that classification. This
-data is all taken directly from Box Office Mojo - again, they do a great job
-with storing all of this data (though their genres need a little work).&lt;/p&gt;
-
-&lt;p&gt;For example - here I’m looking at how much of the domestic box office revenue
-was accounted for by PG-13 movies (after clicking MPAA Rating):&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-TjsJRgmUF0c/UyYz9TZkWhI/AAAAAAAAAJ0/qMhim5YdqdQ/s1600/rating.png&quot;&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-TjsJRgmUF0c/UyYz9TZkWhI/AAAAAAAAAJ0/qMhim5YdqdQ/s1600/rating.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Month of Release is the one I wanted to highlight - it shows the gross
-accounted for by movies released in a particular month.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com
-/-pi-iLumrU6Y/UyY1_LsRw8I/AAAAAAAAAKA/I3YOUe6VmrY/s1600/releasemonth.png&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-pi-
-iLumrU6Y/UyY1_LsRw8I/AAAAAAAAAKA/I3YOUe6VmrY/s1600/releasemonth.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;All of these would be much more interesting over a much longer period of time,
-but this one would be more than anything. It’s really showing two things: how
-well movies released in one month do in the subsequent months, and how poorly
-movies do in their month of release. In the chart above, the dark green is
-December movies, and the light green is January movies. Not a shock to anyone&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;movies released in January are generally expected to perform terribly (and
-are usually, with some exceptions, terribly received), and movies released in
-December are generally either pushed for the Oscars or expected to be
-blockbusters. But, it’s another thing to have the numbers verify that.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Again, this is a short timeframe and has very little to say in the way of real
-trends across time. There are only around 50-100 movies regularly tracked in
-the domestic box office - a relatively small sample size - and the list only
-incrementally changes. Moreover, the makeup of the box office changes
-drastically from month to month and from season to season; January looks very
-different from March, and spring very different from summer. That makes it
-harder to intuit real changes - you’d need to look at multiple seasons and
-years for true trends to take hold. But that, in short, is one of the major
-points I’m attempting to investigate.&lt;/p&gt;
+&lt;p&gt;This obviously barely scratches the surface of natural language processing and the Natural Language Toolkit, but hopefully gets you a little interested. I’d love to write more about some of the other features/possibilities, and maybe even walk through a project I’ll create with it (though I have to do it first). I’m sure I’ll have more to say soon.&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;Data source: &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office Mojo&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;1Not &lt;a href=&quot;http://www.imdb.com/title/tt0116000/&quot;&gt;this&lt;/a&gt; D3.&lt;/p&gt;</content><author><name></name></author><summary type="html">In the spirit of never making anyone look at an ugly, boring Excel graph about movies again, I’ve learned the (very basic) basics of D31 - effectively, I can make interactive graphics. The hope is that I can use this to make these posts more engaging, while also including significantly more information than I could otherwise. Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which these use - so I am hosting all of this at my very own website - 1.37:1. After practicing a bit, the first thing I made was an area chart of the domestic box office over the last few months. It’s really a follow-up to my last post - it takes the gross of all movies on a given day as a percentage of the total gross in that day. But now you can actually see what makes up the chart - and see, for example, how The Hobbit made up about half of the money spent on its opening weekend, but faded fast, while Frozen’s run has lasted for months. The second thing I added was several ways to look at the data: by Movie (like above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can click any of those titles to change the chart to that classification. This data is all taken directly from Box Office Mojo - again, they do a great job with storing all of this data (though their genres need a little work). For example - here I’m looking at how much of the domestic box office revenue was accounted for by PG-13 movies (after clicking MPAA Rating):</summary></entry><entry><title type="html">A Different Way To Analyze The Box Office</title><link href="http://localhost:4000/2014/03/12/a-different-way-to-analyze-the-box-office.html" rel="alternate" type="text/html" title="A Different Way To Analyze The Box Office" /><published>2014-03-12T00:00:00-04:00</published><updated>2014-03-12T00:00:00-04:00</updated><id>http://localhost:4000/2014/03/12/a-different-way-to-analyze-the-box-office</id><content type="html" xml:base="http://localhost:4000/2014/03/12/a-different-way-to-analyze-the-box-office.html">&lt;p&gt;Normally, analysis of the domestic box office in order to discern any
-meaningful insight is difficult. New movies are released every week, each
-movie is released in a different number of theaters, and patterns of movie
-attendance vary from day to day, week to week, month to month, and season to
-season. If more people tend to go to the movies on Monday than on Tuesday, how
-can you possibly tell whether a particular movie is doing well on Tuesday
-versus Monday?&lt;/p&gt;
+&lt;p&gt;Resources:&lt;/p&gt;
 
-&lt;p&gt;I’d like to isolate one of those issues - day-over-day comparison. Currently,
-sites like &lt;a href=&quot;http://www.boxofficemojo.com/daily/chart/&quot;&gt;Box Office Mojo&lt;/a&gt; tend
-to emphasize the change in dollars spent on a particular movie from one day to
-the next. As a quick example: the percentage under the dollar amount
-represents the change in dollars spent on each movie from one day to the next.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nltk.org/book_1ed/&quot;&gt;NLTK book&lt;/a&gt;: The better-written basis for this post. Go try it out!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-G8VLe103VF8/UyDhhXmVBzI/AAAAAAAAAJM/kkTpVUWeU-c/s1600/DailyBoxOffice.JPG&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-G8VLe103VF8/UyDhhXmVBzI/AAAAAAAAAJM/kkTpVUWeU-c/s1600/DailyBoxOffice.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nltk.org/&quot;&gt;NLTK&lt;/a&gt;: The home for the Natural Language Toolkit. Has some simple/cool examples and additional resources.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hacker School: Week 10, Day 2</summary></entry><entry><title type="html">Thank the Academy</title><link href="http://jimjshields.github.io/programming,/recurse/center,/oscars/2015/02/19/thank-the-academy.html" rel="alternate" type="text/html" title="Thank the Academy" /><published>2015-02-19T00:00:00-05:00</published><updated>2015-02-19T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/oscars/2015/02/19/thank-the-academy</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/oscars/2015/02/19/thank-the-academy.html">&lt;p&gt;Hacker School: Week 7, Day 4&lt;/p&gt;
 
-&lt;p&gt;Well, that’s not particularly meaningful when you’re comparing Sunday to
-Monday - more people will always go to movies on the (Friday, Saturday,
-Sunday) weekend than on a weekday, hence the 70% drop for these movies.&lt;/p&gt;
+&lt;p&gt;Big gap between writing.&lt;/p&gt;
 
-&lt;p&gt;Here’s another way to think about it - given that a certain amount of money is
-spent on movies in domestic theaters on any given day, what percentage does a
-particular movie represent, and how does that percentage change? Sure, &lt;em&gt;Non-
-Stop&lt;/em&gt; made $1.3 million on Monday and $1.7 million on Tuesday, but did it
-really do any better on Tuesday? Aren’t there just more people going to the
-movies on Tuesday?&lt;/p&gt;
+&lt;p&gt;I’ve made pretty steady progress on two projects - one the web framework I’ve been writing, and one a web app (&lt;a href=&quot;http://thanktheacademy.herokuapp.com/&quot;&gt;try it out!&lt;/a&gt;). I’m not really finished either - one of the major problems I’ve noticed in programming is the eternal question I have, “is it finished?” - but the web app is simpler to understand, more fun, and super relevant for the Oscars! (or irrelevant if you don’t like the Oscars).&lt;/p&gt;
 
-&lt;p&gt;Put it this way - what’s harder to analyze: the first chart or the second
-chart?&lt;/p&gt;
+&lt;p&gt;Last week, I found &lt;a href=&quot;http://aaspeechesdb.oscars.org/&quot;&gt;this&lt;/a&gt;, a database for Academy Award acceptance speeches. I decided I had to use it. So I first got all of the data together - using Python to gather the data (I’ll leave out the details, but they involve regular expression matching, parsing HTML, and, depressingly, copying and pasting - the site is not the best). And then I built a web app - one with questionable styling, but which does two different, real things!!! - on top of the data! And you can use it!
+&lt;img src=&quot;https://78.media.tumblr.com/6bc231220a924fa509aa6dd1bd64cf08/tumblr_inline_nk1eav6wrK1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-matGg5h3nH4/UyDlbhxGTfI/AAAAAAAAAJY
-/-SIuu_-9mNA/s1600/DailyBoxOffice+-+2014+YTD.JPG&quot;&gt;&lt;img src=&quot;http://1.bp.blogspot.com/-matGg5h3nH4/UyDlbhxGTfI/AAAAAAAAAJY/-SIuu_-
-9mNA/s1600/DailyBoxOffice+-+2014+YTD.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;First, it &lt;a href=&quot;http://thanktheacademy.herokuapp.com/&quot;&gt;randomly generates an Oscar thank you speech&lt;/a&gt; (like above) based on all speeches ever given. It does this through a concept called a &lt;a href=&quot;http://en.wikipedia.org/wiki/Markov_chain&quot;&gt;Markov chain&lt;/a&gt; - the basic idea is that you take a body of text (here, all speeches) and break it down into sequences of words of a specific number (here, 3 words - but that’s arbitrary) called an &lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/N-gram&quot;&gt;n-gram&lt;/a&gt;&lt;/strong&gt;. So a 3-word n-gram could be “Thank you to” or “cast and crew” or “Tommy Lee Jones.” An algorithm (that &lt;a href=&quot;https://github.com/amandapickering/markovgenerator&quot;&gt;another Hacker Schooler wrote&lt;/a&gt; - thanks again!!) then collects every unique n-gram in all of the text, and matches/maps each one to a list of all of the words that follow it. So “Thank you to” would be mapped to “the”, “God”, “my”, and anything else that followed that n-gram in the text. Once that’s done, you can generate a seemingly random block of text - except it’s only random in that it randomly chooses the words based on that previous mapping. So “Thank you to” might be followed by “the”, “God”, or “my” - but never by something it wasn’t mapped to. It’s much more complex than that, and I’m glossing over specifics, but &lt;a href=&quot;http://thanktheacademy.herokuapp.com/&quot;&gt;see it for yourself&lt;/a&gt; - it’ll “randomly” generate a thank you speech for you, one that looks almost real because of the Markov chain being used, and you’ll almost definitely never see the same one twice.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://4.bp.blogspot.com
-/-xx7yE-
-tzS3Y/UyDmKc07iFI/AAAAAAAAAJk/reJNXLFdeA0/s1600/DailyBoxOffice+-+2014+YTD+-+Out+of+100%25.JPG&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/-xx7yE-
-tzS3Y/UyDmKc07iFI/AAAAAAAAAJk/reJNXLFdeA0/s1600/DailyBoxOffice+-+2014+YTD+-+Out+of+100%25.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://78.media.tumblr.com/e39857b6600132fb84b39e5d8d063bbd/tumblr_inline_nk1ebeMr521t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I didn’t include the movie names on purpose. Not only would it be extremely
-difficult to visually match each to a color, but also, what I’d like to get
-across with this post is that it is easier to view trends using the second
-chart. For example, the dark gray area represents &lt;em&gt;The Lego Movie&lt;/em&gt;. In the
-first chart, it’s very difficult to see how it performed over time. In the
-second, by removing the effect of the fluctuations of overall box office
-revenue, trends are much easier to spot. &lt;em&gt;The Lego Movie&lt;/em&gt; continued to hold a
-strong percentage of total box office receipts even as it was making fewer
-dollars.&lt;/p&gt;
+&lt;p&gt;Second, I did a &lt;a href=&quot;http://thanktheacademy.herokuapp.com/analysis&quot;&gt;bit of analysis&lt;/a&gt; on the length of the speeches. There are two interactive visualizations - one for the length of every single speech since 1966 (data before that is a bit spotty) and one for the average per year. You can see (above) that, on average, speeches are definitely getting longer, at least by number of words - especially when you include Honorary speeches (those are getting exactly as long as you think - aka REALLY LONG - calm down, D.A. Pennebaker). 
+&lt;img src=&quot;https://78.media.tumblr.com/d179c3f86665a12fd7f06c46befa2a98/tumblr_inline_nk1eezhymt1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is a very contained time period, from which it is hard to draw any
-insightful conclusions - this is simply a different way to look at the box
-office. But I will continue to incorporate more data, and hopefully
-interactive visualizations, that make it easier to spot trends over time - not
-only on a movie by movie basis, but by genre, rating, gender of the lead
-character, length of the movie, time period in which a movie is set, and any
-other category that could be applied to films.&lt;/p&gt;
+&lt;p&gt;You can also see how long individual speeches are, and filter for particular categories. The one above is Best Picture - if you hover over any of the bars you’ll get all of the associated info - for Titanic. (Shock, they went super long too.) You can even click on “Speech (click to show)” at the bottom to actually see the speech, or be taken directly to the Oscar website entry for that speech (if you’re tryna watch that D.A. Pennebaker speech - hint: it’s so long they don’t even have the full video).&lt;/p&gt;
 
-&lt;p&gt;(All box office data is from &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;Box Office
-Mojo&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Overall, this has been a really fun project - but also somewhat frustrating/against what I know is best for my learning. I spent too much time on styling, on data cleaning, on interactivity, and ultimately feel like I could’ve learned more by diving into one particular thing. What’s more, I know this hasn’t been great in that I worked alone on it - Hacker School is especially good as I am surrounded by other programmers, and they’re all willing to work together on really cool projects. I somehow keep finding myself drifting back to working on my own. Ultimately, it makes for projects I want to work on - usually movie-related, clearly - but also leads to me getting lost in my own head, going down rabbit holes, and not focusing on what would be best for learning. I’d like to make a concerted effort in these last few weeks to work with others on projects - even if they’re not exactly what I want to work on.&lt;/p&gt;
 
-&lt;p&gt;(Sidenote: This may seem similar to a &lt;a href=&quot;http://www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html&quot;&gt;very cool visualization
-&lt;/a&gt;the
-New York Times put together a few years ago. I suggest you check it out - it’s
-fun to play around with - but it’s not quite what I have in mind for analyzing
-the data.)&lt;/p&gt;</content><author><name></name></author><summary type="html">Normally, analysis of the domestic box office in order to discern any meaningful insight is difficult. New movies are released every week, each movie is released in a different number of theaters, and patterns of movie attendance vary from day to day, week to week, month to month, and season to season. If more people tend to go to the movies on Monday than on Tuesday, how can you possibly tell whether a particular movie is doing well on Tuesday versus Monday? I’d like to isolate one of those issues - day-over-day comparison. Currently, sites like Box Office Mojo tend to emphasize the change in dollars spent on a particular movie from one day to the next. As a quick example: the percentage under the dollar amount represents the change in dollars spent on each movie from one day to the next.</summary></entry><entry><title type="html">Will Anyone Watch Tonight&amp;#8217;s Oscars?</title><link href="http://localhost:4000/2014/03/02/will-anyone-watch-tonight's-oscars.html" rel="alternate" type="text/html" title="Will Anyone Watch Tonight's Oscars?" /><published>2014-03-02T00:00:00-05:00</published><updated>2014-03-02T00:00:00-05:00</updated><id>http://localhost:4000/2014/03/02/will-anyone-watch-tonight's-oscars</id><content type="html" xml:base="http://localhost:4000/2014/03/02/will-anyone-watch-tonight's-oscars.html">&lt;p&gt;Claims are often made about why television viewership of the Academy Awards
-ceremony fluctuates from year to year - it’s the
-&lt;a href=&quot;http://www.eonline.com/news/391690/2013-oscars-ratings-seth-macfarlane-
-bumps-up-numbers-from-2012-how-does-he-rank-against-previous-hosts&quot;&gt;host&lt;/a&gt;, the
-&lt;a href=&quot;http://www.nytimes.com/2012/02/28/movies/awardsseason/oscars-flat-tv-
-ratings-worry-hollywood.html&quot;&gt;films up for Best
-Picture&lt;/a&gt;, the &lt;a href=&quot;http://www.cnn.com/2009/SHOWBIZ/Movies/06/24/oscars.expansion.nominees/&quot;&gt;number of films up for Best
-Picture&lt;/a&gt;,
-or various other reasons.&lt;/p&gt;
+&lt;p&gt;Until then, happy Oscars!!!! (if you don’t celebrate, enjoy the weekend, I suppose)&lt;/p&gt;</content><author><name></name></author><summary type="html">Hacker School: Week 7, Day 4</summary></entry><entry><title type="html">Fundamentals</title><link href="http://jimjshields.github.io/programming,/recurse/center,/rotten/tomatoes/2015/02/06/fundamentals.html" rel="alternate" type="text/html" title="Fundamentals" /><published>2015-02-06T00:00:00-05:00</published><updated>2015-02-06T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/rotten/tomatoes/2015/02/06/fundamentals</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/rotten/tomatoes/2015/02/06/fundamentals.html">&lt;p&gt;(Hacker School: Week 5, Day 5. Fair warning, this one's pretty technical.)&lt;/p&gt;
+&lt;p&gt;Here I am, it's the fifth day of the fifth week of Hacker School. I haven't written a post in a week - out of laziness, maybe; out of a desire to code instead of write, &lt;a href=&quot;https://www.youtube.com/watch?v=f28klp1qQGI&quot;&gt;oh most definitely&lt;/a&gt;&lt;sup&gt;1&lt;/sup&gt;. That's been the value of this week - writing code on my own (as opposed to from tutorials or books).&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;Damn Hard&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;A friend sent me a &lt;a href=&quot;http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard&quot;&gt;great post&lt;/a&gt; the other day that encapsulates much of what has been so strange, and newly frustrating, about learning how to program (mostly) on my own. It's worth a read, especially if you've been learning on your own - you'll just nod your head a lot - but the author's point is that learning to code on your own is hard (damn hard). It's probably not unique in that respect (I can't speak to other disciplines); but, the author speaks well to the particular difficulties I've encountered so far. In the beginning, my learning was certainly characterized by an initial rush of understanding - I know how to write Python! - and a subsequent drop of confidence - I have no idea what to do with Python! It's an empty feeling - I know something, but I don't know what to do with that knowledge. And it began to erode my confidence.&lt;/p&gt;
+&lt;p&gt;So in my time off between work and Hacker School, I learned how to build apps/sites in Django and in Meteor - big web frameworks that aren't exactly beginner-friendly. I shot for the moon, and missed, but landed in like, &lt;a href=&quot;http://schmoesknow.com/wp-content/uploads/2014/04/the-17-minute-take-in-gravity-is-a-masterpiece.jpg&quot;&gt;George Clooney territory&lt;/a&gt;, not &lt;a href=&quot;http://www.fbcustom.me/covers/36/1327489921_shoot-for-the-moon.jpg&quot;&gt;among the stars&lt;/a&gt;.&lt;sup&gt;2&lt;/sup&gt; That is, I got something to work! And had no idea how it worked. &lt;/p&gt;
+&lt;p&gt;Is that useful - to get something done, have something to show, but not know how it happened? &lt;a href=&quot;https://www.hackerschool.com/manual#sec-principles&quot;&gt;Hacker School doesn't think so&lt;/a&gt; - and I don't either. I think it's much more important to understand something - especially something as complex as a web app - &lt;a href=&quot;http://shieldsofdreams.tumblr.com/post/109617994633/from-the-ground-up&quot;&gt;from the ground up&lt;/a&gt;.&lt;sup&gt;3&lt;/sup&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;The Fundamentals&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;And that's what I've been focusing on here - learning why and how something works. But it's time-consuming, often confusing, and there's not always something visible to show for it. So this week has been especially interesting in being mostly spent on two very different projects.&lt;/p&gt;
+&lt;p&gt;The first project is a small web framework, written in Python. I've been working alongside a fellow Hacker Schooler, Paul, and we've been building similar but separate frameworks. We spent much of the week digging as deeply as possible into how to build a web application in Python from scratch. And we've learned a lot - about how the internet works, how and why simple web frameworks (like &lt;a href=&quot;http://bottlepy.org/docs/dev/index.html&quot;&gt;Bottle&lt;/a&gt; and &lt;a href=&quot;http://flask.pocoo.org/docs/0.10/&quot;&gt;Flask&lt;/a&gt;) do what they do, and how to handle seemingly simple things like HTTP requests. It's fascinating, fun, and often frustrating to build something from scratch - it's helped me to appreciate the people who have spent their time making sure 99.5% of us never have to think about things like HTTP requests or URLs. But at the same time, here's my visible progress thus far:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;figure&gt;&lt;img src=&quot;https://78.media.tumblr.com/2385cf10cb87e7c73fb8bb79ebd8178d/tumblr_inline_njd1dyPylz1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;But is visible progress even important? Would I learn more if I actually built something - something that does more than allows me to type in my name and favorite movie and shows a lame, code-esque representation of exactly what I typed in?&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;Overcoming 'Fear'&lt;sup&gt;5&lt;/sup&gt;&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;My second project came to me late Wednesday afternoon. I've been wanting to use the &lt;a href=&quot;http://developer.rottentomatoes.com/&quot;&gt;Rotten Tomatoes API&lt;/a&gt; - Rotten Tomatoes is a movie review aggregation site, so naturally I wanted to use it - but had been legitimately scared off because I couldn't conceptualize how it would work. Most simply, I was scared of the word (acronym) &lt;a href=&quot;http://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt;. Programmers around me have used 'API' to describe so many seemingly unrelated things that it became almost impossible for me to wrap my head around what it meant concretely. But in &lt;a href=&quot;https://www.hackerschool.com/manual#sub-sec-fear&quot;&gt;keeping with the spirit of Hacker School&lt;/a&gt;, I was determined to confront that fear. Here's a great passage from HS's manual (linked above):&lt;/p&gt;
+&lt;blockquote&gt;&lt;div&gt;Another obstacle we try to remove is fear. We think this is one of the most pernicious impediments to education. In most of the world, but especially school and work, people are afraid of looking stupid. This fear frequently keeps us from asking important questions like &quot;how does that work?&quot; or even just &quot;why?&quot; Worse, it keeps us from saying &quot;I don't understand.&quot; That means many of us muddle on with a half-baked or entirely incorrect understanding of core concepts. This is particularly bad with programming, because these misunderstandings compound, and over time become harder and more embarrassing to admit to and address.&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;So I pressed forward to find out how it worked. And as it turned out, there was nothing to be scared of - it entirely depends on the API, but the one given by Rotten Tomatoes is easy to use if you have some understanding of URLs and working with JSON data (if you don't, that's ok too! It takes some time to learn but is at least pretty intuitive). The basic concept is you, as a developer, get a key from them - this tells them you're not a robot, essentially - and then you can access a certain amount of data in a predefined format (JSON) using predefined queries/parameters - like a movie you want to search for, or a specific data set like upcoming movies (in the form of URLs). And then you can do what you want with that data. So here's what I did!&lt;/p&gt;
+&lt;figure class=&quot;&quot;&gt;&lt;img src=&quot;https://78.media.tumblr.com/f9d87f016125ee80b1552ca024b124de/tumblr_inline_njdafwSflU1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;I made a command line interface! It's not done yet - you can't actually access all of those things (well, &lt;i&gt;you&lt;/i&gt; can't access any of them yet, only I can) - but I've made good progress. It's less cool-looking than a fully-functional web app - but also a lot easier to make, and thus a lot less frustrating. It was an easy win for me, got me motivated about building something on my own, and was fun to do - all a great contrast to something more esoteric like building a web framework.&lt;/p&gt;
 
-&lt;p&gt;I chose to focus on one part of that - the films up for Best Picture - and
-analyze them based on their box office revenue prior to the ceremony each
-year. I stuck to the period from 1982 to today, due to the box office numbers
-being less consistent prior to that point, and to domestic box office and
-viewership numbers.&lt;/p&gt;
+&lt;p&gt;More importantly, let's search for a movie - 'batman'!!!&lt;/p&gt;
+&lt;figure class=&quot;&quot;&gt;&lt;img src=&quot;https://78.media.tumblr.com/c69d8cd8c78feb836d70667fc3e8f396/tumblr_inline_njdami8MIH1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;I don't care about &lt;i&gt;The Dark Knight&lt;/i&gt;&lt;sup&gt;6&lt;/sup&gt; - let's get more info on &lt;i&gt;Batman &amp;amp; Robin&lt;/i&gt;!&lt;/p&gt;
+&lt;figure class=&quot;&quot;&gt;&lt;img src=&quot;https://78.media.tumblr.com/c68f96110a3eeb9a9d67b98cd393d0c3/tumblr_inline_njdao9r2Mm1t8beow.png&quot; alt=&quot;image&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;So 'more info' just means small snippets of reviews for now - but it's something. And hey, you can easily see who hated and loved Batman &amp;amp; Robin! (Answer: everyone hated it except the Times, inexplicably. And 'wounded yeti' could stand to be part of the lexicon over, like, selfie.)&lt;/p&gt;
+&lt;p&gt;In conclusion: it's a valuable struggle to build something from scratch - I for one have learned a lot so far from the experience of building a web framework. At the same time, I'd argue that it's extremely important when learning any skill - but especially something as broad and potentially overwhelming as programming - to work on small, doable, motivating projects applying some small portion of what's been learned so far. These allow for a mental breather - I don't have to learn a whole new concept - and help to actually solidify learning in a meaningful, lasting way. It was rejuvenating to build something quickly, easily, and with showable results - and in color! What a week.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;sup&gt;1. If by some unfortunate accident you haven't watched &lt;i&gt;Arrested Development&lt;/i&gt; do yourself a favor and stop reading this right now, come back in 25 hours when you're done, thanks.&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;2. I really wanted to clumsily work that overly inspirational quote in there somehow. &lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;3. Bold move, plugging your own blog in your blog.&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;4. No, I didn't watch &lt;i&gt;The Social Network&lt;/i&gt; and get really inspired to go and learn programming. The Zuck of that movie is lonely and sad and &lt;i&gt;Citizen-Kane&lt;/i&gt;-esque and I don't want to emulate it. It's just a great movie by a great director who can't stop making great movies. (And I just like programming.)&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;5. Not &lt;a href=&quot;http://www.imdb.com/title/tt0116287/&quot;&gt;this Fear.&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;6. Lie.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 5, Day 5. Fair warning, this one's pretty technical.) Here I am, it's the fifth day of the fifth week of Hacker School. I haven't written a post in a week - out of laziness, maybe; out of a desire to code instead of write, oh most definitely1. That's been the value of this week - writing code on my own (as opposed to from tutorials or books). Damn Hard A friend sent me a great post the other day that encapsulates much of what has been so strange, and newly frustrating, about learning how to program (mostly) on my own. It's worth a read, especially if you've been learning on your own - you'll just nod your head a lot - but the author's point is that learning to code on your own is hard (damn hard). It's probably not unique in that respect (I can't speak to other disciplines); but, the author speaks well to the particular difficulties I've encountered so far. In the beginning, my learning was certainly characterized by an initial rush of understanding - I know how to write Python! - and a subsequent drop of confidence - I have no idea what to do with Python! It's an empty feeling - I know something, but I don't know what to do with that knowledge. And it began to erode my confidence. So in my time off between work and Hacker School, I learned how to build apps/sites in Django and in Meteor - big web frameworks that aren't exactly beginner-friendly. I shot for the moon, and missed, but landed in like, George Clooney territory, not among the stars.2 That is, I got something to work! And had no idea how it worked.  Is that useful - to get something done, have something to show, but not know how it happened? Hacker School doesn't think so - and I don't either. I think it's much more important to understand something - especially something as complex as a web app - from the ground up.3 The Fundamentals And that's what I've been focusing on here - learning why and how something works. But it's time-consuming, often confusing, and there's not always something visible to show for it. So this week has been especially interesting in being mostly spent on two very different projects. The first project is a small web framework, written in Python. I've been working alongside a fellow Hacker Schooler, Paul, and we've been building similar but separate frameworks. We spent much of the week digging as deeply as possible into how to build a web application in Python from scratch. And we've learned a lot - about how the internet works, how and why simple web frameworks (like Bottle and Flask) do what they do, and how to handle seemingly simple things like HTTP requests. It's fascinating, fun, and often frustrating to build something from scratch - it's helped me to appreciate the people who have spent their time making sure 99.5% of us never have to think about things like HTTP requests or URLs. But at the same time, here's my visible progress thus far: 4 But is visible progress even important? Would I learn more if I actually built something - something that does more than allows me to type in my name and favorite movie and shows a lame, code-esque representation of exactly what I typed in? Overcoming 'Fear'5 My second project came to me late Wednesday afternoon. I've been wanting to use the Rotten Tomatoes API - Rotten Tomatoes is a movie review aggregation site, so naturally I wanted to use it - but had been legitimately scared off because I couldn't conceptualize how it would work. Most simply, I was scared of the word (acronym) API. Programmers around me have used 'API' to describe so many seemingly unrelated things that it became almost impossible for me to wrap my head around what it meant concretely. But in keeping with the spirit of Hacker School, I was determined to confront that fear. Here's a great passage from HS's manual (linked above): Another obstacle we try to remove is fear. We think this is one of the most pernicious impediments to education. In most of the world, but especially school and work, people are afraid of looking stupid. This fear frequently keeps us from asking important questions like &quot;how does that work?&quot; or even just &quot;why?&quot; Worse, it keeps us from saying &quot;I don't understand.&quot; That means many of us muddle on with a half-baked or entirely incorrect understanding of core concepts. This is particularly bad with programming, because these misunderstandings compound, and over time become harder and more embarrassing to admit to and address. So I pressed forward to find out how it worked. And as it turned out, there was nothing to be scared of - it entirely depends on the API, but the one given by Rotten Tomatoes is easy to use if you have some understanding of URLs and working with JSON data (if you don't, that's ok too! It takes some time to learn but is at least pretty intuitive). The basic concept is you, as a developer, get a key from them - this tells them you're not a robot, essentially - and then you can access a certain amount of data in a predefined format (JSON) using predefined queries/parameters - like a movie you want to search for, or a specific data set like upcoming movies (in the form of URLs). And then you can do what you want with that data. So here's what I did! I made a command line interface! It's not done yet - you can't actually access all of those things (well, you can't access any of them yet, only I can) - but I've made good progress. It's less cool-looking than a fully-functional web app - but also a lot easier to make, and thus a lot less frustrating. It was an easy win for me, got me motivated about building something on my own, and was fun to do - all a great contrast to something more esoteric like building a web framework.</summary></entry><entry><title type="html">From the Ground Up</title><link href="http://jimjshields.github.io/programming,/recurse/center,/learning,/make/it/stick,/deliberate/practice/2015/01/30/from-the-ground-up.html" rel="alternate" type="text/html" title="From the Ground Up" /><published>2015-01-30T00:00:00-05:00</published><updated>2015-01-30T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/learning,/make/it/stick,/deliberate/practice/2015/01/30/from-the-ground-up</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/learning,/make/it/stick,/deliberate/practice/2015/01/30/from-the-ground-up.html">&lt;p&gt;(Hacker School: Week 4, Day 5)&lt;/p&gt;
 
-&lt;p&gt;The first chart is just the TV viewership numbers for each year. There’s the
-household rating (the &lt;a href=&quot;http://en.wikipedia.org/wiki/Nielsen_ratings&quot;&gt;Nielsen
-rating&lt;/a&gt;), the household share,
-and the number of viewers. The distinction between rating and share is simple&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;rating measures the percentage of total television-equipped households tuned
-into a program, while share measures the percentage of TVs actually in use at
-the time tuned into the program.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Like I said at the beginning of the week, it’s really hard to write something every day. It’s been most difficult this week, when I’ve felt like I’ve made steady progress, but have very little to tangibly show for it.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-I9jwzX36e-4/UxNdvDKKX4I/AAAAAAAAAI8/McSTbo9OEEQ/s1600/Ratings.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/-I9jwzX36e-4/UxNdvDKKX4I/AAAAAAAAAI8/McSTbo9OEEQ/s1600/Ratings.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Though it’s more difficult to put into words or show an example, this week has been especially good for two things: deliberate practice and understanding a topic from the ground up.&lt;/p&gt;
 
-&lt;p&gt;There’s a clear trend down - most noticeably in household share. This
-indicates that while a somewhat smaller number of people are watching the
-Oscars (between 35-50 million, with recent years hovering around 40), a
-significantly smaller percentage of total TVs that are in use at the time are
-actually watching the Oscars (from about 60% in 1983 to 36% last year).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice&quot;&gt;Deliberate practice&lt;/a&gt; is the idea - introduced by a group of researchers ~20 years ago, and since popularized in a bunch of books (&lt;em&gt;Outliers&lt;/em&gt;, mainly, but also in &lt;em&gt;Make It Stick&lt;/em&gt;) - that those who become experts in a particular area do so less because of innate ability and more due to their specifically-structured practice over a long period of time (that’s the 10,000 hour rule). Generally, it takes the form of picking a specific part of a topic a bit beyond one’s reach - but building upon previous experience - practicing that part, getting targeted feedback on one’s performance, and repeating the process, over and over. It’s a step-by-step process - each thing one practices builds upon the last and strengthens overall skill in the area (so the theory goes). &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0160289613000421&quot;&gt;Though there’s some dissent&lt;/a&gt; with the idea that it explains expert performance, I still think it can be applied advantageously to my own learning. I’m not an expert in programming by any means - not even close, and may never be - but reflecting upon what I’ve learned, looking ahead and structuring my next step to be a bit harder than the last, and practicing until I’ve fully grasped that topic, has been more valuable to my progress than anything so far. It just wasn’t until reading &lt;em&gt;Make It Stick&lt;/em&gt; (and &lt;a href=&quot;http://jamesclear.com/deliberate-practice-strategy&quot;&gt;at least one blog post&lt;/a&gt;) that I put a name to it.&lt;/p&gt;
 
-&lt;p&gt;The second chart has more information - it shows the box office revenue, up
-until the ceremony, for each of the films nominated for Best Picture. It is
-also, importantly, adjusted for inflation. Each bar represents the
-distribution of grosses - the start of the bar being the gross of the smallest
-film ( &lt;em&gt;Nebraska&lt;/em&gt;  this year) and the color separation (from black to yellow)
-being each successive film. The red line is the average gross of all Best
-Picture nominees in each year.&lt;/p&gt;
+&lt;p&gt;That directly relates to the other part - understanding something from the ground up. Though I like knowing the big picture - i.e., can be &lt;a href=&quot;http://www4.ncsu.edu/unity/lockers/users/f/felder/public/ILSdir/styles.htm&quot;&gt;a global learner&lt;/a&gt; (as Mel Chua highlighted to us in our first week here) - day-to-day I’m usually much more concerned with learning something step by step - i.e., sequentially. I get easily frustrated if I’m going through a tutorial or book or class and realize there are 25 things that the author or professor assumes I already know. This single thing - the assumption of knowledge, and the overwhelming amount of assumed knowledge - has been my biggest frustration in learning programming and computer science. With a few exceptions, nearly everyone with information about a particular topic (usually, authors of books and tutorials) assumes you come in knowing a, b, and c (and usually d-z and 1-10). (Granted, much of the learning resources are free - and anyway, every single author can’t be expected to hold your hand through their topic.)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-4MJ6JOEfByc/UxNdagybRrI/AAAAAAAAAI4/K0G5v5EETTE/s1600/BP+Gross.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/-4MJ6JOEfByc/UxNdagybRrI/AAAAAAAAAI4/K0G5v5EETTE/s1600/BP+Gross.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My lack of knowledge often comes from the obvious place - not having a computer science degree - but it doesn’t come from a lack of curiosity. I want to learn these things! It just takes so much time! If I want to build an app, do I really need to learn how the language works, how databases work, what routing is, what HTTP requests are, how to authenticate users, how to keep it secure, how to interact with the front end, how to deploy it to Heroku or Amazon so everyone can actually see it? Hacker School would - I think, rightly - argue that yes, it is more important that I understand fundamentally how each piece works before building something. Do I need to know every single thing in minute detail? Definitely not. But I will be a better programmer - and ultimately a better learner - if I take the time, and yes, the frustration, to learn the fundamentals and build from there.&lt;/p&gt;
 
-&lt;p&gt;Here you see some more variation - years like 1982, 1997, and 2009 stand out
-considerably because of huge hits - &lt;em&gt;E.T.&lt;/em&gt; , &lt;em&gt;Titanic&lt;/em&gt; , and &lt;em&gt;Avatar&lt;/em&gt;
-respectively. And years like 1984, 2004, and 2005 stand out in having no
-obvious outliers - and a considerably low average gross.&lt;/p&gt;
+&lt;p&gt;So to bring it back to deliberate practice, this week I structured my time around starting from the ground up in developing a web app in Python. Doing this ensured I stepped from one level to the next, more or less sequentially - it’s also much easier to grasp what I don’t know when starting at the very bottom. I learned how to build an app without a framework (it’s using something called WSGI - likely a topic for a future post). Then I started to learn why frameworks exist, and why each small piece was added. This was a slow but ultimately rewarding process - by the end of the week I felt much more comfortable using something like Flask - one of the Python web frameworks I’ve mentioned before - to build an app, than I did before. And I did it by identifying things I didn’t yet know, practicing them, and then moving onto the next thing.&lt;/p&gt;
 
-&lt;p&gt;The final chart shows the year-over-year change of five numbers - rating,
-share, viewers, average gross, and highest gross.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://3.bp.blogspot.com
-/-p96t-TBgN5E/UxNda20jLuI/AAAAAAAAAIw/r__PncFPghc/s1600/YoY+Change.png&quot;&gt;&lt;img src=&quot;http://3.bp.blogspot.com/-p96t-
-TBgN5E/UxNda20jLuI/AAAAAAAAAIw/r__PncFPghc/s1600/YoY+Change.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;One important additional statistic for this chart is the correlation between
-the changes in average and highest gross, and the changes in viewership each
-year. The correlation is highest (64%) between the change in average gross and
-the change in viewership in millions of people. Put more simply, there is a
-fairly (though not hugely) significant relationship between the year-over-year
-change in average gross, and the year-over-year change in people watching.&lt;/p&gt;
-
-&lt;p&gt;Is it predictive? That’s harder to say - and maybe a topic for another time.
-But you can definitely see spikes in viewership in years (like 1982, 1997, and
-2009) where the average gross is significantly higher - where there are bigger
-hits up for the biggest award. But to get back to the question of whether
-anyone will watch tonight’s Oscars - according to these numbers, fewer people
-will, given that, on average, the films have grossed less. But the average
-gross is only one number - maybe Ellen will matter more than anything else.&lt;/p&gt;
-
-&lt;p&gt;( &lt;em&gt;Note:&lt;/em&gt; I am focusing on the numbers that I can gather. Changes in the type
-of viewership - online, On-Demand, etc. - are harder to account for. Which is
-not to say they aren’t meaningful - they are, in all likelihood, very
-meaningful and becoming moreso - but I can only analyze the consistent
-datasets that I can access.)&lt;/p&gt;</content><author><name></name></author><summary type="html">Claims are often made about why television viewership of the Academy Awards ceremony fluctuates from year to year - it’s the host, the films up for Best Picture, the number of films up for Best Picture, or various other reasons. I chose to focus on one part of that - the films up for Best Picture - and analyze them based on their box office revenue prior to the ceremony each year. I stuck to the period from 1982 to today, due to the box office numbers being less consistent prior to that point, and to domestic box office and viewership numbers. The first chart is just the TV viewership numbers for each year. There’s the household rating (the Nielsen rating), the household share, and the number of viewers. The distinction between rating and share is simple rating measures the percentage of total television-equipped households tuned into a program, while share measures the percentage of TVs actually in use at the time tuned into the program.</summary></entry><entry><title type="html">Film And Data</title><link href="http://localhost:4000/2014/02/25/film-and-data.html" rel="alternate" type="text/html" title="Film And Data" /><published>2014-02-25T00:00:00-05:00</published><updated>2014-02-25T00:00:00-05:00</updated><id>http://localhost:4000/2014/02/25/film-and-data</id><content type="html" xml:base="http://localhost:4000/2014/02/25/film-and-data.html">&lt;p&gt;Why am I writing this blog?&lt;/p&gt;
-
-&lt;p&gt;Two reasons:&lt;/p&gt;
+&lt;p&gt;I still feel like I didn’t do much this week, but I suspect I’ll be grateful for the foundation I’ve been building. Hopefully I can remember everything I had to learn - the other most difficult thing about learning is knowing &lt;strong&gt;what&lt;/strong&gt; to learn next, and the best resource to do it. I’d love a trusted source for sequential learning of particular programming topics or concepts. (There are great ones for CS topics - &lt;a href=&quot;https://www.coursera.org/&quot;&gt;Coursera&lt;/a&gt; has a bunch of great (&lt;strong&gt;FREE!!!!&lt;/strong&gt;) courses from top schools - I’m currently moving between &lt;a href=&quot;https://class.coursera.org/algs4partI-007/lecture&quot;&gt;three&lt;/a&gt; &lt;a href=&quot;https://www.coursera.org/course/algo&quot;&gt;different&lt;/a&gt; &lt;a href=&quot;http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm&quot;&gt;Intro&lt;/a&gt; courses - the other major frustration is how difficult CS can be to start understanding.)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 4, Day 5)</summary></entry><entry><title type="html">Some Things I Learned in Week 3 at Hacker School</title><link href="http://jimjshields.github.io/programming,/recurse/center,/learning/2015/01/26/some-things-i-learned-in-week-3-at-hs.html" rel="alternate" type="text/html" title="Some Things I Learned in Week 3 at Hacker School" /><published>2015-01-26T00:00:00-05:00</published><updated>2015-01-26T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/learning/2015/01/26/some-things-i-learned-in-week-3-at-hs</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/learning/2015/01/26/some-things-i-learned-in-week-3-at-hs.html">&lt;p&gt;(Hacker School: Week 4, Day 1)&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;There isn’t enough (obvious) data analysis being done, publicly, on the film industry.&lt;/li&gt;
-  &lt;li&gt;A number of factors are contributing to a potential move away from movie theaters - which, to me, is a warning sign. I want going to the movies to remain a fundamental piece of our shared cultural experience - not for it to become a luxury (like seeing a Broadway show). From what I can tell, there has to be a way to reverse this trend using intelligent analysis.&lt;/li&gt;
+  &lt;li&gt;It’s unexpectedly difficult to write a blog post every single day. So, while I’ll try to, it’s naive of me to think I can do that before/after spending all day learning.&lt;/li&gt;
+  &lt;li&gt;It’s hard enough to focus in a directed environment like college or a job; it’s that much harder to do it in a completely undirected environment. It takes a lot of willpower to direct my attention toward only a few things in a given day or week and shift my attention away from a million other interesting things.&lt;/li&gt;
+  &lt;li&gt;Because of that effort, I know I’ll gradually improve at focusing in this environment, which will only be more helpful in a more directed environment.&lt;sup&gt;1&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Programming is a complex and involved discipline. When I started learning over a year ago, I definitely did not have enough respect for how much I’d need to learn and how difficult it is. Learning a language is only a tiny piece (and likely the most straightforward) of becoming a programmer, and I know I still have a while to go.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Recursion&quot;&gt;Recursion&lt;/a&gt; is an inherently confusing concept, and even when I thought I understood it (at many points in the last year), I realized I really didn’t. Last week brought me a little closer.&lt;/li&gt;
+  &lt;li&gt;Hacker School has presentations every Thursday where they encourage anyone and everyone to present whatever it is they’re working on or interested in, in any state of completion. It really feels great, and motivating, to present something to a group of people who aren’t primed to judge you or your project. It’s also much easier for someone like me who is usually nervous to show anyone any of my work - because I’d be afraid they’d think it was simple, or bad, or uninteresting. That’s a silly way for me to think - if anyone would be so judgmental about my creating something, however simple, bad, or uninteresting, they’re probably not worth my time anyway.&lt;/li&gt;
+  &lt;li&gt;When programming (but I think when doing anything), while it feels good and productive to build something - to display visible progress - it feels equally good, if not better, to go back and refine it, to fix any issues and shore up the foundation, to make it smaller, less complex, and ultimately better grounding on which to build more. I did this with the project I presented - I refactored the code&lt;sup&gt;2&lt;/sup&gt;, made indentation and variable names consistent, and added comments to clarify anything that’s confusing about my code. It sounds boring; it felt great.&lt;/li&gt;
+  &lt;li&gt;Reading about not-directly-relevant things often helps me to understand more about what I’m focusing most of my energy on. I talked a little in other posts about _Make It Stick - _which I’d definitely recommend, especially if you’re interested in learning itself - it helped me to structure my time and energy here in a way that engenders better, more lasting learning. And it helped me to be more comfortable with getting frustrated, and feeling lost and incompetent. After I finished that, I started _&lt;a href=&quot;http://www.amazon.com/Quiet-Power-Introverts-World-Talking-ebook/dp/B004J4WNL2&quot;&gt;Quiet&lt;/a&gt; - _a similarly structured book (drawing on equal parts empirical research, anecdotes, and history to make a larger point about the topic) - and it’s already helped me to view my introversion and desire to work on my own or spend time thinking about things in a more positive light. Neither have a single thing to say about programming (yet) but both have already supported my time here in a very positive way.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;In 2013, films released domestically grossed $10.9 billion theatrically - not
-an insubstantial number, and that only represents the theatrical take - films
-obviously now travel a lot further than the movie theater. More and more money
-is being spent to produce films - not only &lt;a href=&quot;http://www.the-
-numbers.com/movie/budgets/&quot;&gt;individually&lt;/a&gt;, but also in
-&lt;a href=&quot;http://www.salon.com/2014/02/22/americas_next_wal_mart_the_indie_film_industry/&quot;&gt;aggregate&lt;/a&gt;
-(or, at the very least, more films are being made), while &lt;a href=&quot;http://www.the-numbers.com/market/&quot;&gt;less people are
-actually going to the theater&lt;/a&gt; to see a
-movie. This is a real problem for the industry as a whole - how are they going
-to sustainably make money from film production if there is a glut of films,
-and people are no longer going to the movie theater? - and for consumers - how
-do I pick what to watch, and should I really spend
-&lt;a href=&quot;http://boxofficemojo.com/about/adjuster.htm&quot;&gt;$8.35&lt;/a&gt; and drive to the theater
-to see it?&lt;/p&gt;
+&lt;p&gt;And now I begin my work for the week - which will be completely destroyed by the &lt;a href=&quot;http://www.weather.com/storms/winter/news/winter-storm-juno-blizzard-boston-nyc-new-england&quot;&gt;STORM OF THE CENTURY&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;And while &lt;a href=&quot;http://www.boxofficemojo.com/&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;http://www.the-
-numbers.com/&quot;&gt;sites&lt;/a&gt;, at the very least, track, rank, and categorize box office data,
-there’s not a ton of information gleaned from it (though they do have a wealth
-of data which is steadily maintained - and for that I thank them). One would
-think that an industry that likely reaches a significant portion of the
-population - both domestically and internationally - and has done so for at
-least 90 years (at least in America), would have some understanding, through
-the data they’ve gathered, what will be successful. And yet, year after year,
-studios make bad and poorly performing films, and the resulting data is
-analyzed briefly without historical or other context, and is quickly
-forgotten.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Given the right data, one can ask and potentially answer interesting, valuable
-questions that may make a difference in the future of the industry.&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;1 This is related to what that book, &lt;em&gt;Make it Stick&lt;/em&gt;, had to say about learning - it’s only going to stick when it’s effortful. I think that’s generalizable to other things - like focusing. If it’s hard now, and I struggle through it, it’ll be easier later, especially in a more structured environment.&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;For example: In which cities, states, or regions are people more likely to see
-a movie in a theater? Which movies, genres, or actors are more likely to be
-watched on Netflix, iTunes, or elsewhere instead of in the theater? Are people
-still buying DVDs and BluRays, and if so, where and which ones? Are certain
-theater chains, or specific theaters, selling better than others? Is there
-anything about the best-selling theaters that makes them successful?&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;2 Pretty much exactly that - refined it, made it smaller, simpler, easier to understand what’s going on.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 4, Day 1)</summary></entry><entry><title type="html">Slow Progress</title><link href="http://jimjshields.github.io/programming,/recurse/center,/flask,/algorithms/2015/01/21/slow-progress.html" rel="alternate" type="text/html" title="Slow Progress" /><published>2015-01-21T00:00:00-05:00</published><updated>2015-01-21T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/flask,/algorithms/2015/01/21/slow-progress</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/flask,/algorithms/2015/01/21/slow-progress.html">&lt;p&gt;(Hacker School: Week 3, Day 3)&lt;/p&gt;
 
-&lt;p&gt;Or, most importantly, for the actual viewers of these films - what should I
-watch, and how do I watch it?&lt;/p&gt;
+&lt;p&gt;This is a quick post about today and yesterday - not on any particular topic, and more on my own sluggish and sometimes frustrating progress. This one’s definitely HS-specific.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, I only have a few sets of data to analyze - namely, box office
-revenue and awards statistics. The goal of this blog will be to determine
-whether that data has any truly valuable conclusions about the industry or the
-state of film, or whether there are even more valuable data sets I have yet to
-find. At worst, it will make for some interesting charts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Why am I writing this blog? Two reasons:</summary></entry></feed>
+&lt;p&gt;I spent much of yesterday following a &lt;a href=&quot;http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&quot;&gt;fairly involved tutorial in Flask&lt;/a&gt; - but only got through the first five pieces. As has often been true for me lately (and seems to be true of any programming/CS topic), learning something really means learning 25 things - and I never know upfront how much I don’t know.&lt;/p&gt;
+
+&lt;p&gt;The rest of the day, and some of today, I started a (very free!!) online course (aka &lt;a href=&quot;http://en.wikipedia.org/wiki/Massive_open_online_course&quot;&gt;MOOC&lt;/a&gt;) in Algorithms from Stanford. I find that the concepts are complex, but I can wrap my mind around them - but struggle with translating them into code. I’m lucky that I have the time and energy to struggle through problems - and hopefully in that way making them stick (tm) - but I find that process a bit disheartening sometimes. It’s a similar struggle, between spending a ton of time understanding every detail and being comfortable moving on from something if it isn’t important.&lt;/p&gt;
+
+&lt;p&gt;Finally, today I picked up my own project that I’d been working on prior to starting here. I essentially took all of the available data from the &lt;a href=&quot;http://www.imdb.com/chart/top&quot;&gt;IMDb Top 250&lt;/a&gt; - a publicly-voted list of the best films of all time (HIGHLY subjective - and often biased) - since it began in 1996. I’ll leave out the specifics of how I did that for now, but I think that could be a later post. I then translated it into an interactive visualization - one where you can easily digest how the public’s feelings (through a pretty big and untrustworthy, but best available, proxy) on particular movies have changed over time. I was able to port all of the data I have from Excel/csv to a real database, and got it to display the visualization - but it’s over 800,000 rows of data, so it’s extremely slow. Hoping to come up with a way to speed it up and make it usable, because I think it’ll be pretty cool.&lt;/p&gt;
+
+&lt;p&gt;The best parts of the past two days have been working with others - though I’ve often approached it less positively than I should, because I have so much I want to work on by myself. When I can come to terms with the idea that I’ll never finish everything I want, and that I always learn more from working with others than on my own, I’ll be a bit more comfortable. But I sat in two really interesting sessions - one by Mary, one of the facilitators here at HS, about the inner workings of Git (it helped in thinking about the seemingly impossible-to-penetrate way that Git actually works); and one in which a group of us met to talk about the Algorithms course so far. Both were enlightening and made me feel less frustrated and stuck in my own progress; I hope to keep working in those kinds of sessions.&lt;/p&gt;
+
+&lt;p&gt;More tomorrow.&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 3, Day 3)</summary></entry><entry><title type="html">Some Resources for Flask</title><link href="http://jimjshields.github.io/programming,/recurse/center,/flask,/python/2015/01/20/some-resources-for-flask.html" rel="alternate" type="text/html" title="Some Resources for Flask" /><published>2015-01-20T00:00:00-05:00</published><updated>2015-01-20T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/flask,/python/2015/01/20/some-resources-for-flask</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/flask,/python/2015/01/20/some-resources-for-flask.html">&lt;p&gt;(Hacker School: Week 3, Day 1)&lt;/p&gt;
+
+&lt;p&gt;Wasn’t technically at HS yesterday, but I wanted to give a little more detail on how I learned Flask last week. This is really only interesting if you want to work with Flask, so I guess you’ve been warned.&lt;/p&gt;
+
+&lt;p&gt;Here are my major takeaways from learning Flask:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It’s a web framework written in and for Python.&lt;sup&gt;1&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;It’s relatively easy to learn - but that’s relative to larger frameworks like Django (for Python) or Rails (for Ruby). If you’re truly new to web development, there’s still a good amount of assumed knowledge/understanding.&lt;/li&gt;
+  &lt;li&gt;It’s easy to learn because it does only a few, specific things, and those things don’t take too long or too much pre-requisite knowledge to understand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some great resources for getting started, though they do require a minimal amount of assumed knowledge of intermediate topics in Python, the underlying concepts of web applications (routing, templating, HTTP requests, etc.), and working with databases:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/&quot;&gt;Official Flask documentation&lt;/a&gt;: Great if you have some experience in other frameworks/have developed web apps on your own before.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/quickstart/&quot;&gt;Quickstart&lt;/a&gt; (also part of the official Flask docs): Perfect if you just want to get something working, even if you’re just starting out. Does assume you’ve installed it already, which is outlined by them &lt;a href=&quot;http://flask.pocoo.org/docs/0.10/installation/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/tutorial/&quot;&gt;Tutorial&lt;/a&gt; (again, official): A little more advanced - they take you step-by-step through building a web app using a database and some templates. More assumed knowledge here, so a bit more confusing if you’re just starting out.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&quot;&gt;The Flask Mega-Tutorial&lt;/a&gt;: Written by Miguel Grinberg, who wrote the &lt;a href=&quot;http://flaskbook.com/&quot;&gt;O’Reilly book on Flask&lt;/a&gt;&lt;sup&gt;2&lt;/sup&gt;, a more in-depth tutorial that spends more time getting you oriented, even if you’re just getting started. If you have some more time and patience to get into the details and possibilities of using Flask, this is a thorough but straightforward intro.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jinja.pocoo.org/docs/dev/&quot;&gt;Jinja2 documentation&lt;/a&gt;: One of the two&lt;sup&gt;3&lt;/sup&gt; pre-installed libraries for Flask is called Jinja2. It allows you to use templating to build dynamic HTML templates that will render using data derived from databases and manipulated using Python. Once you have an understanding of how it works, it’s powerful - but until then it can be a little confusing. &lt;a href=&quot;http://jinja.pocoo.org/docs/dev/intro/#basic-api-usage&quot;&gt;Here’s a simple example.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/patterns/sqlite3/#sqlite3&quot;&gt;Using SQLite3 with Flask&lt;/a&gt; (again, part of the offish docs): assumes that you know basic SQL and how to work with databases. If you’re not familiar, it’s worth struggling through this part on your own - and especially trying to understand what each piece of code does. Hopefully I’ll write a more detailed post soon that walks through that; it’s just a broad and potentially complex topic.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bev-a-tron/MyFlaskTutorial&quot;&gt;My Flask Tutorial&lt;/a&gt;: A former HSer (bev-a-tron on GitHub) wrote what looks to be (and recommended by multiple HSers as) an excellent intro to Flask for people who don’t have all of the knowledge the above tutorials tend to assume. I haven’t worked through it yet but even the intro makes it clear that the tutorial is truly a tutorial - for people with no web development experience (just some Python experience).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m sure there are other good resources - I’ll try to add them here if I encounter them - but these are great for just getting started in Flask. A lot of the concepts introduced in Flask also translate easily to other web frameworks - and it’s worth knowing what the framework actually does for you, in case you can’t rely on it for some reason (e.g., it doesn’t do what you want it to).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sup&gt;1. Obvious, yes. But if you don’t know what that means, you probably won’t be interested in the rest of this. But if you are interested, and you don’t know what that means, you just have to learn a bit more - and that’s ok too! Or you might just want to struggle through learning this - it’ll make it stick, so to speak.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;2. &lt;a href=&quot;http://www.oreilly.com/&quot;&gt;O’Reilly&lt;/a&gt; is a terrific - and pretty much the definitive - resource for books on programming. I’ve read a few, and they tend to be easy to read, step-by-step, and comprehensive. (Also, many are free online!)&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;3. There’s another - &lt;a href=&quot;http://werkzeug.pocoo.org/docs/0.9/&quot;&gt;Werkzeug&lt;/a&gt; - that takes care of WSGI/HTTP stuff for Flask. I haven’t learned much of it yet - I just know that it allows you not to deal with the lower-level details necessary for building a web app in Python. They also have &lt;a href=&quot;http://werkzeug.pocoo.org/docs/0.9/tutorial/&quot;&gt;a tutorial&lt;/a&gt; - I haven’t worked through it but it seems detailed and actually kinda fun.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 3, Day 1)</summary></entry><entry><title type="html">Some Things I Learned in Week 2 at Hacker School</title><link href="http://jimjshields.github.io/programming,/recurse/center,/learning,/make/it/stick/2015/01/16/some-things-i-learned-in-week-2-at-hs.html" rel="alternate" type="text/html" title="Some Things I Learned in Week 2 at Hacker School" /><published>2015-01-16T00:00:00-05:00</published><updated>2015-01-16T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/learning,/make/it/stick/2015/01/16/some-things-i-learned-in-week-2-at-hs</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/learning,/make/it/stick/2015/01/16/some-things-i-learned-in-week-2-at-hs.html">&lt;p&gt;(Hacker School: Week 2, Day 4)&lt;/p&gt;
+
+&lt;p&gt;Out of laziness/inability to put together a coherent and thoughtful summation of my week, I’ll stick to the random list format. (h/t &lt;a href=&quot;http://www.buzzfeed.com/&quot;&gt;randomlists.com&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What a web framework does. Using Flask as a proxy for understanding the larger point of web frameworks was a good choice - I’d recommend it to anyone looking to start learning web development. It takes a bit of effort to connect the underlying concepts to what Flask does specifically, but it is a good starting point. I’d like to elaborate more in a (more coherent and thoughtful) post on what exactly it does, how to use it to make something simple, and what’s difficult about using it for someone unfamiliar with programming or web frameworks.&lt;/li&gt;
+  &lt;li&gt;How to work with a database in the simplest possible way. I had a decent grasp of how to write SQL queries - basically, what you write to get, add, or update data in a database - but had very little understanding of how to set one up, make it work with a web app, or even what one really is. Again, a later, better post.&lt;/li&gt;
+  &lt;li&gt;What actually happens when you visit a website on your browser.&lt;sup&gt;1&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;It’s not a good idea to install whatever you want at any time. This is probably good advice in general - but especially for a programmer. In Python, it’s considered bad practice to install all but very few packages globally&lt;sup&gt;2&lt;/sup&gt;. Instead, you should create - and consistently use - &lt;a href=&quot;https://virtualenv.pypa.io/en/latest/&quot;&gt;virtual environments&lt;/a&gt;. This is something that always gave me some confusion/fear - the name “virtual environment” in and of itself is not super helpful in understanding what it does - but they basically allow you to install sets of packages specific to a particular project, without having them conflict across projects. Again, a whole blog post.&lt;/li&gt;
+  &lt;li&gt;User authentication is still confusing; I’ll return to it later.&lt;sup&gt;3&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;It’s a good idea to stick to the specifications (aka specs, a good fancy tech word) you set out for yourself when building a program - no matter how small. You can return to and refine those specs at any time, but without a map, you can easily get lost. Don’t be me when coming out of a subway station - orient yourself before just walking in the direction that seems kinda-sorta-yeah-it-must-be-north, and then walk south for like ten minutes, especially in an unfamiliar setting.&lt;sup&gt;4&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Regular expressions! They are scary and potentially confusing and I’d avoided them for a while. But they are also super cool - and there’s a great step-by-step, interactive tutorial for them &lt;a href=&quot;http://regexone.com/&quot;&gt;here&lt;/a&gt;.&lt;sup&gt;5&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;How to learn, and how to reflect on how I learn. Already plugged this book, but &lt;a href=&quot;http://www.amazon.com/Make-It-Stick-Successful-Learning/dp/0674729013&quot;&gt;Make It Stick&lt;/a&gt; is really insightful on this topic - though I’m surprised by how common-sensical the author’s arguments seem. For example - it’s a good idea to weave (or their word, interleave) different topics together over the course of learning a larger topic - rather than the typical chunks of information (like a math textbook, where you learn one topic completely, then move onto the next and forget about the last one). It makes so much sense! I definitely don’t learn this way, so I’d like to refine my learning habits to be more in line with what they recommend during my time here.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’m sure I learned a million other things, but these have stuck with me this week. Looking forward to learning more, and more deeply, next week.&lt;sup&gt;6&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sup&gt;1 You type in a URL - that’s a request - the website’s server sends back data that’s been formatted in HTML - that’s the response - and the browser renders it/makes it look like a website. Or you don’t - that’s your prerogative.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;2 Packages - basically programs written for use with Python (and other programming languages; in some other languages they’re called something different). Installing globally - installing in your main/root directory so that you can access those programs at any time with any program you write.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;3 Is this a cheating one? Kind of, but I learned that it is still confusing, so that’s something!&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;4 And especially especially outside of the confines of the Manhattan-above-Union-Square grid (or your city’s/town’s equivalent).&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;5 If you don’t know what a regular expression is - it’s essentially a way to search for patterns in text, &lt;a href=&quot;http://en.wikipedia.org/wiki/Regular_expression&quot;&gt;used in computer science but also in formal language theory&lt;/a&gt; (not my words). For example, you want to find all words that have three a’s - no more, no less - you can use the regular expression &lt;em&gt;a{3}&lt;/em&gt; (I think, would be embarrassing if I have that wrong).&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;6 …on Serial.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 2, Day 4)</summary></entry><entry><title type="html">Making It Stick</title><link href="http://jimjshields.github.io/programming,/recurse/center/2015/01/15/making-it-stick.html" rel="alternate" type="text/html" title="Making It Stick" /><published>2015-01-15T00:00:00-05:00</published><updated>2015-01-15T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center/2015/01/15/making-it-stick</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center/2015/01/15/making-it-stick.html">&lt;p&gt;(Hacker School: Week 2, Day 3)&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If Tuesday was frustrating in the lack of traditional or measurable productivity, yesterday was gratifying in actually completing defined steps of a project. But the question is, did I actually learn anything?&lt;/p&gt;
+
+&lt;p&gt;After my post yesterday, a few gracious Hacker Schoolers (HSers, for brevity’s sake) wholeheartedly recommended the book &lt;a href=&quot;http://www.amazon.com/Make-It-Stick-Successful-Learning/dp/0674729013&quot;&gt;Make It Stick&lt;/a&gt; as a way to think about how I learn, and potentially more effective ways of learning than the traditionally understood techniques. I was convinced&lt;sup&gt;2&lt;/sup&gt; and got the eBook&lt;sup&gt;3&lt;/sup&gt; and started reading. In the first few pages&lt;sup&gt;4&lt;/sup&gt;, the authors summarize their primary arguments - I’ll highlight two (especially relevant) quotes here:&lt;/p&gt;
+
+&lt;p&gt;“Rereading and massed practice give rise to feelings of fluency that are taken to be signs of mastery, but for true mastery or durability these strategies are largely a waste of time.”&lt;/p&gt;
+
+&lt;p&gt;“Learning is deeper and more durable when it’s &lt;em&gt;effortful&lt;/em&gt;. Learning that’s easy is like writing in sand, here today and gone tomorrow.”&lt;/p&gt;
+
+&lt;p&gt;The first quote effectively captures my first few days here at HS. If you’ve read my first few posts&lt;sup&gt;5&lt;/sup&gt;, you might be thinking to yourself, “hm, that sure sounds like the authors of this book are describing Jim’s first few days at HS as a quote unquote waste of time.” And it had the potential to be a waste of time. But last week, I also pair programmed on a small Python project, and in doing that had a - wait for it - effortful experience putting the concepts I’d read about and practiced into action in an unfamiliar situation (another technique the authors advocate). So I learned!&lt;/p&gt;
+
+&lt;p&gt;This week, I spent much of the first few days reading the documentation of Flask - a Python web framework that allows you to build small apps - and working through some Flask tutorials. And I felt like I didn’t really learn anything. I’d read a lot - and practiced a lot - but it felt like nothing truly stuck. But yesterday, I put what I’d learned into action in an unfamiliar situation - a web app that tracks my to-do list on a daily basis. It’s a simple concept, but it seriously solidified my learning - not only did I have to understand the specifics of Flask, but also had to generalize that learning to the concepts that underlie any web framework, and any web application.&lt;/p&gt;
+
+&lt;p&gt;And I actually finished some defined steps in building it! So, yesterday was doubly successful in that I had something to show for it - a small app that I can use (and am actually using) - and in building that app, I deepened my learning in a way that’s difficult to impossible when learning by rote, or working through tutorials. Hope to continue that progress today.&lt;sup&gt;6&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sup&gt;1 I wrote an entire blog post, did not save a draft, and lost it in the Great Google Chrome Crash of 2015 (almost as bad as &lt;a href=&quot;http://youtu.be/ynzcUw9wv0E?t=45s&quot;&gt;the Twig of ‘93&lt;/a&gt;). Note to future self - save your work. Note to Tumblr - automatic saving, or at least a way to save a draft without closing out of the post, would be nice! (I assume there’s a reason it’s not there, but man would it have helped here.)&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;2 I’m easily swayed.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;3 In the process, I lost my library eBook of &lt;em&gt;Infinite Jest&lt;/em&gt; - a book I borrowed 3+ months ago and now own the hardcopy of - because I turned on the WiFi. Yes, if you want, you can scam the library into never returning eBooks by just turning the WiFi off. Yes, if you do this, you should probably feel a little bad. But I bought it! It’s just so heavy to bring on the subway!&lt;/sup&gt;&lt;sup&gt;a&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;4 I’m a slow reader.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;5 Or are me in the future, looking back at how naive I was in the past.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;6 Though I’ve already spent like two hours writing this blog post twice.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;a Consider this my plug for &lt;em&gt;Infinite Jest&lt;/em&gt;. I’ll try to never talk about it again - even mentioning it can sound super pretentious.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 2, Day 3)1</summary></entry><entry><title type="html">How Do I Learn?</title><link href="http://jimjshields.github.io/programming,/recurse/center,/learning/2015/01/14/how-do-i-learn.html" rel="alternate" type="text/html" title="How Do I Learn?" /><published>2015-01-14T00:00:00-05:00</published><updated>2015-01-14T00:00:00-05:00</updated><id>http://jimjshields.github.io/programming,/recurse/center,/learning/2015/01/14/how-do-i-learn</id><content type="html" xml:base="http://jimjshields.github.io/programming,/recurse/center,/learning/2015/01/14/how-do-i-learn.html">&lt;p&gt;(Hacker School: Week 2, Day 2)&lt;/p&gt;
+
+&lt;p&gt;In my first week here at HS, I felt like I learned a lot. I finished one textbook, read a lot of another one, and by good old &lt;a href=&quot;http://www.imdb.com/title/tt0181739/&quot;&gt;osmosis&lt;/a&gt; I knew everything there was to know about Python. I &lt;a href=&quot;http://en.wikipedia.org/wiki/Pair_programming&quot;&gt;pair programmed&lt;/a&gt; - a technique HS advocates as a way to learn alongside others, regardless of experience level - and had a valuable if challenging experience. I even got to talk to a ton of different people to understand their projects, learning goals, and interests.&lt;/p&gt;
+
+&lt;p&gt;Now we’re in week 2, and that feeling of progress has slowed. It’s easy to feel progress as I’m reading - every page I read and understand os a success. As I’m putting what I’ve learned into action, though, it’s easy for me to get frustrated, unfocused, and discouraged - especially when the implementation of what I learned isn’t as straightforward as I’d like.&lt;/p&gt;
+
+&lt;p&gt;For example - to get a bit technical - on Monday I read all about building an application in Flask. I went through &lt;a href=&quot;http://flask.pocoo.org/docs/0.10/tutorial/&quot;&gt;the tutorial&lt;/a&gt; - a step-by-step guide to building a small app - and understood each piece as I followed along. Yesterday, I went to put what I’d learned into action - I wanted to build a page that tracks my to-do list.&lt;sup&gt;1&lt;/sup&gt; But when I went to start over and build a new app, I got frustrated - I didn’t remember certain steps, new and unfamiliar steps had to be introduced - and eventually got completely discouraged. Worse (in my mind), I know that building this kind of app (where you have a single page, connect to a database, and read and write from the database through the web framework) is about as easy as it gets in web development - a lot of tutorials and help guides try to emphasize how “simple” it is to build this kind of thing. And yet I couldn’t finish it in a day? “You must not be cut out for this, Jim” - me to myself at some sad point yesterday.&lt;/p&gt;
+
+&lt;p&gt;So I took a step back. Why am I frustrated and discouraged? It could be a lot of things, but I think it’s mostly due to the way I like to learn. Traditional learning environments - grade school, high school, college, work - never gave me this kind of frustration. And why? Because my learning was structured by someone else. Here is a textbook - read this chapter - do this assignment - here’s what you did right and wrong (or, for work - here’s what you need to know - do it - good/bad job - try again). If I did something wrong, or didn’t understand something, there is a clear way to better understand it (read it again, do the exercises again, talk to the teacher, get help from a classmate; ask a coworker, talk to the manager, let someone else do it). When I got a good grade, or a good review, that was always, to me, an affirmation that I understood something - and when I got a bad grade/review it was a signal to go back and try again, with some clear, directed feedback. This kind of step-wise learning - learn one thing, ensure understanding, then learn the next, until those successively more difficult pieces build up to the overall course&lt;sup&gt;2&lt;/sup&gt; - was, for me, at least easy to understand. I knew where I stood at any time, I knew how much more there was to learn, I knew what was and was not necessary to understand.&lt;/p&gt;
+
+&lt;p&gt;HS is pointedly non-traditional. Their &lt;a href=&quot;https://www.hackerschool.com/about&quot;&gt;about page&lt;/a&gt; says it all - “We don’t have grades, degrees, classes, or a fixed curriculum.” For me, it’s much easier to learn with grades, degrees, classes, and a fixed curriculum (or defined roles, set expectations/goals, regular reviews); I like having successively harder steps, with an external reward (grades, degrees, promotions, etc.) for getting to that next step. But I want to actively try to adapt to this new learning style - or, at the very least, mesh it with the way I learn. HS advocates this environment for a lot of reasons - but I think the main one is that extrinsic reward systems don’t actually encourage real, lasting learning or engagement with what one is learning. It just makes it a lot harder to start, especially for someone as used to and motivated by the traditional extrinsic reward system as me. So in the coming days, I’d like to get less frustrated and discouraged - and remember that just because I’m not given a grade, or am unable to finish a project, doesn’t mean I haven’t learned something.&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sup&gt;1 The world needs it.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;2 &lt;a href=&quot;https://www.hackerschool.com/residents#Mel-Chua&quot;&gt;Mel Chua&lt;/a&gt;, one of HS’s many residents, gave a great talk last week on &lt;a href=&quot;http://blog.melchua.com/2013/06/19/hacker-school-session-engineering-learning-styles/&quot;&gt;learning styles&lt;/a&gt; - specifically in learning programming, but I think it can be generalized. This kind of learning (step-by-step) leans toward what she called Sequential learning - as opposed to Global learning, a style used to describe people who like to be immersed in the big picture. I am aggressively Sequential (it’s a spectrum, but man oh man do I fall on that Sequential side).&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;3 Some things I HAVE learned in the last two days upon some self-reflection: how HTTP really works, why web frameworks exist, why web frameworks maybe shouldn’t exist, how to authenticate users, what hashing is and how to implement it, what WSGI is, how sockets work, what a call stack is, what an ORM is, how to decide when to move on from a project, how to write footnotes.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">(Hacker School: Week 2, Day 2)</summary></entry></feed>

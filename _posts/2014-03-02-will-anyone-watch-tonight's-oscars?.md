@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Will Anyone Watch Tonight's Oscars?"
+date:   2014-03-02
+categories: movies, data, movie tickets
+---
+
 Claims are often made about why television viewership of the Academy Awards
 ceremony fluctuates from year to year - it's the
 [host](http://www.eonline.com/news/391690/2013-oscars-ratings-seth-macfarlane-

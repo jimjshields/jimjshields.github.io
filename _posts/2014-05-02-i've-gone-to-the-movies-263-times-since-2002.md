@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "I've Gone to the Movies 263 Times Since 2002"
+date:   2014-05-02
+categories: movies, data
+---
+
 Since July 2002, I've tried to save the ticket from every movie I've seen in a
 theater. In the beginning, I was, admittedly, not prescient enough to have
 saved every single one, but I did so with pretty reliable consistency in the

@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Oscar Bump"
+date:   2014-02-21
+categories: movies, data, movie tickets
+---
+
 (Thanks to David Poland - @davidpoland - for tweeting about this NYT article
 and sparking the idea for this post.)
 

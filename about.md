@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Jim. I love programming, data, and movies, among other things.
+Hi, I'm Jim. I love movies, programming, and data, among other things.
 
-I had an exciting burst of blogging productivity in 2014 and 2015, when I was learning programming on my own and attending the [Recurse Center](https://www.recurse.com/). I was really excited about writing about movies & data, and while at RC, about my experience learning programming.
+I blogged a lot in 2014 and 2015, when I was learning programming on my own and attending the [Recurse Center](https://www.recurse.com/) (shameless plug, [go apply!](https://www.recurse.com/apply)). At the time, I was excited to write about movies & data and my experience learning programming.
 
-Since then, I've been working as a data engineer, engineering manager, and internal tools engineer at [YipitData](http://yipitdata.com), which has been great! And I've learned a lot! But I haven't blogged or worked on any projects in that entire time.
+Since then, I've been working as a data engineer, engineering manager, internal tools engineer, infrastructure engineer, and other roles at [YipitData](http://yipitdata.com), which has been great and I've learned a lot! But I've only rarely blogged or worked on personal projects.
 
 This is an effort to start again — I want to keep writing about what excites me, which might be movies, data, programming, or something else.
 

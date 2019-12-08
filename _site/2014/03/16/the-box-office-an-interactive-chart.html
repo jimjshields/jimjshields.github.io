@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>The Box Office: An Interactive Chart | Shields of Dreams</title>
+<meta name="generator" content="Jekyll v3.6.2" />
+<meta property="og:title" content="The Box Office: An Interactive Chart" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In the spirit of never making anyone look at an ugly, boring Excel graph about movies again, I’ve learned the (very basic) basics of D31 - effectively, I can make interactive graphics. The hope is that I can use this to make these posts more engaging, while also including significantly more information than I could otherwise. Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which these use - so I am hosting all of this at my very own website - 1.37:1. After practicing a bit, the first thing I made was an area chart of the domestic box office over the last few months. It’s really a follow-up to my last post - it takes the gross of all movies on a given day as a percentage of the total gross in that day. But now you can actually see what makes up the chart - and see, for example, how The Hobbit made up about half of the money spent on its opening weekend, but faded fast, while Frozen’s run has lasted for months. The second thing I added was several ways to look at the data: by Movie (like above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can click any of those titles to change the chart to that classification. This data is all taken directly from Box Office Mojo - again, they do a great job with storing all of this data (though their genres need a little work). For example - here I’m looking at how much of the domestic box office revenue was accounted for by PG-13 movies (after clicking MPAA Rating):" />
+<meta property="og:description" content="In the spirit of never making anyone look at an ugly, boring Excel graph about movies again, I’ve learned the (very basic) basics of D31 - effectively, I can make interactive graphics. The hope is that I can use this to make these posts more engaging, while also including significantly more information than I could otherwise. Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which these use - so I am hosting all of this at my very own website - 1.37:1. After practicing a bit, the first thing I made was an area chart of the domestic box office over the last few months. It’s really a follow-up to my last post - it takes the gross of all movies on a given day as a percentage of the total gross in that day. But now you can actually see what makes up the chart - and see, for example, how The Hobbit made up about half of the money spent on its opening weekend, but faded fast, while Frozen’s run has lasted for months. The second thing I added was several ways to look at the data: by Movie (like above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can click any of those titles to change the chart to that classification. This data is all taken directly from Box Office Mojo - again, they do a great job with storing all of this data (though their genres need a little work). For example - here I’m looking at how much of the domestic box office revenue was accounted for by PG-13 movies (after clicking MPAA Rating):" />
+<link rel="canonical" href="http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html" />
+<meta property="og:url" content="http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html" />
+<meta property="og:site_name" content="Shields of Dreams" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-03-16T00:00:00-04:00" />
+<script type="application/ld+json">
+{"description":"In the spirit of never making anyone look at an ugly, boring Excel graph about movies again, I’ve learned the (very basic) basics of D31 - effectively, I can make interactive graphics. The hope is that I can use this to make these posts more engaging, while also including significantly more information than I could otherwise. Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which these use - so I am hosting all of this at my very own website - 1.37:1. After practicing a bit, the first thing I made was an area chart of the domestic box office over the last few months. It’s really a follow-up to my last post - it takes the gross of all movies on a given day as a percentage of the total gross in that day. But now you can actually see what makes up the chart - and see, for example, how The Hobbit made up about half of the money spent on its opening weekend, but faded fast, while Frozen’s run has lasted for months. The second thing I added was several ways to look at the data: by Movie (like above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can click any of those titles to change the chart to that classification. This data is all taken directly from Box Office Mojo - again, they do a great job with storing all of this data (though their genres need a little work). For example - here I’m looking at how much of the domestic box office revenue was accounted for by PG-13 movies (after clicking MPAA Rating):","headline":"The Box Office: An Interactive Chart","dateModified":"2014-03-16T00:00:00-04:00","datePublished":"2014-03-16T00:00:00-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html"},"url":"http://localhost:4000/2014/03/16/the-box-office-an-interactive-chart.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Shields of Dreams" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shields of Dreams</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The Box Office: An Interactive Chart</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2014-03-16T00:00:00-04:00" itemprop="datePublished">Mar 16, 2014
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>In the spirit of never making anyone look at an ugly, boring Excel graph about
+movies again, I’ve learned the (very basic) basics of <a href="http://d3js.org/">D3</a>1
+- effectively, I can make interactive graphics. The hope is that I can use
+this to make these posts more engaging, while also including significantly
+more information than I could otherwise.</p>
+
+<p>Blogspot/Blogger, while great (and free), doesn’t allow for Javascript - which
+these use - so I am hosting all of this at my very own website -
+<a href="http://interactive.137to1.com/">1.37:1</a>.</p>
+
+<p>After practicing a bit, the first thing I made was an area chart of the
+domestic box office over the last few months. It’s really a follow-up to my
+last post - it takes the gross of all movies on a given day as a percentage of
+the total gross in that day. But now you can actually see what makes up the
+chart - and see, for example, how <em>The Hobbit</em>  made up about half of the
+money spent on its opening weekend, but faded fast, while <em>Frozen’s</em> run has
+lasted for months.</p>
+
+<p>The second thing I added was several ways to look at the data: by Movie (like
+above), by Studio, by MPAA Rating, by Genre, and by Month of Release. You can
+click any of those titles to change the chart to that classification. This
+data is all taken directly from Box Office Mojo - again, they do a great job
+with storing all of this data (though their genres need a little work).</p>
+
+<p>For example - here I’m looking at how much of the domestic box office revenue
+was accounted for by PG-13 movies (after clicking MPAA Rating):</p>
+
+<p><a href="http://2.bp.blogspot.com/-TjsJRgmUF0c/UyYz9TZkWhI/AAAAAAAAAJ0/qMhim5YdqdQ/s1600/rating.png"><img src="http://2.bp.blogspot.com/-TjsJRgmUF0c/UyYz9TZkWhI/AAAAAAAAAJ0/qMhim5YdqdQ/s1600/rating.png" alt="" /></a></p>
+
+<p>Month of Release is the one I wanted to highlight - it shows the gross
+accounted for by movies released in a particular month.</p>
+
+<p><a href="http://1.bp.blogspot.com
+/-pi-iLumrU6Y/UyY1_LsRw8I/AAAAAAAAAKA/I3YOUe6VmrY/s1600/releasemonth.png"><img src="http://1.bp.blogspot.com/-pi-
+iLumrU6Y/UyY1_LsRw8I/AAAAAAAAAKA/I3YOUe6VmrY/s1600/releasemonth.png" alt="" /></a></p>
+
+<p>All of these would be much more interesting over a much longer period of time,
+but this one would be more than anything. It’s really showing two things: how
+well movies released in one month do in the subsequent months, and how poorly
+movies do in their month of release. In the chart above, the dark green is
+December movies, and the light green is January movies. Not a shock to anyone</p>
+<ul>
+  <li>movies released in January are generally expected to perform terribly (and
+are usually, with some exceptions, terribly received), and movies released in
+December are generally either pushed for the Oscars or expected to be
+blockbusters. But, it’s another thing to have the numbers verify that.</li>
+</ul>
+
+<p>Again, this is a short timeframe and has very little to say in the way of real
+trends across time. There are only around 50-100 movies regularly tracked in
+the domestic box office - a relatively small sample size - and the list only
+incrementally changes. Moreover, the makeup of the box office changes
+drastically from month to month and from season to season; January looks very
+different from March, and spring very different from summer. That makes it
+harder to intuit real changes - you’d need to look at multiple seasons and
+years for true trends to take hold. But that, in short, is one of the major
+points I’m attempting to investigate.</p>
+
+<hr />
+<p>Data source: <a href="http://www.boxofficemojo.com/">Box Office Mojo</a></p>
+
+<p>1Not <a href="http://www.imdb.com/title/tt0116000/">this</a> D3.</p>
+
+
+  </div><a class="u-url" href="/2014/03/16/the-box-office-an-interactive-chart.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shields of Dreams</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shields of Dreams</li><li><a class="u-email" href="mailto:jim.j.shields@gmail.com">jim.j.shields@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jimjshields"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jimjshields</span></a></li><li><a href="https://www.twitter.com/shieldsofdreams"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">shieldsofdreams</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Jim&#39;s blog. Programming, movies, data, etc.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -17,7 +17,13 @@ DISCLAIMER: I haven’t seen the movie _Cats_, the musical _Cats_, read the coll
 
 ## A Brief History of _Cats_
 
-_Cats_ was a movie released in 2019 to widespread confusion. It didn’t spring from nowhere; it has an 80-year history. First was T.S. Eliot’s _Old Possum’s Book of Practical Cats_ (1939), a collection of fanciful, cat-related poems he wrote for his godchildren. Then there was _Cats_ (1981), Andrew Lloyd Webber’s stage musical based on the poems, which was an enormous hit — Broadway’s longest-running show of all time until the mid-2000s, grossing $3.5 BILLION worldwide (one source has it as the highest-grossing show of all time; I couldn’t confirm it but it gives a sense of scale).
+_Cats_ was a movie released in 2019 to widespread confusion. It didn’t spring from nowhere; it has an 80-year history. First was T.S. Eliot’s _Old Possum’s Book of Practical Cats_ (1939), a collection of fanciful, cat-related poems he wrote for his godchildren. 
+
+![Good Old Possum](https://pictures.abebooks.com/isbn/9780156685689-us.jpg)
+
+Then there was _Cats_ (1981), Andrew Lloyd Webber’s stage musical based on the poems, which was an enormous hit — Broadway’s longest-running show of all time until the mid-2000s, grossing $3.5 BILLION worldwide (one source has it as the highest-grossing show of all time; I couldn’t confirm it but it gives a sense of scale).
+
+![I chose the logo on purpose; you can look up pictures of the production, they're kind of scary](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCats_(musical)&psig=AOvVaw1z9sOP5a_55anqfjwoPUhK&ust=1590599468879000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICnqfSC0ukCFQAAAAAdAAAAABAN)
 
 In the mid-90s, after the huge success of the musical, [Steven Spielberg’s animation company wanted to adapt _Cats_ into a movie](https://www.forbes.com/sites/marchershberg/2019/12/20/how-a-dog-film-killed-an-animated-version-of-cats/#43f788a8beb8), but the writers struggled to adapt the story (essentially a series of introductions to different whimsically-named cats) into a traditional 3-act movie structure. They failed; the animation company folded; the rights for _Cats_ went to Universal and lay dormant until 2013, when the movie adaptation of Les Miserables was a huge international hit and made musical movies bankable again. Universal decided to start up the old _Cats_ train again, and hired Tom Hooper, the director of Les Mis, in 2016. He adapted the screenplay and started production in 2018, hired a bunch of very famous (Taylor Swift) and reputable (Jennifer Hudson, Idris Elba, Judi Dench, Ian McKellen) actors, and they shot the movie. 
 
@@ -27,7 +33,7 @@ During the production of a movie until the theatrical release, there are a few c
 
 Dailies are the “raw, unedited footage” shot during movie production, and usually viewed by the director (and maybe some cast and crew) the next day. _Cats_ was heavy on visual effects, which were added after production (in post-production), so its dailies likely weren’t reflective of Tom Hooper’s full vision. I also can only speculate how this feedback loop worked for _Cats_. But they are the first important loop, where the director can make adjustments to performances, production design, cinematography, etc. based on how the footage looks.
 
-Trailer releases are usually the first public feedback loop: the ultimate audience is reacting to (heavily edited, but usually fully produced) footage of the movie. On July 18, 2019, the world changed when [the _Cats_ trailer](https://www.youtube.com/watch?v=FtSd844cI7U) was released. It “received overwhelmingly negative reactions from viewers,” mainly due to the mix of live action and CGI, which hovered around the [uncanny valley](https://www.youtube.com/watch?v=FtSd844cI7U). Not all trailer releases are a full feedback loop; often the movie is mostly locked prior to the trailer. But for _Cats_, the reaction was so strong that they had to rework much of the VFX.[1]
+Trailer releases are usually the first public feedback loop: the ultimate audience is reacting to (heavily edited, but usually fully produced) footage of the movie. On July 18, 2019, the world changed when [the _Cats_ trailer](https://www.youtube.com/watch?v=FtSd844cI7U) was released. It “received overwhelmingly negative reactions from viewers,” mainly due to the mix of live action and CGI, which hovered around the [uncanny valley](https://www.youtube.com/watch?v=FtSd844cI7U). Not all trailer releases are a full feedback loop; often the movie is mostly locked prior to the trailer. But for _Cats_, the reaction was so strong that they had to rework much of the VFX.[^1]
 
 Test screenings are typically the last feedback loop for movies, and can be valuable in responding to audience feedback by cutting out scenes that don’t work or even changing plot points that test poorly. I couldn’t find any evidence of test screenings for _Cats_, likely because of the rushed schedule.
 
@@ -41,7 +47,7 @@ By the time its run ended, it made $27 million in the US, and $73 million worldw
 
 ## Feedback Loops in Programming
 
-Movies try to build in feedback loops, but they’re deprived of the most important one: the feedback from a *paying audience*. _Cats_ is the only example I know of with a second version released in the original theatrical run. 
+Movies try to build in feedback loops, but they’re deprived of the most important one: the feedback from a *paying audience*. _Cats_ is the only example I know of with a second version released in the original theatrical run.
 
 Because of this constraint on movies, I think they’re a perfect counterexample to programming projects: you’re (probably) not making a movie, so you should strive to build in the feedback loop from your “paying audience” (your day-to-day users) as quickly and as often as possible.
 
@@ -55,6 +61,10 @@ And *releasing your code to staging or QA* is a lot like doing test screenings: 
 
 But there’s no feedback loop as important as *releasing your code to production* to your paying audience. Releasing often is a critical practice and goal of the [DevOps movement](https://en.wikipedia.org/wiki/DevOps), supported by the annual [State of DevOps surveys](https://services.google.com/fh/files/misc/state-of-devops-2019.pdf) (and the companion book, [Accelerate](https://itrevolution.com/book/accelerate/)), and is shown to be a strong predictor of engineering team performance.
 
-So build it in as early and often as you can (if you can), because you’re extremely lucky not to be working on a movie, where you won’t know for months or years whether it’s truly any good.
+So build in this feedback loop as early and often as you can (if you can), because you’re extremely lucky not to be working on a movie, where you won’t know for months or years whether it’s truly any good.
 
-[1] This kind of VFX usually takes a year or more, and the studio gave them 8 months so they could release it in time for Christmas — the VFX team was put in an absolutely admirable effort through a horribly rushed schedule and were [mocked at the Oscars](https://www.indiewire.com/2020/02/academy-awards-visual-effects-cats-rebel-wilson-james-corden-1202210749/) for their work. In a disturbingly similar story last year, the Sonic the Hedgehog team somehow [responded to the trailer backlash by turning the movie into a huge success](https://www.vulture.com/2020/02/the-sonic-the-hedgehog-controversy-and-redesign-explained.html), but were also put through a dreadful work schedule and were [ultimately shut down](https://screenrant.com/vfx-studio-mpc-vancouver-shut-down-closed/).
+## Epilogue
+
+By January, _Cats_ had [already found a second life through midnight screenings](https://www.wbur.org/artery/2020/01/23/tom-hooper-cats-midnight-screenings). It didn't make back Universal's $100 million loss, but bodes well for its future as a cult classic, like [_The Room_](https://en.wikipedia.org/wiki/The_Room). I don't think your programming project could someday become a cult classic... but you never know!
+
+[^1]: This kind of VFX usually takes a year or more, and the studio gave them 8 months so they could release it in time for Christmas — the VFX team was put in an absolutely admirable effort through a horribly rushed schedule and were [mocked at the Oscars](https://www.indiewire.com/2020/02/academy-awards-visual-effects-cats-rebel-wilson-james-corden-1202210749/) for their work. In a disturbingly similar story last year, the Sonic the Hedgehog team somehow [responded to the trailer backlash by turning the movie into a huge success](https://www.vulture.com/2020/02/the-sonic-the-hedgehog-controversy-and-redesign-explained.html), but were also put through a dreadful work schedule and were [ultimately shut down](https://screenrant.com/vfx-studio-mpc-vancouver-shut-down-closed/).

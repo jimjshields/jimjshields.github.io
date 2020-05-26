@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Cats (2019), Feedback Loops, and Programming | Shields of Dreams</title>
+<meta name="generator" content="Jekyll v3.6.2" />
+<meta property="og:title" content="Cats (2019), Feedback Loops, and Programming" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Intro" />
+<meta property="og:description" content="Intro" />
+<link rel="canonical" href="http://localhost:4000/2020/05/26/cats-feedback-loops-and-programming.html" />
+<meta property="og:url" content="http://localhost:4000/2020/05/26/cats-feedback-loops-and-programming.html" />
+<meta property="og:site_name" content="Shields of Dreams" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-26T00:00:00-04:00" />
+<script type="application/ld+json">
+{"headline":"Cats (2019), Feedback Loops, and Programming","dateModified":"2020-05-26T00:00:00-04:00","datePublished":"2020-05-26T00:00:00-04:00","description":"Intro","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/05/26/cats-feedback-loops-and-programming.html"},"@type":"BlogPosting","url":"http://localhost:4000/2020/05/26/cats-feedback-loops-and-programming.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Shields of Dreams" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shields of Dreams</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Cats (2019), Feedback Loops, and Programming</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-05-26T00:00:00-04:00" itemprop="datePublished">May 26, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="intro">Intro</h2>
+
+<p>I gave a version of this talk a few weeks before coronavirus, and meant to adapt it into a blog post well before now, but I probably would’ve procrastinated on it in the best of times so I think this is a pretty good turnaround!</p>
+
+<p>Fair warning, this is one of those posts where the author stretches a metaphor to its breaking point.</p>
+
+<p>I think there’s a lot to learn about programming, specifically in establishing feedback loops, from the constraints on movie production. <em>Cats</em> (2019) is a recent and obvious example of this (also seriously considered <em>Sonic the Hedgehog</em> (2020)).</p>
+
+<p>DISCLAIMER: I haven’t seen the movie <em>Cats</em>, the musical <em>Cats</em>, read the collection of poems <em>Old Possum’s Book of Practical Cats</em>, and have no personal stake in the multi-billion-dollar <em>Cats</em> empire. I’ll really try to stay objective about the quality of all <em>Cats</em> media.</p>
+
+<h2 id="a-brief-history-of-cats">A Brief History of <em>Cats</em></h2>
+
+<p><em>Cats</em> was a movie released in 2019 to widespread confusion. It didn’t spring from nowhere; it has an 80-year history. First was T.S. Eliot’s <em>Old Possum’s Book of Practical Cats</em> (1939), a collection of fanciful, cat-related poems he wrote for his godchildren.</p>
+
+<p style="text-align:center">
+    <img src="https://pictures.abebooks.com/isbn/9780156685689-us.jpg" alt="Good Old Possum" height="400px" />
+</p>
+
+<p>Then there was <em>Cats</em> (1981), Andrew Lloyd Webber’s stage musical based on the poems, which was an enormous hit — Broadway’s longest-running show of all time until the mid-2000s, grossing $3.5 BILLION worldwide (one source has it as the highest-grossing show of all time; I couldn’t confirm it but it gives a sense of scale).</p>
+
+<p style="text-align:center">
+    <img src="https://bsp-static.playbill.com/dims4/default/ea8f643/2147483647/resize/x250%3C/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2Fe6%2Fb4%2F827726c645b9a817ab0e4bdea8a1%2Fcats-playbill-2016-07-14-web.jpg" alt="I chose the logo on purpose; you can look up pictures of the production, they're kind of scary" height="400px" />
+</p>
+
+<p>In the mid-90s, after the huge success of the musical, <a href="https://www.forbes.com/sites/marchershberg/2019/12/20/how-a-dog-film-killed-an-animated-version-of-cats/#43f788a8beb8">Steven Spielberg’s animation company wanted to adapt <em>Cats</em> into a movie</a>, but the writers struggled to adapt the story (essentially a series of introductions to different whimsically-named cats) into a traditional 3-act movie structure. They failed; the animation company folded; the rights for <em>Cats</em> went to Universal and lay dormant until 2013, when the movie adaptation of Les Miserables was a huge international hit and made musical movies bankable again. Universal decided to start up the old <em>Cats</em> train again, and hired Tom Hooper, the director of Les Mis, in 2016. He adapted the screenplay and started production in 2018, hired a bunch of very famous (Taylor Swift) and reputable (Jennifer Hudson, Idris Elba, Judi Dench, Ian McKellen) actors, and they shot the movie.</p>
+
+<h2 id="feedback-loops-in-the-production-of-cats-and-all-movies">Feedback Loops in the Production of <em>Cats</em> (and All Movies)</h2>
+
+<p>During the production of a movie until the theatrical release, there are a few critical feedback loops: <a href="https://en.wikipedia.org/wiki/Dailies"><em>dailies</em></a>, <em>trailer releases</em>, and <a href="https://en.wikipedia.org/wiki/Test_screening"><em>test screenings</em></a>. Importantly, though, there’s only one place feedback actually matters: the <em>theatrical release</em>, where people either pay to see the movie or they don’t. Once it’s released (though <em>Cats</em> is a special exception here), there’s no longer a feedback loop — the movie is locked.</p>
+
+<p>Dailies are the “raw, unedited footage” shot during movie production, and usually viewed by the director (and maybe some cast and crew) the next day. <em>Cats</em> was heavy on visual effects, which were added after production (in post-production), so its dailies likely weren’t reflective of Tom Hooper’s full vision. I also can only speculate how this feedback loop worked for <em>Cats</em>. But they are the first important loop, where the director can make adjustments to performances, production design, cinematography, etc. based on how the footage looks.</p>
+
+<p>Trailer releases are usually the first public feedback loop: the ultimate audience is reacting to (heavily edited, but usually fully produced) footage of the movie. On July 18, 2019, the world changed when <a href="https://www.youtube.com/watch?v=FtSd844cI7U">the <em>Cats</em> trailer</a> was released. It “received overwhelmingly negative reactions from viewers,” mainly due to the mix of live action and CGI, which hovered around the <a href="https://www.youtube.com/watch?v=FtSd844cI7U">uncanny valley</a>. Not all trailer releases are a full feedback loop; often the movie is mostly locked prior to the trailer. But for <em>Cats</em>, the reaction was so strong that they had to rework much of the VFX.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>Test screenings are typically the last feedback loop for movies, and can be valuable in responding to audience feedback by cutting out scenes that don’t work or even changing plot points that test poorly. I couldn’t find any evidence of test screenings for <em>Cats</em>, likely because of the rushed schedule.</p>
+
+<p>On December 16, <em>Cats</em> had its world premiere — Hooper said he’d finished the film “at 8am the previous day after 36 hours in a row” (not normal!). On December 19, it’s released to critics, who aren’t kind (currently at 21% on Rotten Tomatoes). It finally had its theatrical release on December 20, and was expected to make $15 million its opening weekend (abnormally low for a movie this “big” released on the weekend before Christmas). It made $6.5 million, good for 21st worst wide opening of all time.</p>
+
+<p>On the Sunday of its opening weekend, Universal did something “unheard of” for an already-released: it sent a “patch” of <em>Cats</em> to all theaters! <em>Cats</em>, in effect, created a new feedback loop for movies by releasing a new version after the public reaction. The patch was to address some VFX mistakes like this gem, where you can see Judi Dench’s real hand:</p>
+
+<p style="text-align:center">
+    <img src="https://www.nydailynews.com/resizer/nxSaCm1DMoC4OnKUyATuMhm5ERg=/800x657/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/S2QFGAKIKNDKTOAHR4JYRSSH2U.jpg" width="500px" alt="A terrible merge conflict" />
+</p>
+
+<p>By the time its run ended, it made $27 million in the US, and $73 million worldwide, against a $95 million production budget and rumored $100 million marketing budget. It was supposed to be a major Oscar contender; after its failed release, it was pulled from contention and garnered zero nominations. It was an unqualified disaster.</p>
+
+<h2 id="feedback-loops-in-programming">Feedback Loops in Programming</h2>
+
+<p>Movies try to build in feedback loops, but they’re deprived of the most important one: the feedback from a <em>paying audience</em>. <em>Cats</em> is the only example I know of with a second version released in the original theatrical run.</p>
+
+<p>Because of this constraint on movies, I think they’re a perfect counterexample to programming projects: you’re (probably) not making a movie, so you should strive to build in the feedback loop from your “paying audience” (your day-to-day users) as quickly and as often as possible.</p>
+
+<p>Programming also has other feedback loops that correspond nicely to those in movies:</p>
+
+<p><em>Writing tests</em> for your code is a lot like viewing the dailies: it usually doesn’t tell you that the whole project is working, but gives you quick and critical feedback on an isolated piece.</p>
+
+<p><em>Giving a demo</em> of your project is a lot like releasing a trailer: it’s a great chance to market the best parts of your project, hide the non-working details, and get feedback on your approach.</p>
+
+<p>And <em>releasing your code to staging or QA</em> is a lot like doing test screenings: you get real feedback on the whole project, though not from a paying audience (test screening audiences are usually self-selected and don’t pay, just like staging / QA users are likely not 100% representative of your paying audience).</p>
+
+<p>But there’s no feedback loop as important as <em>releasing your code to production</em> to your paying audience. Releasing often is a critical practice and goal of the <a href="https://en.wikipedia.org/wiki/DevOps">DevOps movement</a>, supported by the annual <a href="https://services.google.com/fh/files/misc/state-of-devops-2019.pdf">State of DevOps surveys</a> (and the companion book, <a href="https://itrevolution.com/book/accelerate/">Accelerate</a>), and is shown to be a strong predictor of engineering team performance.</p>
+
+<p>So build in this feedback loop as early and often as you can (if you can), because you’re extremely lucky not to be working on a movie, where you won’t know for months or years whether it’s truly any good.</p>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>By January, <em>Cats</em> had <a href="https://www.wbur.org/artery/2020/01/23/tom-hooper-cats-midnight-screenings">already found a second life through midnight screenings</a>. It didn’t make back Universal’s $100 million loss, but bodes well for its future as a cult classic, like <a href="https://en.wikipedia.org/wiki/The_Room"><em>The Room</em></a>. I don’t think your programming project could someday become a cult classic… but you never know!</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This kind of VFX usually takes a year or more, and the studio gave them 8 months so they could release it in time for Christmas — the VFX team was put in an absolutely admirable effort through a horribly rushed schedule and were <a href="https://www.indiewire.com/2020/02/academy-awards-visual-effects-cats-rebel-wilson-james-corden-1202210749/">mocked at the Oscars</a> for their work. In a disturbingly similar story last year, the Sonic the Hedgehog team somehow <a href="https://www.vulture.com/2020/02/the-sonic-the-hedgehog-controversy-and-redesign-explained.html">responded to the trailer backlash by turning the movie into a huge success</a>, but were also put through a dreadful work schedule and were <a href="https://screenrant.com/vfx-studio-mpc-vancouver-shut-down-closed/">ultimately shut down</a>. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/2020/05/26/cats-feedback-loops-and-programming.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shields of Dreams</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shields of Dreams</li><li><a class="u-email" href="mailto:jim.j.shields@gmail.com">jim.j.shields@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jimjshields"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jimjshields</span></a></li><li><a href="https://www.twitter.com/shieldsofdreams"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">shieldsofdreams</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Jim&#39;s blog. Programming, movies, data, etc.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

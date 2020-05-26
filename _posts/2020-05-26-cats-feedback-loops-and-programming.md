@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "_Cats_, Feedback Loops, and Programming"
+title:  "Cats (2019), Feedback Loops, and Programming"
 date:   2020-05-26
 categories: Cats, movies, programming, devops
 ---
@@ -19,11 +19,15 @@ DISCLAIMER: I haven’t seen the movie _Cats_, the musical _Cats_, read the coll
 
 _Cats_ was a movie released in 2019 to widespread confusion. It didn’t spring from nowhere; it has an 80-year history. First was T.S. Eliot’s _Old Possum’s Book of Practical Cats_ (1939), a collection of fanciful, cat-related poems he wrote for his godchildren. 
 
-![Good Old Possum](https://pictures.abebooks.com/isbn/9780156685689-us.jpg)
+<p style="text-align:center">
+    <img src="https://pictures.abebooks.com/isbn/9780156685689-us.jpg" alt="Good Old Possum" height="400px"/>
+</p>
 
 Then there was _Cats_ (1981), Andrew Lloyd Webber’s stage musical based on the poems, which was an enormous hit — Broadway’s longest-running show of all time until the mid-2000s, grossing $3.5 BILLION worldwide (one source has it as the highest-grossing show of all time; I couldn’t confirm it but it gives a sense of scale).
 
-![I chose the logo on purpose; you can look up pictures of the production, they're kind of scary](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCats_(musical)&psig=AOvVaw1z9sOP5a_55anqfjwoPUhK&ust=1590599468879000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICnqfSC0ukCFQAAAAAdAAAAABAN)
+<p style="text-align:center">
+    <img src="https://bsp-static.playbill.com/dims4/default/ea8f643/2147483647/resize/x250%3C/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2Fe6%2Fb4%2F827726c645b9a817ab0e4bdea8a1%2Fcats-playbill-2016-07-14-web.jpg" alt="I chose the logo on purpose; you can look up pictures of the production, they're kind of scary" height="400px"/>
+</p>
 
 In the mid-90s, after the huge success of the musical, [Steven Spielberg’s animation company wanted to adapt _Cats_ into a movie](https://www.forbes.com/sites/marchershberg/2019/12/20/how-a-dog-film-killed-an-animated-version-of-cats/#43f788a8beb8), but the writers struggled to adapt the story (essentially a series of introductions to different whimsically-named cats) into a traditional 3-act movie structure. They failed; the animation company folded; the rights for _Cats_ went to Universal and lay dormant until 2013, when the movie adaptation of Les Miserables was a huge international hit and made musical movies bankable again. Universal decided to start up the old _Cats_ train again, and hired Tom Hooper, the director of Les Mis, in 2016. He adapted the screenplay and started production in 2018, hired a bunch of very famous (Taylor Swift) and reputable (Jennifer Hudson, Idris Elba, Judi Dench, Ian McKellen) actors, and they shot the movie. 
 
@@ -41,7 +45,9 @@ On December 16, _Cats_ had its world premiere — Hooper said he’d finished th
 
 On the Sunday of its opening weekend, Universal did something “unheard of” for an already-released: it sent a “patch” of _Cats_ to all theaters! _Cats_, in effect, created a new feedback loop for movies by releasing a new version after the public reaction. The patch was to address some VFX mistakes like this gem, where you can see Judi Dench’s real hand:
 
-![a terrible merge conflict](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nydailynews.com%2Fsnyde%2Fny-judi-dench-hand-digitally-removed-cats-universal-20191223-wj7nfia4zzgzhmvuni3jciq5la-story.html&psig=AOvVaw1MJdFIUWvtzznWLjFqHaUS&ust=1590541028667000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjNu5mp0OkCFQAAAAAdAAAAABAD)
+<p style="text-align:center">
+    <img src="https://www.nydailynews.com/resizer/nxSaCm1DMoC4OnKUyATuMhm5ERg=/800x657/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/S2QFGAKIKNDKTOAHR4JYRSSH2U.jpg" width="500px" alt="A terrible merge conflict"/>
+</p>
 
 By the time its run ended, it made $27 million in the US, and $73 million worldwide, against a $95 million production budget and rumored $100 million marketing budget. It was supposed to be a major Oscar contender; after its failed release, it was pulled from contention and garnered zero nominations. It was an unqualified disaster.
 

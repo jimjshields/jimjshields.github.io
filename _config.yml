@@ -25,6 +25,7 @@ github_username:  jimjshields
 # Build settings
 markdown: kramdown
 theme: minima
+google_analytics: UA-61196415-1
 plugins:
   - jekyll-feed
 permalink: /:year/:month/:day/:title:output_ext

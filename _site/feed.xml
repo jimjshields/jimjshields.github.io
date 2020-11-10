@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://jimjshields.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jimjshields.github.io/" rel="alternate" type="text/html" /><updated>2020-11-10T13:35:32-05:00</updated><id>http://jimjshields.github.io/</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Learning a New Programming Language</title><link href="http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html" rel="alternate" type="text/html" title="Learning a New Programming Language" /><published>2020-11-10T00:00:00-05:00</published><updated>2020-11-10T00:00:00-05:00</updated><id>http://jimjshields.github.io/2020/11/10/rc-day-1-new-language</id><content type="html" xml:base="http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html">&lt;h2 id=&quot;back-to-rc&quot;&gt;Back to RC&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://jimjshields.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jimjshields.github.io/" rel="alternate" type="text/html" /><updated>2020-11-10T13:42:52-05:00</updated><id>http://jimjshields.github.io/</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Learning a New Programming Language</title><link href="http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html" rel="alternate" type="text/html" title="Learning a New Programming Language" /><published>2020-11-10T00:00:00-05:00</published><updated>2020-11-10T00:00:00-05:00</updated><id>http://jimjshields.github.io/2020/11/10/rc-day-1-new-language</id><content type="html" xml:base="http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html">&lt;h2 id=&quot;back-to-rc&quot;&gt;Back to RC&lt;/h2&gt;
 
 &lt;p&gt;This week, I took a week off from work to attend a mini batch at the &lt;a href=&quot;https://www.recurse.com/&quot;&gt;Recurse Center&lt;/a&gt;. I’ve been wanting to go back for a while, and now seemed like the perfect time to do something different for a week, even if I’m still at home.&lt;/p&gt;
 
@@ -14,10 +14,8 @@
 
 &lt;p&gt;In reflecting on my frustration, I realized that there were a few key ideas I should’ve focused on when approaching a new language, especially with a short amount of time. Here’s what helped me:&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Run code often
-When working in Python, if I’m taking a shortcut and not using TDD, I tend to run code snippets in a REPL (&lt;code class=&quot;highlighter-rouge&quot;&gt;ipython&lt;/code&gt;), or as a script and use a debugger (&lt;code class=&quot;highlighter-rouge&quot;&gt;ipdb&lt;/code&gt;). It encourages me to have a short feedback loop between code changes and running my code.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;run-code-often&quot;&gt;Run code often&lt;/h3&gt;
+&lt;p&gt;When working in Python, if I’m taking a shortcut and not using TDD, I tend to run code snippets in a REPL (&lt;code class=&quot;highlighter-rouge&quot;&gt;ipython&lt;/code&gt;), or as a script and use a debugger (&lt;code class=&quot;highlighter-rouge&quot;&gt;ipdb&lt;/code&gt;). It encourages me to have a short feedback loop between code changes and running my code.&lt;/p&gt;
 
 &lt;p&gt;I don’t want to focus on TDD with Go this week, even if it would have compounding benefits — I really want to focus on getting my code working as fast as possible.&lt;/p&gt;
 
@@ -36,9 +34,7 @@ When working in Python, if I’m taking a shortcut and not using TDD, I tend to 
 
 &lt;p&gt;This was exciting, I could run my code with every change! But even with this smoother workflow, I tend to make a few changes at a time, and had unexpected compilation issues almost every time. With such a short time to learn a new language, I wanted a way to make the feedback loop even faster, so I learned I should…&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Get a good IDE!&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;get-a-good-ide&quot;&gt;Get a good IDE!&lt;/h3&gt;
 
 &lt;p&gt;During my first batch at RC, I used SublimeText — a great text editor, but not a full-fledged IDE. This was really effective for my first language: I spent a lot of time actually &lt;em&gt;writing&lt;/em&gt; code, which forced me to &lt;em&gt;think&lt;/em&gt; in code. I’ve found that this time was crucial for working as a programmer, and that thinking in code has become like riding a bike.&lt;/p&gt;
 
@@ -48,9 +44,7 @@ When working in Python, if I’m taking a shortcut and not using TDD, I tend to 
 
 &lt;p&gt;Already it’s made my coding significantly faster and less frustrating.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Build a small project I’ve built in another language&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;build-a-small-project-ive-built-in-another-language&quot;&gt;Build a small project I’ve built in another language&lt;/h3&gt;
 
 &lt;p&gt;I picked a small web scraping project I’d already worked on in Python: scraping https://letterboxd.com/ to find how expensive it is to stream a playlist of movies (e.g., a director’s filmography). At RC and at YipitData, I’ve spent a lot of time web scraping in Python, &lt;em&gt;so I can focus on the language, rather than the domain.&lt;/em&gt;&lt;/p&gt;
 

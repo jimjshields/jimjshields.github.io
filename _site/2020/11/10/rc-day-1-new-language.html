@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Learning a New Programming Language | Shields of Dreams</title>
+<meta name="generator" content="Jekyll v3.6.2" />
+<meta property="og:title" content="Learning a New Programming Language" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Back to RC" />
+<meta property="og:description" content="Back to RC" />
+<link rel="canonical" href="http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html" />
+<meta property="og:url" content="http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html" />
+<meta property="og:site_name" content="Shields of Dreams" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-11-10T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"Learning a New Programming Language","dateModified":"2020-11-10T00:00:00-05:00","datePublished":"2020-11-10T00:00:00-05:00","description":"Back to RC","mainEntityOfPage":{"@type":"WebPage","@id":"http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html"},"@type":"BlogPosting","url":"http://jimjshields.github.io/2020/11/10/rc-day-1-new-language.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://jimjshields.github.io/feed.xml" title="Shields of Dreams" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shields of Dreams</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Learning a New Programming Language</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-11-10T00:00:00-05:00" itemprop="datePublished">Nov 10, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="back-to-rc">Back to RC</h2>
+
+<p>This week, I took a week off from work to attend a mini batch at the <a href="https://www.recurse.com/">Recurse Center</a>. I’ve been wanting to go back for a while, and now seemed like the perfect time to do something different for a week, even if I’m still at home.</p>
+
+<p>My goal for the week is ambitious, but simple: learn a new language. In my first batch, I learned Python (and some JavaScript), and in the last 5+ years at YipitData, when I’ve coded, it’s always been in Python or JavaScript.</p>
+
+<p>So I picked <a href="https://golang.org/">Go</a>, since it’s pretty different from Python &amp; JS: it’s statically typed, compiled, and known to be great for concurrency. I’d especially like to learn why it’s good for concurrency, as I have very little experience in concurrent programming, and know that Python is considered not-so-good for concurrency.</p>
+
+<p>On day 1, I met a lot of folks at RC, and was impressed (and intimidated) by their ambitions and project ideas.</p>
+
+<p>I spent the rest of the day trying to learn the basics of Go, and felt like a beginner and an imposter.</p>
+
+<h2 id="tips-for-learning-a-new-programming-language">Tips for Learning a New Programming Language</h2>
+
+<p>In reflecting on my frustration, I realized that there were a few key ideas I should’ve focused on when approaching a new language, especially with a short amount of time. Here’s what helped me:</p>
+
+<ol>
+  <li>Run code often
+When working in Python, if I’m taking a shortcut and not using TDD, I tend to run code snippets in a REPL (<code class="highlighter-rouge">ipython</code>), or as a script and use a debugger (<code class="highlighter-rouge">ipdb</code>). It encourages me to have a short feedback loop between code changes and running my code.</li>
+</ol>
+
+<p>I don’t want to focus on TDD with Go this week, even if it would have compounding benefits — I really want to focus on getting my code working as fast as possible.</p>
+
+<p>There are two aspects of Go that are new to me: it’s statically typed (tldr: you must have types), and it’s compiled (tldr: code must be compiled before being run). Because it’s compiled, I assumed that using a REPL or running the code would naturally have a longer feedback loop. But it doesn’t have to!</p>
+
+<p>I structured my first program like (simplified):</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>myproject/
+    /main.go
+    /scraper/
+        /scraper.go
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">main.go</code> is my program’s <em>entrypoint</em>, and it imports <code class="highlighter-rouge">"myproject/scraper"</code>. Though Go is compiled, it helpfully has a command to build <em>and</em> run your program from its entrypoint:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go run .
+</code></pre></div></div>
+
+<p>This was exciting, I could run my code with every change! But even with this smoother workflow, I tend to make a few changes at a time, and had unexpected compilation issues almost every time. With such a short time to learn a new language, I wanted a way to make the feedback loop even faster, so I learned I should…</p>
+
+<ol>
+  <li>Get a good IDE!</li>
+</ol>
+
+<p>During my first batch at RC, I used SublimeText — a great text editor, but not a full-fledged IDE. This was really effective for my first language: I spent a lot of time actually <em>writing</em> code, which forced me to <em>think</em> in code. I’ve found that this time was crucial for working as a programmer, and that thinking in code has become like riding a bike.</p>
+
+<p>Now, when I work, I use a full-featured IDE (PyCharm), and it’s made my coding significantly faster: it auto-completes, highlights errors, runs tests, auto-formats. I don’t need to spend the time writing code.</p>
+
+<p>In my first day in Go, I assumed I needed the same practice time to start to think in Go. But I can already think in code! What I really want is to map that framework to a new language, and to do that, I don’t need to painstakingly write out every single line of code. So I finally realized I should download a good IDE to complement my thinking, and luckily, JetBrains (who make PyCharm) have a Go IDE (<a href="https://www.jetbrains.com/go/">Goland</a>) with all of the features I’m used to.</p>
+
+<p>Already it’s made my coding significantly faster and less frustrating.</p>
+
+<ol>
+  <li>Build a small project I’ve built in another language</li>
+</ol>
+
+<p>I picked a small web scraping project I’d already worked on in Python: scraping https://letterboxd.com/ to find how expensive it is to stream a playlist of movies (e.g., a director’s filmography). At RC and at YipitData, I’ve spent a lot of time web scraping in Python, <em>so I can focus on the language, rather than the domain.</em></p>
+
+<p>This project has been surprisingly difficult — Go’s ability to work with web scraping and JSON is not nearly as simple as Python — but I’ve mostly finished.</p>
+
+<p>I’ve found that starting with a small, familiar project is effective because it <em>gives me boundaries</em>, and I’m much more likely to finish and feel like I learned something. With larger and more unbounded projects, I feel like I’ve learned less if I didn’t finish the project.</p>
+
+<p>Here’s my v1: https://github.com/jimjshields/letterboxd_scraper</p>
+
+<p>I did add a bit of Go-native concurrency, just to learn how it works. It’s very expressive and cool, btu hard to totally wrap my head around.</p>
+
+<p>Here’s how to run (it’s not very useful yet, just prints out a lot of streaming sites for a directors’ movies):</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:jimjshields/letterboxd_scraper.git
+go run . 'Bong Joon Ho'
+</code></pre></div></div>
+
+<p>Now I’ll work on making it useful and fun!</p>
+
+  </div><a class="u-url" href="/2020/11/10/rc-day-1-new-language.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shields of Dreams</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Shields of Dreams</li><li><a class="u-email" href="mailto:jim.j.shields@gmail.com">jim.j.shields@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jimjshields"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jimjshields</span></a></li><li><a href="https://www.twitter.com/shieldsofdreams"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">shieldsofdreams</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Jim&#39;s blog. Programming, movies, data, etc.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

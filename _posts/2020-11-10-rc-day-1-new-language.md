@@ -21,7 +21,7 @@ I spent the rest of the day trying to learn the basics of Go, and felt like a be
 
 In reflecting on my frustration, I realized that there were a few key ideas I should've focused on when approaching a new language, especially with a short amount of time. Here's what helped me:
 
-1. Run code often
+### Run code often
 When working in Python, if I'm taking a shortcut and not using TDD, I tend to run code snippets in a REPL (`ipython`), or as a script and use a debugger (`ipdb`). It encourages me to have a short feedback loop between code changes and running my code.
 
 I don't want to focus on TDD with Go this week, even if it would have compounding benefits — I really want to focus on getting my code working as fast as possible.
@@ -43,7 +43,7 @@ go run .
 
 This was exciting, I could run my code with every change! But even with this smoother workflow, I tend to make a few changes at a time, and had unexpected compilation issues almost every time. With such a short time to learn a new language, I wanted a way to make the feedback loop even faster, so I learned I should...
 
-1. Get a good IDE!
+### Get a good IDE!
 
 During my first batch at RC, I used SublimeText — a great text editor, but not a full-fledged IDE. This was really effective for my first language: I spent a lot of time actually _writing_ code, which forced me to _think_ in code. I've found that this time was crucial for working as a programmer, and that thinking in code has become like riding a bike.
 
@@ -53,7 +53,7 @@ In my first day in Go, I assumed I needed the same practice time to start to thi
 
 Already it's made my coding significantly faster and less frustrating.
 
-1. Build a small project I've built in another language
+### Build a small project I've built in another language
 
 I picked a small web scraping project I'd already worked on in Python: scraping https://letterboxd.com/ to find how expensive it is to stream a playlist of movies (e.g., a director's filmography). At RC and at YipitData, I've spent a lot of time web scraping in Python, *so I can focus on the language, rather than the domain.*
 

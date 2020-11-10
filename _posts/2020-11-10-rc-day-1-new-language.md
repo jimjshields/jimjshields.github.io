@@ -61,7 +61,7 @@ This project has been surprisingly difficult — Go's ability to work with web s
 
 I've found that starting with a small, familiar project is effective because it *gives me boundaries*, and I'm much more likely to finish and feel like I learned something. With larger and more unbounded projects, I feel like I've learned less if I didn't finish the project.
 
-Here's my v1: https://github.com/jimjshields/letterboxd_scraper
+[Here's my v1.](https://github.com/jimjshields/letterboxd_scraper)
 
 I did add a bit of Go-native concurrency, just to learn how it works. It's very expressive and cool, btu hard to totally wrap my head around.
 

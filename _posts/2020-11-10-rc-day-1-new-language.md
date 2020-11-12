@@ -63,7 +63,7 @@ I've found that starting with a small, familiar project is effective because it 
 
 [Here's my v1.](https://github.com/jimjshields/letterboxd_scraper)
 
-I did add a bit of Go-native concurrency, just to learn how it works. It's very expressive and cool, btu hard to totally wrap my head around.
+I did add a bit of Go-native concurrency, just to learn how it works. It's very expressive and cool, but hard to totally wrap my head around.
 
 Here's how to run (it's not very useful yet, just prints out a lot of streaming sites for a directors' movies):
 ```

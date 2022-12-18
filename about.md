@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-[Instagram: shieldsofdreams](https://www.instagram.com/shieldsofdreams/)	
-[Mastodon: shieldsofdreams@mastodon.social](https://mastodon.social/@shieldsofdreams)
-[Letterboxd: jshields](https://letterboxd.com/jshields/)
-[Twitter: shieldsofdreams](https://twitter.com/shieldsofdreams)
+Links:
+* [Instagram: shieldsofdreams](https://www.instagram.com/shieldsofdreams/)	
+* [Mastodon: shieldsofdreams@mastodon.social](https://mastodon.social/@shieldsofdreams)
+* [Letterboxd: jshields](https://letterboxd.com/jshields/)
+* [Twitter: shieldsofdreams](https://twitter.com/shieldsofdreams)
 
 Hi, I'm Jim. I love movies, programming, and data, among other things.
 

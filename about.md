@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
+[Instagram: shieldsofdreams](https://www.instagram.com/shieldsofdreams/)	
+[Mastodon: shieldsofdreams@mastodon.social](https://mastodon.social/@shieldsofdreams)
+[Letterboxd: jshields](https://letterboxd.com/jshields/)
+[Twitter: shieldsofdreams](https://twitter.com/shieldsofdreams)
+
 Hi, I'm Jim. I love movies, programming, and data, among other things.
 
 I blogged a lot in 2014 and 2015, when I was learning programming on my own and attending the [Recurse Center](https://www.recurse.com/) (shameless plug, [go apply!](https://www.recurse.com/apply)). At the time, I was excited to write about movies & data and my experience learning programming.

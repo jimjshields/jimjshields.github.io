@@ -1,0 +1,45 @@
+<div id="observablehq-viewof-adjForInflation-4548f2cb"></div>
+<div id="observablehq-viewof-replay-4548f2cb"></div>
+<div id="observablehq-swatches-4548f2cb"></div>
+<div id="observablehq-chart-4548f2cb"></div>
+<style>
+    label, div, text, p {
+        font-family: 'Helvetica';
+        font-size: 15px;
+    }
+    input[type="checkbox"] {
+        margin: 0;
+        font: inherit;
+        color: currentColor;
+        width: 2.15em;
+        height: 2.15em;
+        border: 0.15em solid currentColor;
+        border-radius: 0.15em;
+        transform: translateY(-0.075em);
+    }
+    form {
+        width: 100%;
+    }
+    .ticker {
+        font-family: 'Helvetica';
+        position: fixed;
+        bottom: 0;
+    }
+    .observablehq {
+        margin: 10px;
+    }
+</style>
+<p>Credit: <a href="https://observablehq.com/d/643f9feb3cecd71c@3368">Bar Chart Race by movie-data</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/643f9feb3cecd71c@3368.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "viewof adjForInflation") return new Inspector(document.querySelector("#observablehq-viewof-adjForInflation-4548f2cb"));
+  if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-4548f2cb"));
+  if (name === "swatches") return new Inspector(document.querySelector("#observablehq-swatches-4548f2cb"));
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-4548f2cb"));
+  return ["chooseGross","datevalues","keyframes","nameframes","ticker","prev","next","bars","labels"].includes(name);
+});
+</script>

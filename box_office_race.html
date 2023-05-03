@@ -1,7 +1,3 @@
-<div id="observablehq-viewof-adjForInflation-4548f2cb"></div>
-<div id="observablehq-viewof-replay-4548f2cb"></div>
-<div id="observablehq-swatches-4548f2cb"></div>
-<div id="observablehq-chart-4548f2cb"></div>
 <style>
     label, div, text, p {
         font-family: 'Helvetica';
@@ -17,20 +13,31 @@
         border-radius: 0.15em;
         transform: translateY(-0.075em);
     }
-    form {
-        width: 100%;
-    }
     .ticker {
         font-family: 'Helvetica';
         position: fixed;
         bottom: 0;
     }
-    .observablehq {
-        margin: 10px;
+    .container {
+        margin: 8px;
     }
 </style>
-<p>Credit: <a href="https://observablehq.com/d/643f9feb3cecd71c@3368">Bar Chart Race by movie-data</a></p>
-
+<div class="container">
+    <p>Credit: <a href="https://observablehq.com/d/643f9feb3cecd71c@3368" target="_blank">Bar Chart Race by movie-data</a></p>
+    <p>Data source: <a href="https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2022" target="_blank">Box Office Mojo</a></p>
+</div>
+<div class="container">
+    <div id="observablehq-viewof-replay-4548f2cb"></div>
+</div>
+<div class="container">
+    <div id="observablehq-viewof-adjForInflation-4548f2cb"></div>
+</div>
+<div class="container">
+    <div id="observablehq-swatches-4548f2cb"></div>
+</div>
+<div class="container">
+    <div id="observablehq-chart-4548f2cb"></div>
+</div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";

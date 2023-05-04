@@ -74,26 +74,26 @@ categories: python, scraping, movies
             <div class="chart-header-el">
                 <a href="https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2022" target="_blank">Data source</a>
             </div>
-        </div>  
-        <div class="chart-header-el btn" id="observablehq-viewof-replay-0afd1485"></div>
-        <div class="chart-header-el" id="observablehq-viewof-adjForInflation-0afd1485"></div>
+        </div>
+        <div class="chart-header-el btn" id="observablehq-viewof-replay-ff187762"></div>
+        <div class="chart-header-el" id="observablehq-viewof-adjForInflation-ff187762"></div>
     </div>
 </header>
 <div class="chart-container swatches-container">
-    <div id="observablehq-swatches-0afd1485"></div>
+    <div id="observablehq-swatches-ff187762"></div>
 </div>
 <div class="chart-container">
-    <div id="observablehq-chart-0afd1485"></div>
+    <div id="observablehq-chart-ff187762"></div>
 </div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import define from "https://api.observablehq.com/d/643f9feb3cecd71c@3368.js?v=3";
+import define from "https://api.observablehq.com/d/643f9feb3cecd71c@3463.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "viewof adjForInflation") return new Inspector(document.querySelector("#observablehq-viewof-adjForInflation-0afd1485"));
-  if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-0afd1485"));
-  if (name === "swatches") return new Inspector(document.querySelector("#observablehq-swatches-0afd1485"));
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-0afd1485"));
-  return ["chooseGross","datevalues","keyframes","nameframes","ticker","prev","next","bars","labels"].includes(name);
+  if (name === "viewof adjForInflation") return new Inspector(document.querySelector("#observablehq-viewof-adjForInflation-ff187762"));
+  if (name === "viewof replay") return new Inspector(document.querySelector("#observablehq-viewof-replay-ff187762"));
+  if (name === "swatches") return new Inspector(document.querySelector("#observablehq-swatches-ff187762"));
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-ff187762"));
+  return ["chooseGross","datevalues","keyframes","keyframesMap","nameframes","ticker","keyframe","prev","next","bars","labels"].includes(name);
 });
 </script>

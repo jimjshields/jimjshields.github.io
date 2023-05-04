@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-04T15:23:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Box Office Race</title><link href="http://localhost:4000/2023/05/04/box-office-race.html" rel="alternate" type="text/html" title="Box Office Race" /><published>2023-05-04T00:00:00-04:00</published><updated>2023-05-04T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/04/box-office-race</id><content type="html" xml:base="http://localhost:4000/2023/05/04/box-office-race.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-04T16:16:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Box Office Race</title><link href="http://localhost:4000/2023/05/04/box-office-race.html" rel="alternate" type="text/html" title="Box Office Race" /><published>2023-05-04T00:00:00-04:00</published><updated>2023-05-04T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/04/box-office-race</id><content type="html" xml:base="http://localhost:4000/2023/05/04/box-office-race.html">&lt;style&gt;
     label, div, text, p {
         font-family: 'Helvetica';
         font-size: 15px;
@@ -67,27 +67,27 @@
             &lt;div class=&quot;chart-header-el&quot;&gt;
                 &lt;a href=&quot;https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2022&quot; target=&quot;_blank&quot;&gt;Data source&lt;/a&gt;
             &lt;/div&gt;
-        &lt;/div&gt;  
-        &lt;div class=&quot;chart-header-el btn&quot; id=&quot;observablehq-viewof-replay-0afd1485&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;chart-header-el&quot; id=&quot;observablehq-viewof-adjForInflation-0afd1485&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;chart-header-el btn&quot; id=&quot;observablehq-viewof-replay-ff187762&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;chart-header-el&quot; id=&quot;observablehq-viewof-adjForInflation-ff187762&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/header&gt;
 &lt;div class=&quot;chart-container swatches-container&quot;&gt;
-    &lt;div id=&quot;observablehq-swatches-0afd1485&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;observablehq-swatches-ff187762&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;chart-container&quot;&gt;
-    &lt;div id=&quot;observablehq-chart-0afd1485&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;observablehq-chart-ff187762&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css&quot;&gt;
 &lt;script type=&quot;module&quot;&gt;
 import {Runtime, Inspector} from &quot;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&quot;;
-import define from &quot;https://api.observablehq.com/d/643f9feb3cecd71c@3368.js?v=3&quot;;
+import define from &quot;https://api.observablehq.com/d/643f9feb3cecd71c@3463.js?v=3&quot;;
 new Runtime().module(define, name =&gt; {
-  if (name === &quot;viewof adjForInflation&quot;) return new Inspector(document.querySelector(&quot;#observablehq-viewof-adjForInflation-0afd1485&quot;));
-  if (name === &quot;viewof replay&quot;) return new Inspector(document.querySelector(&quot;#observablehq-viewof-replay-0afd1485&quot;));
-  if (name === &quot;swatches&quot;) return new Inspector(document.querySelector(&quot;#observablehq-swatches-0afd1485&quot;));
-  if (name === &quot;chart&quot;) return new Inspector(document.querySelector(&quot;#observablehq-chart-0afd1485&quot;));
-  return [&quot;chooseGross&quot;,&quot;datevalues&quot;,&quot;keyframes&quot;,&quot;nameframes&quot;,&quot;ticker&quot;,&quot;prev&quot;,&quot;next&quot;,&quot;bars&quot;,&quot;labels&quot;].includes(name);
+  if (name === &quot;viewof adjForInflation&quot;) return new Inspector(document.querySelector(&quot;#observablehq-viewof-adjForInflation-ff187762&quot;));
+  if (name === &quot;viewof replay&quot;) return new Inspector(document.querySelector(&quot;#observablehq-viewof-replay-ff187762&quot;));
+  if (name === &quot;swatches&quot;) return new Inspector(document.querySelector(&quot;#observablehq-swatches-ff187762&quot;));
+  if (name === &quot;chart&quot;) return new Inspector(document.querySelector(&quot;#observablehq-chart-ff187762&quot;));
+  return [&quot;chooseGross&quot;,&quot;datevalues&quot;,&quot;keyframes&quot;,&quot;keyframesMap&quot;,&quot;nameframes&quot;,&quot;ticker&quot;,&quot;keyframe&quot;,&quot;prev&quot;,&quot;next&quot;,&quot;bars&quot;,&quot;labels&quot;].includes(name);
 });
 &lt;/script&gt;</content><author><name></name></author><category term="python," /><category term="scraping," /><category term="movies" /><summary type="html">Code Data source</summary></entry><entry><title type="html">Comparing Go &amp;amp; Python</title><link href="http://localhost:4000/2020/11/12/rc-day-3-go-vs-python-copy.html" rel="alternate" type="text/html" title="Comparing Go &amp;amp; Python" /><published>2020-11-12T00:00:00-05:00</published><updated>2020-11-12T00:00:00-05:00</updated><id>http://localhost:4000/2020/11/12/rc-day-3-go-vs-python%20copy</id><content type="html" xml:base="http://localhost:4000/2020/11/12/rc-day-3-go-vs-python-copy.html">&lt;h2 id=&quot;comparing-go--python&quot;&gt;Comparing Go &amp;amp; Python&lt;/h2&gt;
 

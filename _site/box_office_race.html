@@ -1,7 +1,3 @@
-<div id="observablehq-viewof-adjForInflation-4548f2cb"></div>
-<div id="observablehq-viewof-replay-4548f2cb"></div>
-<div id="observablehq-swatches-4548f2cb"></div>
-<div id="observablehq-chart-4548f2cb"></div>
 <style>
     label, div, text, p {
         font-family: 'Helvetica';
@@ -17,22 +13,56 @@
         border-radius: 0.15em;
         transform: translateY(-0.075em);
     }
-    form {
-        width: 100%;
-    }
     .ticker {
         font-family: 'Helvetica';
         position: fixed;
         bottom: 0;
     }
-    .observablehq {
+    .container {
+        margin: 8px;
+    }
+    text.ticker {
+        width: 100%;
+    }
+    button {
+        background-color: #198754;
+        padding: 7px;
+        border: none;
+        color: white;
+    }
+    button:hover {
+        opacity: 0.6;
+    }
+    .chart-container {
         margin: 10px;
     }
 </style>
-<p>Credit: <a href="https://observablehq.com/d/643f9feb3cecd71c@3368">Bar Chart Race by movie-data</a></p>
-<p>Data source: <a href="https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2022">Box Office Mojo</a></p>
-
+<header class="site-header" role="banner">
+    <div class="wrapper">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid chart-header">
+            <div class="navbar-header text-center">
+                <div class="navbar-btn btn btn-default" id="observablehq-viewof-replay-4548f2cb"></div>
+            </div>
+            <div class="navbar-header">
+                <div id="observablehq-viewof-adjForInflation-4548f2cb"></div>
+            </div>
+            <div class="navbar-header">
+                <p>Code: <a href="https://observablehq.com/d/643f9feb3cecd71c@3368" target="_blank">Bar Chart Race by movie-data</a></p>
+                <p>Data source: <a href="https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2022" target="_blank">Box Office Mojo</a></p>
+            </div>
+        </div>
+    </nav>
+</div>
+</header>
+<div class="chart-container">
+    <div id="observablehq-swatches-4548f2cb"></div>
+</div>
+<div class="chart-container">
+    <div id="observablehq-chart-4548f2cb"></div>
+</div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import define from "https://api.observablehq.com/d/643f9feb3cecd71c@3368.js?v=3";

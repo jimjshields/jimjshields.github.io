@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-02T17:08:30-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Comparing Go &amp;amp; Python</title><link href="http://localhost:4000/2020/11/12/rc-day-3-go-vs-python.html" rel="alternate" type="text/html" title="Comparing Go &amp;amp; Python" /><published>2020-11-12T00:00:00-05:00</published><updated>2020-11-12T00:00:00-05:00</updated><id>http://localhost:4000/2020/11/12/rc-day-3-go-vs-python</id><content type="html" xml:base="http://localhost:4000/2020/11/12/rc-day-3-go-vs-python.html">&lt;h2 id=&quot;comparing-go--python&quot;&gt;Comparing Go &amp;amp; Python&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-04T13:48:49-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Box Office Race</title><link href="http://localhost:4000/2023/05/04/box-office-race.html" rel="alternate" type="text/html" title="Box Office Race" /><published>2023-05-04T00:00:00-04:00</published><updated>2023-05-04T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/04/box-office-race</id><content type="html" xml:base="http://localhost:4000/2023/05/04/box-office-race.html">&lt;style&gt;
+    label, div, text, p {
+        font-family: 'Helvetica';
+        font-size: 15px;
+    }
+    input[type=&quot;checkbox&quot;] {
+        margin: 0;
+        font: inherit;
+        color: currentColor;
+        width: 2.15em;
+        height: 2.15em;
+        border: 0.15em solid currentColor;
+        border-radius: 0.15em;
+        transform: translateY(-0.075em);
+    }
+    .ticker {
+        font-family: 'Helvetica';
+        position: fixed;
+        bottom: 0;
+    }
+    .container {
+        margin: 8px;
+    }
+    text.ticker {
+        width: 100%;
+    }
+    button {
+        background-color: #198754;
+        padding: 7px;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        margin-top: 20px;
+    }
+    button:hover {
+        opacity: 0.6;
+    }
+    .chart-container {
+        margin: 10px;
+        width: 100%;
+    }
+    .wrapper {
+        max-width: calc(1200px - (30px * 2));
+    }
+    .chart-header {
+        display: inline-flex;
+        width: 100%;
+        margin: 10px;
+    }
+    .chart-header-el {
+        margin-right: 30px;
+    }
+    .links {
+        margin-top: 15px;
+        display: inline-block;
+    }
+&lt;/style&gt;
+&lt;header class=&quot;site-header&quot; role=&quot;banner&quot;&gt;
+    &lt;div class=&quot;chart-header&quot;&gt;
+        &lt;div class=&quot;links&quot;&gt;
+            &lt;div class=&quot;chart-header-el&quot;&gt;
+                &lt;a href=&quot;https://observablehq.com/d/643f9feb3cecd71c@3368&quot; target=&quot;_blank&quot;&gt;Code&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;chart-header-el&quot;&gt;
+                &lt;a href=&quot;https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2022&quot; target=&quot;_blank&quot;&gt;Data source&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;  
+        &lt;div class=&quot;chart-header-el btn&quot; id=&quot;observablehq-viewof-replay-0afd1485&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;chart-header-el&quot; id=&quot;observablehq-viewof-adjForInflation-0afd1485&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/header&gt;
+&lt;div class=&quot;chart-container&quot;&gt;
+    &lt;div id=&quot;observablehq-swatches-0afd1485&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;chart-container&quot;&gt;
+    &lt;div id=&quot;observablehq-chart-0afd1485&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css&quot;&gt;
+&lt;script type=&quot;module&quot;&gt;
+import {Runtime, Inspector} from &quot;https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js&quot;;
+import define from &quot;https://api.observablehq.com/d/643f9feb3cecd71c@3368.js?v=3&quot;;
+new Runtime().module(define, name =&gt; {
+  if (name === &quot;viewof adjForInflation&quot;) return new Inspector(document.querySelector(&quot;#observablehq-viewof-adjForInflation-0afd1485&quot;));
+  if (name === &quot;viewof replay&quot;) return new Inspector(document.querySelector(&quot;#observablehq-viewof-replay-0afd1485&quot;));
+  if (name === &quot;swatches&quot;) return new Inspector(document.querySelector(&quot;#observablehq-swatches-0afd1485&quot;));
+  if (name === &quot;chart&quot;) return new Inspector(document.querySelector(&quot;#observablehq-chart-0afd1485&quot;));
+  return [&quot;chooseGross&quot;,&quot;datevalues&quot;,&quot;keyframes&quot;,&quot;nameframes&quot;,&quot;ticker&quot;,&quot;prev&quot;,&quot;next&quot;,&quot;bars&quot;,&quot;labels&quot;].includes(name);
+});
+&lt;/script&gt;</content><author><name></name></author><category term="python," /><category term="scraping," /><category term="movies" /><summary type="html">Code Data source</summary></entry><entry><title type="html">Comparing Go &amp;amp; Python</title><link href="http://localhost:4000/2020/11/12/rc-day-3-go-vs-python-copy.html" rel="alternate" type="text/html" title="Comparing Go &amp;amp; Python" /><published>2020-11-12T00:00:00-05:00</published><updated>2020-11-12T00:00:00-05:00</updated><id>http://localhost:4000/2020/11/12/rc-day-3-go-vs-python%20copy</id><content type="html" xml:base="http://localhost:4000/2020/11/12/rc-day-3-go-vs-python-copy.html">&lt;h2 id=&quot;comparing-go--python&quot;&gt;Comparing Go &amp;amp; Python&lt;/h2&gt;
 
 &lt;p&gt;I’ve worked mostly in Python for a few years, and it feels like second nature to me. Learning Go this week has forced me to think about some of the major tradeoffs of Python that I’ve taken for granted.&lt;/p&gt;
 
@@ -458,36 +546,4 @@ go run . 'Bong Joon Ho'
 
 &lt;p&gt;The best parts of the past two days have been working with others - though I’ve often approached it less positively than I should, because I have so much I want to work on by myself. When I can come to terms with the idea that I’ll never finish everything I want, and that I always learn more from working with others than on my own, I’ll be a bit more comfortable. But I sat in two really interesting sessions - one by Mary, one of the facilitators here at HS, about the inner workings of Git (it helped in thinking about the seemingly impossible-to-penetrate way that Git actually works); and one in which a group of us met to talk about the Algorithms course so far. Both were enlightening and made me feel less frustrated and stuck in my own progress; I hope to keep working in those kinds of sessions.&lt;/p&gt;
 
-&lt;p&gt;More tomorrow.&lt;/p&gt;</content><author><name></name></author><category term="programming," /><category term="recurse" /><category term="center," /><category term="flask," /><category term="algorithms" /><summary type="html">(Hacker School: Week 3, Day 3)</summary></entry><entry><title type="html">Some Resources for Flask</title><link href="http://localhost:4000/2015/01/20/some-resources-for-flask.html" rel="alternate" type="text/html" title="Some Resources for Flask" /><published>2015-01-20T00:00:00-05:00</published><updated>2015-01-20T00:00:00-05:00</updated><id>http://localhost:4000/2015/01/20/some-resources-for-flask</id><content type="html" xml:base="http://localhost:4000/2015/01/20/some-resources-for-flask.html">&lt;p&gt;(Hacker School: Week 3, Day 1)&lt;/p&gt;
-
-&lt;p&gt;Wasn’t technically at HS yesterday, but I wanted to give a little more detail on how I learned Flask last week. This is really only interesting if you want to work with Flask, so I guess you’ve been warned.&lt;/p&gt;
-
-&lt;p&gt;Here are my major takeaways from learning Flask:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It’s a web framework written in and for Python.&lt;sup&gt;1&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;It’s relatively easy to learn - but that’s relative to larger frameworks like Django (for Python) or Rails (for Ruby). If you’re truly new to web development, there’s still a good amount of assumed knowledge/understanding.&lt;/li&gt;
-  &lt;li&gt;It’s easy to learn because it does only a few, specific things, and those things don’t take too long or too much pre-requisite knowledge to understand.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are some great resources for getting started, though they do require a minimal amount of assumed knowledge of intermediate topics in Python, the underlying concepts of web applications (routing, templating, HTTP requests, etc.), and working with databases:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/&quot;&gt;Official Flask documentation&lt;/a&gt;: Great if you have some experience in other frameworks/have developed web apps on your own before.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/quickstart/&quot;&gt;Quickstart&lt;/a&gt; (also part of the official Flask docs): Perfect if you just want to get something working, even if you’re just starting out. Does assume you’ve installed it already, which is outlined by them &lt;a href=&quot;http://flask.pocoo.org/docs/0.10/installation/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/tutorial/&quot;&gt;Tutorial&lt;/a&gt; (again, official): A little more advanced - they take you step-by-step through building a web app using a database and some templates. More assumed knowledge here, so a bit more confusing if you’re just starting out.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&quot;&gt;The Flask Mega-Tutorial&lt;/a&gt;: Written by Miguel Grinberg, who wrote the &lt;a href=&quot;http://flaskbook.com/&quot;&gt;O’Reilly book on Flask&lt;/a&gt;&lt;sup&gt;2&lt;/sup&gt;, a more in-depth tutorial that spends more time getting you oriented, even if you’re just getting started. If you have some more time and patience to get into the details and possibilities of using Flask, this is a thorough but straightforward intro.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jinja.pocoo.org/docs/dev/&quot;&gt;Jinja2 documentation&lt;/a&gt;: One of the two&lt;sup&gt;3&lt;/sup&gt; pre-installed libraries for Flask is called Jinja2. It allows you to use templating to build dynamic HTML templates that will render using data derived from databases and manipulated using Python. Once you have an understanding of how it works, it’s powerful - but until then it can be a little confusing. &lt;a href=&quot;http://jinja.pocoo.org/docs/dev/intro/#basic-api-usage&quot;&gt;Here’s a simple example.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/docs/0.10/patterns/sqlite3/#sqlite3&quot;&gt;Using SQLite3 with Flask&lt;/a&gt; (again, part of the offish docs): assumes that you know basic SQL and how to work with databases. If you’re not familiar, it’s worth struggling through this part on your own - and especially trying to understand what each piece of code does. Hopefully I’ll write a more detailed post soon that walks through that; it’s just a broad and potentially complex topic.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/bev-a-tron/MyFlaskTutorial&quot;&gt;My Flask Tutorial&lt;/a&gt;: A former HSer (bev-a-tron on GitHub) wrote what looks to be (and recommended by multiple HSers as) an excellent intro to Flask for people who don’t have all of the knowledge the above tutorials tend to assume. I haven’t worked through it yet but even the intro makes it clear that the tutorial is truly a tutorial - for people with no web development experience (just some Python experience).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’m sure there are other good resources - I’ll try to add them here if I encounter them - but these are great for just getting started in Flask. A lot of the concepts introduced in Flask also translate easily to other web frameworks - and it’s worth knowing what the framework actually does for you, in case you can’t rely on it for some reason (e.g., it doesn’t do what you want it to).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;sup&gt;1. Obvious, yes. But if you don’t know what that means, you probably won’t be interested in the rest of this. But if you are interested, and you don’t know what that means, you just have to learn a bit more - and that’s ok too! Or you might just want to struggle through learning this - it’ll make it stick, so to speak.&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;2. &lt;a href=&quot;http://www.oreilly.com/&quot;&gt;O’Reilly&lt;/a&gt; is a terrific - and pretty much the definitive - resource for books on programming. I’ve read a few, and they tend to be easy to read, step-by-step, and comprehensive. (Also, many are free online!)&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;3. There’s another - &lt;a href=&quot;http://werkzeug.pocoo.org/docs/0.9/&quot;&gt;Werkzeug&lt;/a&gt; - that takes care of WSGI/HTTP stuff for Flask. I haven’t learned much of it yet - I just know that it allows you not to deal with the lower-level details necessary for building a web app in Python. They also have &lt;a href=&quot;http://werkzeug.pocoo.org/docs/0.9/tutorial/&quot;&gt;a tutorial&lt;/a&gt; - I haven’t worked through it but it seems detailed and actually kinda fun.&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><category term="programming," /><category term="recurse" /><category term="center," /><category term="flask," /><category term="python" /><summary type="html">(Hacker School: Week 3, Day 1)</summary></entry></feed>
+&lt;p&gt;More tomorrow.&lt;/p&gt;</content><author><name></name></author><category term="programming," /><category term="recurse" /><category term="center," /><category term="flask," /><category term="algorithms" /><summary type="html">(Hacker School: Week 3, Day 3)</summary></entry></feed>

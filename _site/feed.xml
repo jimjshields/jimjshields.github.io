@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-04T13:48:49-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Box Office Race</title><link href="http://localhost:4000/2023/05/04/box-office-race.html" rel="alternate" type="text/html" title="Box Office Race" /><published>2023-05-04T00:00:00-04:00</published><updated>2023-05-04T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/04/box-office-race</id><content type="html" xml:base="http://localhost:4000/2023/05/04/box-office-race.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-04T15:23:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shields of Dreams</title><subtitle>Jim's blog. Programming, movies, data, etc.</subtitle><entry><title type="html">Box Office Race</title><link href="http://localhost:4000/2023/05/04/box-office-race.html" rel="alternate" type="text/html" title="Box Office Race" /><published>2023-05-04T00:00:00-04:00</published><updated>2023-05-04T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/04/box-office-race</id><content type="html" xml:base="http://localhost:4000/2023/05/04/box-office-race.html">&lt;style&gt;
     label, div, text, p {
         font-family: 'Helvetica';
         font-size: 15px;
@@ -54,6 +54,9 @@
         margin-top: 15px;
         display: inline-block;
     }
+    .swatches-container {
+        columns: 100px;
+    }
 &lt;/style&gt;
 &lt;header class=&quot;site-header&quot; role=&quot;banner&quot;&gt;
     &lt;div class=&quot;chart-header&quot;&gt;
@@ -69,7 +72,7 @@
         &lt;div class=&quot;chart-header-el&quot; id=&quot;observablehq-viewof-adjForInflation-0afd1485&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/header&gt;
-&lt;div class=&quot;chart-container&quot;&gt;
+&lt;div class=&quot;chart-container swatches-container&quot;&gt;
     &lt;div id=&quot;observablehq-swatches-0afd1485&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;chart-container&quot;&gt;
